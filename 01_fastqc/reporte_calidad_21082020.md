@@ -12,7 +12,7 @@ La prueba 2 con *Trimmomatic* incluyó los siguientes parámetros:
 1. Remoción de adaptadores y N's
 2. Calidad promedio de todo la lectura Q > 20
 
-No se ve que existan diferencias entre los dos tratamientos con *Trimmomatic*, solamente hay una muestra que está rara porque hay un archivo incompleto en la carpeta (la 11_S11).
+No se ve que existan diferencias entre los dos tratamientos con *Trimmomatic*.
 
 <img src="03_readcount/barplot_qual_readcount.png" alt="barplot_qual_readcount" style="zoom:100%;" />
 
