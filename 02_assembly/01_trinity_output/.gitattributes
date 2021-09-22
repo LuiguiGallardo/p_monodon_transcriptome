@@ -1,0 +1,4 @@
+Trinity.fasta.tar.gz filter=lfs diff=lfs merge=lfs -text
+Trinity.fasta.transdecoder.pep.tar.gz filter=lfs diff=lfs merge=lfs -text
+Trinity_longest_isoform.fasta.tar.gz filter=lfs diff=lfs merge=lfs -text
+Trinity_longest_isoform.fasta.transdecoder.pep.tar.gz filter=lfs diff=lfs merge=lfs -text
