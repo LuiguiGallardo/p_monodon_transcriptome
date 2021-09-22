@@ -1,4 +1,5 @@
 The original files were deposited temporarly in /a1/luigui/2021/12_monodon_assembly/00_rawdata.
+And in the Google Drive: https://drive.google.com/drive/folders/1AJRDOfjY7XkiFQ_W48tvNKQ8FlrBDhbQ?usp=sharing
 
 md5sum of orginal files:
 18968b2628853ee0388f1d61ef2db09a  1_S1_L003_R1_001.fastq.gz
