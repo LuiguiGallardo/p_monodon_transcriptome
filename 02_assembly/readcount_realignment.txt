@@ -1,0 +1,13 @@
+sample	group	realigned
+1_S1	1.knockdown_PmSTAT	76.34
+2_S2	1.knockdown_PmSTAT	90.59
+3_S3	1.knockdown_PmSTAT	87.12
+4_S4	2.WSSV_infection	89.03
+5_S5	2.WSSV_infection	88.54
+6_S6	2.WSSV_infection	91.74
+7_S7	2.WSSV_infection	89.92
+8_S8	2.WSSV_infection	85.38
+9_S9	3.knockdown_PmSTAT_WSSV_infection	92.13
+10_S10	3.knockdown_PmSTAT_WSSV_infection	84.76
+11_S11	3.knockdown_PmSTAT_WSSV_infection	91.25
+12_S12	3.knockdown_PmSTAT_WSSV_infection	78.82

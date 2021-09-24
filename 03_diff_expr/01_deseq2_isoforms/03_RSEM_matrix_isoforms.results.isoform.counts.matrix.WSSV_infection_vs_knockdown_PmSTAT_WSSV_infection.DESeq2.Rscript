@@ -1,0 +1,28 @@
+library(edgeR)
+library(DESeq2)
+
+data = read.table("/a2/a3/luigui/12_monodon_assembly/08_assembly_6/03_RSEM_matrix_isoforms.results/03_RSEM_matrix_isoforms.results.isoform.counts.matrix", header=T, row.names=1, com='')
+col_ordering = c(7,8,9,10,11,12,1,2,3)
+rnaseqMatrix = data[,col_ordering]
+rnaseqMatrix = round(rnaseqMatrix)
+rnaseqMatrix = rnaseqMatrix[rowSums(cpm(rnaseqMatrix) > 1) >= 2,]
+conditions = data.frame(conditions=factor(c(rep("WSSV_infection", 5), rep("knockdown_PmSTAT_WSSV_infection", 4))))
+rownames(conditions) = colnames(rnaseqMatrix)
+ddsFullCountTable <- DESeqDataSetFromMatrix(
+    countData = rnaseqMatrix,
+    colData = conditions,
+    design = ~ conditions)
+dds = DESeq(ddsFullCountTable)
+contrast=c("conditions","WSSV_infection","knockdown_PmSTAT_WSSV_infection")
+res = results(dds, contrast)
+baseMeanA <- rowMeans(counts(dds, normalized=TRUE)[,colData(dds)$conditions == "WSSV_infection"])
+baseMeanB <- rowMeans(counts(dds, normalized=TRUE)[,colData(dds)$conditions == "knockdown_PmSTAT_WSSV_infection"])
+res = cbind(baseMeanA, baseMeanB, as.data.frame(res))
+res = cbind(sampleA="WSSV_infection", sampleB="knockdown_PmSTAT_WSSV_infection", as.data.frame(res))
+res$padj[is.na(res$padj)]  <- 1
+write.table(as.data.frame(res[order(res$pvalue),]), file='03_RSEM_matrix_isoforms.results.isoform.counts.matrix.WSSV_infection_vs_knockdown_PmSTAT_WSSV_infection.DESeq2.DE_results', sep='	', quote=FALSE)
+write.table(rnaseqMatrix, file='03_RSEM_matrix_isoforms.results.isoform.counts.matrix.WSSV_infection_vs_knockdown_PmSTAT_WSSV_infection.DESeq2.count_matrix', sep='	', quote=FALSE)
+source("/home/luigui/apps/trinityrnaseq-Trinity-v2.5.1/Analysis/DifferentialExpression/R/rnaseq_plot_funcs.R")
+pdf("03_RSEM_matrix_isoforms.results.isoform.counts.matrix.WSSV_infection_vs_knockdown_PmSTAT_WSSV_infection.DESeq2.DE_results.MA_n_Volcano.pdf")
+plot_MA_and_Volcano(rownames(res), log2(res$baseMean+1), res$log2FoldChange, res$padj)
+dev.off()

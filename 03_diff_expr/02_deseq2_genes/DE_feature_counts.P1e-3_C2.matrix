@@ -1,0 +1,4 @@
+	WSSV_infection	knockdown_PmSTAT	knockdown_PmSTAT_WSSV_infection
+WSSV_infection	0	869	813
+knockdown_PmSTAT	869	0	0
+knockdown_PmSTAT_WSSV_infection	813	0	0
