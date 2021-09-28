@@ -1,8 +1,9 @@
 ---
 title: "Transcriptome *Penaeus monodon*"
-#author: "Luigui Gallardo"
 date: "9/22/2021"
-output: pdf_document
+output:
+  word_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
