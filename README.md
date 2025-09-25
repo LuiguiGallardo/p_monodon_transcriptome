@@ -28,6 +28,11 @@ This repository contains the bioinformatics pipeline and results for transcripto
 - **Predicted proteins**: 58,678 total (28,423 longest isoforms)
 - **Differential expression**: Gene and isoform-level analysis
 
+Large FASTA files have been split into 5 parts each and compressed with gzip for GitHub compatibility:
+- All files are under 100MB limit
+- Use `zcat file*_Trinity*.fasta.gz > Trinity.fasta` to reconstruct original files
+- See `02_assembly/01_trinity_output/README_reassemble.md` for detailed instructions
+
 ## Pipeline
 
 1. **Quality control**: FastQC → Trimmomatic filtering
@@ -39,7 +44,9 @@ This repository contains the bioinformatics pipeline and results for transcripto
 ## Files
 
 ### Key Outputs
-- **Assembly**: `02_assembly/01_trinity_output/Trinity.fasta`
+- **Assembly (Trinity)**: `02_assembly/01_trinity_output/file*_Trinity.fasta.gz` (split into 5 compressed parts)
+- **Assembly (longest isoforms)**: `02_assembly/01_trinity_output/file*_Trinity_longest_isoform.fasta.gz` (split into 5 compressed parts)
+- **Assembly instructions**: `02_assembly/01_trinity_output/README_reassemble.md` (how to reconstruct original files)
 - **Proteins (all)**: `04_annotation/Trinity.fasta.transdecoder.pep.gz` (compressed)
 - **Proteins (longest)**: `04_annotation/Trinity_longest_isoform.fasta.transdecoder.pep.gz` (compressed)
 - **Annotations**: `04_annotation/trinity_longest_isoform_annotations.tsv` (tab-delimited)
