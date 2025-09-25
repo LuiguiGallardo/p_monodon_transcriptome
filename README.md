@@ -3,7 +3,7 @@
 Black tiger shrimp (*Penaeus monodon*) transcriptome assembly and differential expression analysis.
 
 **Created at the Dr. Adrian Ochoa Lab, Instituto de Biotecnología, UNAM by:**
-- Luigui Gallardo
+- Luigui Gallardo-Becerra
 - Dr. Fernanda Cornejo-Granados  
 - Dr. Adrian Ochoa-Leyva
 
@@ -38,7 +38,18 @@ This repository contains the bioinformatics pipeline and results for transcripto
 
 ## Files
 
-- Assembly: `02_assembly/01_trinity_output/Trinity.fasta`
-- Proteins: `02_assembly/01_trinity_output/Trinity.fasta.transdecoder.pep`
-- Annotations: `04_annotation/trinity_longest_isoform_annotations.txt`
-- DE results: `03_diff_expr/deseq2_genes.xlsx`, `03_diff_expr/deseq2_isoforms.xlsx`
+### Key Outputs
+- **Assembly**: `02_assembly/01_trinity_output/Trinity.fasta`
+- **Proteins (all)**: `04_annotation/Trinity.fasta.transdecoder.pep.gz` (compressed)
+- **Proteins (longest)**: `04_annotation/Trinity_longest_isoform.fasta.transdecoder.pep.gz` (compressed)
+- **Annotations**: `04_annotation/trinity_longest_isoform_annotations.tsv` (tab-delimited)
+- **Annotations**: `04_annotation/trinity_longest_isoform_annotations.xlsx` (Excel format)
+- **DE results**: `03_diff_expr/deseq2_genes.xlsx`, `03_diff_expr/deseq2_isoforms.xlsx`
+
+### Analysis Reports
+- **Assembly stats**: `02_assembly/metadata_trinity.txt`
+- **Realignment stats**: `02_assembly/readcount_realignment.txt`
+
+### Metadata
+- **SRA metadata**: `SraRunTable.csv` (sample information and SRA accessions)
+- **SRA accession list**: `SRR_Acc_List.txt` (list of SRA run accessions)

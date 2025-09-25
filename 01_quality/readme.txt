@@ -1,6 +1,3 @@
-The quality-filtered files were deposited temporarly in /a1/luigui/2021/12_monodon_assembly/01_quality/02_exec_2.
-And in the Google Drive: https://drive.google.com/drive/folders/1t3n1z0sp1YKwcqLV6FZd1Thk5GuUBL19?usp=sharing
-
 md5sum of quality-filtered samples:
 a19855247b4ba9e8314476a25835b54c  1_S1_paired_R2_2.fastq.gz
 fda798ec2480215378ab3e8da581307e  1_S1_paired_R1_2.fastq.gz
