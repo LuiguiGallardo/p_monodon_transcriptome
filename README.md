@@ -3,9 +3,9 @@
 Black tiger shrimp (*Penaeus monodon*) transcriptome assembly and differential expression analysis.
 
 **Created at the Dr. Adrian Ochoa Lab, Instituto de Biotecnología, UNAM by:**
+- Luigui Gallardo
 - Dr. Adrian Ochoa-Leyva
 - Dr. Fernanda Cornejo-Granados  
-- Luigui Gallardo
 
 ## Overview
 
