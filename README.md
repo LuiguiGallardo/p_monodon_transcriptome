@@ -17,7 +17,8 @@ This repository contains the bioinformatics pipeline and results for transcripto
 ├── 00_rawdata/          # Raw FASTQ files and quality reports
 ├── 01_quality/          # Quality-filtered reads using Trimmomatic
 ├── 02_assembly/         # Trinity transcriptome assembly
-└── 03_diff_expr/        # Differential expression analysis (DESeq2)
+├── 03_diff_expr/        # Differential expression analysis (DESeq2)
+└── 04_annotation/       # Functional annotation (BLAST, InterPro, GO terms)
 ```
 
 ## Key Results
@@ -31,11 +32,13 @@ This repository contains the bioinformatics pipeline and results for transcripto
 
 1. **Quality control**: FastQC → Trimmomatic filtering
 2. **Assembly**: Trinity *de novo* transcriptome assembly
-3. **Annotation**: TransDecoder protein prediction
-4. **Expression**: DESeq2 differential expression analysis
+3. **Protein prediction**: TransDecoder protein prediction
+4. **Functional annotation**: BLAST, InterPro, and GO term assignment
+5. **Expression**: DESeq2 differential expression analysis
 
 ## Files
 
 - Assembly: `02_assembly/01_trinity_output/Trinity.fasta`
 - Proteins: `02_assembly/01_trinity_output/Trinity.fasta.transdecoder.pep`
+- Annotations: `04_annotation/trinity_longest_isoform_annotations.txt`
 - DE results: `03_diff_expr/deseq2_genes.xlsx`, `03_diff_expr/deseq2_isoforms.xlsx`
