@@ -1,0 +1,2 @@
+knockdown_PmSTAT-UP	knockdown_PmSTAT_WSSV_infection-UP
+	TRINITY_DN82231_c1_g1_i1

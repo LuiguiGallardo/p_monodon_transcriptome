@@ -1,3 +1,56 @@
+# OS-specific files
 .DS_Store
 */.DS_Store
+
+# R files
 .Rhistory
+
+# Temporary directories (project-wide pattern)
+tmp_*/
+temp_*/
+
+# Log files (project-wide pattern)
+*.log
+
+# Large assembly and index files (project-wide pattern)
+Trinity.fasta
+*.fasta.RSEM.*
+*.fasta.bowtie2.*
+*.bt2
+*.bt2l
+
+# Large result files in iterations - exclude everything except small summaries
+05_multiple_group_clustering/results_iterations/*/RSEM_matrix.gene.counts.matrix
+05_multiple_group_clustering/results_iterations/*/RSEM_matrix.gene.TMM.EXPR.matrix
+05_multiple_group_clustering/results_iterations/*/RSEM_matrix.gene.TPM.not_cross_norm
+05_multiple_group_clustering/results_iterations/*/RSEM_matrix.gene.TPM.not_cross_norm.runTMM.R
+05_multiple_group_clustering/results_iterations/*/RSEM_matrix.isoform.counts.matrix
+05_multiple_group_clustering/results_iterations/*/RSEM_matrix.isoform.TMM.EXPR.matrix
+05_multiple_group_clustering/results_iterations/*/RSEM_matrix.isoform.TPM.not_cross_norm
+05_multiple_group_clustering/results_iterations/*/RSEM_matrix.isoform.TPM.not_cross_norm.runTMM.R
+
+# DESeq2 large files - keep only .txt and small .subset files
+05_multiple_group_clustering/results_iterations/*/deseq2_genes/*.DE_results
+05_multiple_group_clustering/results_iterations/*/deseq2_genes/*.count_matrix
+05_multiple_group_clustering/results_iterations/*/deseq2_genes/*.RData
+05_multiple_group_clustering/results_iterations/*/deseq2_genes/*.dat
+05_multiple_group_clustering/results_iterations/*/deseq2_genes/*.R
+05_multiple_group_clustering/results_iterations/*/deseq2_genes/*.Rscript
+05_multiple_group_clustering/results_iterations/*/deseq2_genes/*.pdf
+05_multiple_group_clustering/results_iterations/*/deseq2_genes/*.samples
+05_multiple_group_clustering/results_iterations/*/deseq2_genes/*.matrix
+05_multiple_group_clustering/results_iterations/*/deseq2_genes/*.png
+
+05_multiple_group_clustering/results_iterations/*/deseq2_isoforms/*.DE_results
+05_multiple_group_clustering/results_iterations/*/deseq2_isoforms/*.count_matrix
+05_multiple_group_clustering/results_iterations/*/deseq2_isoforms/*.RData
+05_multiple_group_clustering/results_iterations/*/deseq2_isoforms/*.dat
+05_multiple_group_clustering/results_iterations/*/deseq2_isoforms/*.R
+05_multiple_group_clustering/results_iterations/*/deseq2_isoforms/*.Rscript
+05_multiple_group_clustering/results_iterations/*/deseq2_isoforms/*.pdf
+05_multiple_group_clustering/results_iterations/*/deseq2_isoforms/*.samples
+05_multiple_group_clustering/results_iterations/*/deseq2_isoforms/*.matrix
+05_multiple_group_clustering/results_iterations/*/deseq2_isoforms/*.png
+
+# Keep only: .txt files, .subset files, and .TMM_info.txt files
+
