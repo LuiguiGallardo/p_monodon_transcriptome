@@ -97,3 +97,4 @@ Trinity.fasta
 # Ignore heavy PDF reports
 05_multiple_group_clustering/results/*.pdf
 05_multiple_group_clustering/results/results_iterations/**/*.pdf
+04_annotation/entap_install/
