@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Figure03_B – Top 10 KEGG pathways (reads xlsx)"""
+"""figure_03_b – Top 10 KEGG pathways with readable names (reads xlsx)
+
+ko codes (KO-based pathways) and map codes (KEGG reference maps) are kept
+separate since they represent different KEGG concepts, each labelled with
+a meaningful name via kegg_names.pathway_label().
+"""
 import matplotlib
 matplotlib.use("Agg")
 import pandas as pd
@@ -7,6 +12,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from collections import Counter
 from pathlib import Path
+from kegg_names import pathway_label  # shared lookup
 
 OUT  = Path('../results/annotation_graphics')
 OUT.mkdir(parents=True, exist_ok=True)
@@ -15,24 +21,31 @@ XLSX = '../results/comprehensive_protein_annotations.xlsx'
 
 if __name__ == '__main__':
     df = pd.read_excel(XLSX, sheet_name='Protein Annotations')
-    pathways_list = []
+
+    # Collect all pathway codes as-is (ko and map kept separate)
+    all_codes = []
     for p in df['KEGG_Pathway'].dropna():
         if isinstance(p, str):
-            pathways_list.extend([x.strip() for x in p.split(',')])
-    top = Counter(pathways_list).most_common(10)
+            for code in p.split(','):
+                all_codes.append(code.strip())
 
-    fig, ax = plt.subplots(figsize=(10, 7))
+    top = Counter(all_codes).most_common(10)
+
+    fig, ax = plt.subplots(figsize=(12, 7))
     if top:
-        names  = [p[0][:15] for p in top]
-        values = [p[1] for p in top]
+        names  = [pathway_label(code) for code, _ in top]
+        values = [count for _, count in top]
+
         ax.barh(range(len(top)), values,
-                color=sns.color_palette('viridis', len(top)), edgecolor='black', linewidth=1.5)
+                color=sns.color_palette('viridis', len(top)),
+                edgecolor='black', linewidth=1.5)
         ax.set_yticks(range(len(top)))
         ax.set_yticklabels(names, fontsize=10)
         ax.set_xlabel('Count', fontsize=11, fontweight='bold')
         ax.grid(axis='x', alpha=0.3)
         for i, v in enumerate(values):
             ax.text(v + 5, i, f'{int(v)}', va='center', fontweight='bold')
+
     ax.set_title('Top 10 KEGG Pathways', fontsize=13, fontweight='bold')
     fig.tight_layout()
     fig.savefig(OUT / f'{STEM}.png', dpi=300, bbox_inches='tight')
