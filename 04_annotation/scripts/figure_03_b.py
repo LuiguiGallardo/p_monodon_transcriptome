@@ -43,12 +43,17 @@ if __name__ == '__main__':
                 edgecolor='black', linewidth=1.5)
         ax.set_yticks(range(len(top)))
         ax.set_yticklabels(names, fontsize=10)
-        ax.set_xlabel('Count', fontsize=11)
+        ax.set_xlabel('Count', fontsize=12, fontweight='bold')
         ax.grid(axis='x', alpha=0.3)
-        # for i, v in enumerate(values):
-        #     ax.text(v + 5, i, f'{int(v)}', va='center', fontweight='bold')
+        
+        # total_proteins = len(df)
+        # max_v = max(values)
+        # # for i, v in enumerate(values):
+        #     pct = (v / total_proteins) * 100
+        #     # Adding count and percentage, dynamic spacing based on max value
+        #     ax.text(v + (max_v * 0.01), i, f'{int(v)} ({pct:.2f}%)', va='center', fontsize=10)
 
-    ax.set_title('Top 20 KEGG Pathways', fontsize=13)
+    ax.set_title('Top 20 KEGG Pathways', fontsize=13, fontweight='bold')
     fig.tight_layout()
     fig.savefig(OUT / f'{STEM}.png', dpi=300, bbox_inches='tight')
     fig.savefig(OUT / f'{STEM}.svg', format='svg', bbox_inches='tight')

@@ -61,7 +61,7 @@ if __name__ == '__main__':
 
     ax.set_yticks(y_ticks)
     ax.set_yticklabels(y_labels, fontsize=10)
-    ax.set_xlabel('Number of transcripts', fontsize=12, labelpad=10)
+    ax.set_xlabel('Number of proteins', fontsize=12, fontweight='bold')
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
     ax.xaxis.grid(True, linestyle='-', color='#E0E0E0', alpha=0.7)
