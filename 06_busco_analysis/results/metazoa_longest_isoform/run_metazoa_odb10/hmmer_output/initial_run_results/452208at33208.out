@@ -1,0 +1,14 @@
+#                                                                                                                        --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                    accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                            ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+452208at33208_294128_0:002135|TRINITY_DN83548_c7_g1_i3:99-1312|- -            287 452208at33208        -            194   4.5e-74  245.7  31.2   1   1   1.1e-76   3.2e-73  243.0  31.2     1   193    54   285    54   286 0.83 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/downloads/lineages/metazoa_odb10/hmms/452208at33208.hmm
+# Target file:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/results/metazoa_longest_isoform/run_metazoa_odb10/metaeuk_output/initial_results/Trinity_longest_isoform.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/results/metazoa_longest_isoform/run_metazoa_odb10/hmmer_output/initial_run_results/452208at33208.out --cpu 1 /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/downloads/lineages/metazoa_odb10/hmms/452208at33208.hmm /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/results/metazoa_longest_isoform/run_metazoa_odb10/metaeuk_output/initial_results/Trinity_longest_isoform.fasta.modified.fas 
+# Current dir:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/scripts
+# Date:            Tue Feb 17 19:31:26 2026
+# [ok]

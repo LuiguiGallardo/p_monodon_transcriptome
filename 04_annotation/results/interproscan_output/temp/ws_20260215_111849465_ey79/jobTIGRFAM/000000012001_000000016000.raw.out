@@ -1,0 +1,130 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  data/tigrfam/15.0/TIGRFAMs_HMM.LIB
+# target sequence database:        /a1/luigui/2026/01_p_monodon_annot/04_annotation/interproscan_output/temp/ws_20260215_111849465_ey79//jobTIGRFAM/000000012001_000000016000.fasta
+# output directed to file:         /a1/luigui/2026/01_p_monodon_annot/04_annotation/interproscan_output/temp/ws_20260215_111849465_ey79//jobTIGRFAM/000000012001_000000016000.raw.out
+# model-specific thresholding:     TC cutoffs
+# sequence search space set to:    4488
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       TIGR01027  [M=363]
+Accession:   TIGR01027
+Description: proB: glutamate 5-kinase
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (363 nodes)
+Target sequences:                       4000  (953612 residues searched)
+Passed MSV filter:                        82  (0.0205); expected 80.0 (0.02)
+Passed bias filter:                       60  (0.015); expected 80.0 (0.02)
+Passed Vit filter:                         1  (0.00025); expected 4.0 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               4488  [as set by --Z on cmdline]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 32488.44
+//
+Query:       TIGR01241  [M=496]
+Accession:   TIGR01241
+Description: FtsH_fam: ATP-dependent metallopeptidase HflB
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   3.9e-176  584.6   1.2   5.4e-176  584.1   1.2    1.1  1  14297     
+
+
+Domain annotation for each sequence (and alignments):
+>> 14297  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  584.1   1.2  1.2e-179  5.4e-176      10     495 ..     298     777 ..     291     778 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 584.1 bits;  conditional E-value: 1.2e-179
+  TIGR01241  10 lplilllvglfllflrqakgaggsrifslgkskaklleeekvkvtfkdvaGideakeelveivdfLknpkkftklGakiPkGvllvGpPGtGktLlakav 109
+                + ++l +v+++ +++  + g+ggs +f +   + + ++ e++ v+fkdv G++eak+el+eiv+fL+np+kft+lGa  PkGvllvGpPGtGktLla+av
+      14297 298 FQQVLAIVVFIAILFSLMGGMGGS-MFRMHVGNGNEVHPEEIIVSFKDVRGVEEAKQELQEIVEFLRNPEKFTSLGAELPKGVLLVGPPGTGKTLLARAV 396
+                455677777777777788999999.8888888888899999*********************************************************** PP
+
+  TIGR01241 110 aGeagvpffsisGsdfvemfvGvGasrvrDlfeqakknaPciifiDeiDavGrkrgaglgggndereqtLnqlLvemDGfetnegvivlaatnrpdvLDk 209
+                aGeagvpff+ +G +f e++vG Ga rvrDlf  ak ++Pc+ifiDeiD+vG kr++++ +     +qt+nqlL emDGf++n+gvivl atnr d LDk
+      14297 397 AGEAGVPFFHAAGPEFDEILVGQGARRVRDLFRAAKMRTPCVIFIDEIDSVGAKRSNSVLH--PYANQTINQLLSEMDGFHKNDGVIVLGATNRRDDLDK 494
+                *********************************************************8876..5678********************************* PP
+
+  TIGR01241 210 aLlrPGrfDrqvvvdkPdlkgreeilkvhakkvklaeevdlkkvarrtpGfsGadlanlvneaallaarknkkevtlkeleeavdrviaGlekksrvise 309
+                aL+rPGrfD +v+v  Pdl+gr+ei+  ++ k+k+ ++vd++ ++r t+Gf+Gad++n+ n+aal aa ++ ++v++k+le a+d+v++G+ekksr+ +e
+      14297 495 ALMRPGRFDVEVQVPIPDLAGRKEIFDYYLGKIKVGNDVDVNVLSRGTTGFTGADIKNVTNQAALRAAADQVDSVSMKHLEAARDKVLMGPEKKSRIPDE 594
+                **************************************************************************************************** PP
+
+  TIGR01241 310 kekklvayheaGhalvgllvkeadkvkkvtiiprGqalGvtlslPeedklllskkellakiavllgGrvaeeiifg..evttGasnDlkkatkiaramvt 407
+                +   ++ayhe+Ghalv+ ++k++ +++kvtiiprG +lG+t ++P ++++ ++++++la+++ l+gGr+aee+ifg   +t+Gas+Dlk+at+ia++mv 
+      14297 595 EANLVTAYHEGGHALVAHYTKDSHPLHKVTIIPRGPSLGHTAYIPAKEQYHMTRSQMLATMDSLMGGRAAEELIFGteFITSGASSDLKQATSIATHMVK 694
+                ****************************************************************************8779******************** PP
+
+  TIGR01241 408 elGmseklgavayeeeeeevllgkelkkekeyseetakeiDeevkriieeaykkakeilkekkeelellakeLleketiekeelkell 495
+                +lGms+++g  ++e+++++ + +       ++ ++t+++iD+e+k++++++y++ak+ilk + +e ++la++L+++et++++++k +l
+      14297 695 DLGMSDRVGLRTFEDNTGQLISTG-----DSLGQSTKEAIDHEIKKLLQDSYERAKSILKAHAKEHKALAESLMKYETLDADDIKAIL 777
+                **************8876655555.....68999***************************************************997 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (496 nodes)
+Target sequences:                       4000  (953612 residues searched)
+Passed MSV filter:                       211  (0.05275); expected 80.0 (0.02)
+Passed bias filter:                      157  (0.03925); expected 80.0 (0.02)
+Passed Vit filter:                        15  (0.00375); expected 4.0 (0.001)
+Passed Fwd filter:                         4  (0.001); expected 0.0 (1e-05)
+Initial search space (Z):               4488  [as set by --Z on cmdline]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.02
+# Mc/sec: 15975.97
+//
+Query:       TIGR01949  [M=255]
+Accession:   TIGR01949
+Description: AroFGH_arch: predicted phospho-2-dehydro-3-deoxyheptonate aldolase
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (255 nodes)
+Target sequences:                       4000  (953612 residues searched)
+Passed MSV filter:                        54  (0.0135); expected 80.0 (0.02)
+Passed bias filter:                       44  (0.011); expected 80.0 (0.02)
+Passed Vit filter:                         3  (0.00075); expected 4.0 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               4488  [as set by --Z on cmdline]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 26741.98
+//
+[ok]

@@ -1,0 +1,23 @@
+#                                                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+115229at6656_7070_0:002cb5|TRINITY_DN74741_c10_g2_i1:650-1354|-   -            235 115229at6656         -            152   9.9e-42  141.6  28.6   1   3   7.7e-07     0.002   17.3   6.6     2    53     1    80     1    93 0.81 -
+115229at6656_7070_0:002cb5|TRINITY_DN74741_c10_g2_i1:650-1354|-   -            235 115229at6656         -            152   9.9e-42  141.6  28.6   2   3   3.1e-09   8.1e-06   25.0   0.2    48    73    95   120    83   130 0.83 -
+115229at6656_7070_0:002cb5|TRINITY_DN74741_c10_g2_i1:650-1354|-   -            235 115229at6656         -            152   9.9e-42  141.6  28.6   3   3   3.9e-32     1e-28   99.4  10.2    69   152   133   227   122   227 0.81 -
+115229at6656_7070_0:002cb5|TRINITY_DN74741_c10_g2_i2:582-1286|-   -            235 115229at6656         -            152   9.9e-42  141.6  28.6   1   3   7.7e-07     0.002   17.3   6.6     2    53     1    80     1    93 0.81 -
+115229at6656_7070_0:002cb5|TRINITY_DN74741_c10_g2_i2:582-1286|-   -            235 115229at6656         -            152   9.9e-42  141.6  28.6   2   3   3.1e-09   8.1e-06   25.0   0.2    48    73    95   120    83   130 0.83 -
+115229at6656_7070_0:002cb5|TRINITY_DN74741_c10_g2_i2:582-1286|-   -            235 115229at6656         -            152   9.9e-42  141.6  28.6   3   3   3.9e-32     1e-28   99.4  10.2    69   152   133   227   122   227 0.81 -
+115229at6656_294128_0:001aa4|TRINITY_DN74741_c10_g2_i3:441-878|-  -            146 115229at6656         -            152   3.8e-14   52.1  12.8   1   2   1.1e-07   0.00029   20.0   6.5     1    52     2    81     2    89 0.81 -
+115229at6656_294128_0:001aa4|TRINITY_DN74741_c10_g2_i3:441-878|-  -            146 115229at6656         -            152   3.8e-14   52.1  12.8   2   2   8.1e-10   2.1e-06   26.9   0.6    48    76    97   125    82   144 0.75 -
+115229at6656_1629725_0:00037a|TRINITY_DN78038_c15_g1_i1:517-885|- -            123 115229at6656         -            152       0.4    9.8   4.5   1   2     0.063   1.6e+02    1.3   0.4     5    19     2    16     1    47 0.69 -
+115229at6656_1629725_0:00037a|TRINITY_DN78038_c15_g1_i1:517-885|- -            123 115229at6656         -            152       0.4    9.8   4.5   2   2   0.00012      0.31   10.2   0.3    48    82    85   115    59   121 0.82 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_downloads/lineages/arthropoda_odb10/hmms/115229at6656.hmm
+# Target file:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon/run_arthropoda_odb10/metaeuk_output/initial_results/Trinity.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon/run_arthropoda_odb10/hmmer_output/initial_run_results/115229at6656.out --cpu 1 /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_downloads/lineages/arthropoda_odb10/hmms/115229at6656.hmm /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon/run_arthropoda_odb10/metaeuk_output/initial_results/Trinity.fasta.modified.fas 
+# Current dir:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis
+# Date:            Tue Feb 17 14:44:44 2026
+# [ok]

@@ -1,0 +1,2 @@
+#domain_id	cath-superfamily	query-id	match-id	score	boundaries	resolved	aligned-regions	cond-evalue	indp-evalue
+1udkA00	4.10.75.10	16061	1udkA00-i1	30.6	59-99	59-99	3-42,60-99	1.3e-11	8.5e-07	

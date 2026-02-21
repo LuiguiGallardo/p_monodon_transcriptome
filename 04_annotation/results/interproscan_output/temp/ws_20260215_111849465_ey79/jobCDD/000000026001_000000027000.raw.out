@@ -1,0 +1,151 @@
+#Post-RPSBLAST Processing Utility
+
+#Input data file:	/a1/luigui/2026/01_p_monodon_annot/04_annotation/interproscan_output/temp/ws_20260215_111849465_ey79//jobCDD/000000026001_000000027000.blast.raw.out
+#Output data file:	(stdout)
+#Annotation data at:	data/cdd/3.18/data
+#E-Value cutoff:	0.01
+#Redundancy:	Standard
+#Data requested:	Domain hits and site annotations
+#Output format -- tab-delimited table
+#Show superfamilies: NO
+#DATA
+#SESSION	<session-ordinal>	<program>	<database>	<score-matrix>	<evalue-threshold>
+#QUERY	<query-id>	<seq-type>	<seq-length>	<definition-line>
+#DOMAINS
+#<session-ordinal>	<query-id[readingframe]>	<hit-type>	<PSSM-ID>	<from>	<to>	<E-Value>	<bitscore>	<accession>	<short-name>	<incomplete>	<superfamily PSSM-ID>
+#more such lines......
+#ENDDOMAINS
+#SITES
+#<session-ordinal>	<query-id[readingframe]>	<annot-type>	<title>	<residue(coordinates)>	<complete-size>	<mapped-size>	<source-domain>
+#more such lines......
+#ENDSITES
+#MOTIFS
+#<session-ordinal>	<query-id[readingframe]>	<title>	<from>	<to>	<source-domain>
+#more such lines......
+#ENDMOTIFS
+#ENDQUERY	<query-id>
+#more query sections..
+#ENDSESSION	<session-ordinal>
+#more session sections..
+#ENDDATA
+#=====================================================================
+DATA
+SESSION	1	blastp	2.10.1+	data/cdd/3.18/db/Cdd_NCBI	BLOSUM62	0.01
+ENDSESSION	1
+SESSION	2	blastp	2.10.1+	data/cdd/3.18/db/Cdd_NCBI	BLOSUM62	0.01
+ENDSESSION	2
+SESSION	3	blastp	2.10.1+	data/cdd/3.18/db/Cdd_NCBI	BLOSUM62	0.01
+ENDSESSION	3
+SESSION	4	blastp	2.10.1+	data/cdd/3.18/db/Cdd_NCBI	BLOSUM62	0.01
+ENDSESSION	4
+SESSION	5	blastp	2.10.1+	data/cdd/3.18/db/Cdd_NCBI	BLOSUM62	0.01
+ENDSESSION	5
+SESSION	6	blastp	2.10.1+	data/cdd/3.18/db/Cdd_NCBI	BLOSUM62	0.01
+QUERY	Query_269	Peptide	157	26269
+DOMAINS
+6	Query_269	Non-specific	239775	41	69	0.00538324	22.7852	cd04242	AAK_G5K_ProB	N	351098
+ENDDOMAINS
+SITES
+ENDSITES
+ENDQUERY
+ENDSESSION	6
+SESSION	7	blastp	2.10.1+	data/cdd/3.18/db/Cdd_NCBI	BLOSUM62	0.01
+QUERY	Query_298	Peptide	559	26298
+DOMAINS
+7	Query_298	Non-specific	99707	104	157	0.00561032	24.7992	cd00009	AAA	C	354812
+ENDDOMAINS
+SITES
+7	Query_298	Generic	ATP binding site	P126,T127,G128,S129,G130,K131,T132,L133	10	8	99707
+7	Query_298	Generic	Walker A motif	A125,P126,T127,G128,S129,G130,K131,T132	8	8	99707
+ENDSITES
+ENDQUERY
+ENDSESSION	7
+SESSION	8	blastp	2.10.1+	data/cdd/3.18/db/Cdd_NCBI	BLOSUM62	0.01
+ENDSESSION	8
+SESSION	9	blastp	2.10.1+	data/cdd/3.18/db/Cdd_NCBI	BLOSUM62	0.01
+ENDSESSION	9
+SESSION	10	blastp	2.10.1+	data/cdd/3.18/db/Cdd_NCBI	BLOSUM62	0.01
+ENDSESSION	10
+SESSION	11	blastp	2.10.1+	data/cdd/3.18/db/Cdd_NCBI	BLOSUM62	0.01
+ENDSESSION	11
+SESSION	12	blastp	2.10.1+	data/cdd/3.18/db/Cdd_NCBI	BLOSUM62	0.01
+ENDSESSION	12
+SESSION	13	blastp	2.10.1+	data/cdd/3.18/db/Cdd_NCBI	BLOSUM62	0.01
+ENDSESSION	13
+SESSION	14	blastp	2.10.1+	data/cdd/3.18/db/Cdd_NCBI	BLOSUM62	0.01
+ENDSESSION	14
+SESSION	15	blastp	2.10.1+	data/cdd/3.18/db/Cdd_NCBI	BLOSUM62	0.01
+QUERY	Query_694	Peptide	564	26694
+DOMAINS
+15	Query_694	Specific	99707	59	190	4.83348e-18	68.7119	cd00009	AAA	-	354812
+ENDDOMAINS
+SITES
+15	Query_694	Specific	ATP binding site	P67,P68,G69,V70,G71,K72,T73,T74,D135,N168	10	10	99707
+15	Query_694	Specific	Walker A motif	G66,P67,P68,G69,V70,G71,K72,T73	8	8	99707
+15	Query_694	Specific	Walker B motif	A131,L132,V133,M134,D135,E136	6	6	99707
+15	Query_694	Specific	arginine finger	C182	1	1	99707
+ENDSITES
+ENDQUERY
+ENDSESSION	15
+SESSION	16	blastp	2.10.1+	data/cdd/3.18/db/Cdd_NCBI	BLOSUM62	0.01
+QUERY	Query_701	Peptide	1325	26701
+DOMAINS
+16	Query_701	Specific	99707	373	517	1.53201e-06	36.7403	cd00009	AAA	-	354812
+ENDDOMAINS
+SITES
+16	Query_701	Specific	ATP binding site	D378,T379,G380,C381,G382,K383,S384,T385,D471,A504	10	10	99707
+16	Query_701	Specific	Walker A motif	G377,D378,T379,G380,C381,G382,K383,S384	8	8	99707
+16	Query_701	Specific	Walker B motif	V467,M468,I469,L470,D471,E472	6	6	99707
+ENDSITES
+ENDQUERY
+ENDSESSION	16
+SESSION	17	blastp	2.10.1+	data/cdd/3.18/db/Cdd_NCBI	BLOSUM62	0.01
+ENDSESSION	17
+SESSION	18	blastp	2.10.1+	data/cdd/3.18/db/Cdd_NCBI	BLOSUM62	0.01
+ENDSESSION	18
+SESSION	19	blastp	2.10.1+	data/cdd/3.18/db/Cdd_NCBI	BLOSUM62	0.01
+QUERY	Query_868	Peptide	482	26868
+DOMAINS
+19	Query_868	Non-specific	99707	90	238	1.61683e-06	35.1995	cd00009	AAA	-	354812
+ENDDOMAINS
+SITES
+19	Query_868	Generic	ATP binding site	E101,T102,G103,S104,G105,K106,T107,T108,D198,A231	10	10	99707
+19	Query_868	Generic	Walker A motif	G100,E101,T102,G103,S104,G105,K106,T107	8	8	99707
+19	Query_868	Generic	Walker B motif	V194,I195,L196,L197,D198,E199	6	6	99707
+ENDSITES
+ENDQUERY
+ENDSESSION	19
+SESSION	20	blastp	2.10.1+	data/cdd/3.18/db/Cdd_NCBI	BLOSUM62	0.01
+ENDSESSION	20
+SESSION	21	blastp	2.10.1+	data/cdd/3.18/db/Cdd_NCBI	BLOSUM62	0.01
+QUERY	Query_924	Peptide	141	26924
+DOMAINS
+21	Query_924	Non-specific	188645	29	55	0.00906136	22.1649	cd00958	DhnA	NC	355862
+ENDDOMAINS
+SITES
+ENDSITES
+ENDQUERY
+ENDSESSION	21
+SESSION	22	blastp	2.10.1+	data/cdd/3.18/db/Cdd_NCBI	BLOSUM62	0.01
+QUERY	Query_956	Peptide	622	26956
+DOMAINS
+22	Query_956	Non-specific	99707	255	308	0.00245493	25.9548	cd00009	AAA	C	354812
+ENDDOMAINS
+SITES
+22	Query_956	Generic	ATP binding site	A256,F257,G258,C259,G260,K261,T262,C263	10	8	99707
+22	Query_956	Generic	Walker A motif	G255,A256,F257,G258,C259,G260,K261,T262	8	8	99707
+ENDSITES
+ENDQUERY
+QUERY	Query_987	Peptide	1108	26987
+DOMAINS
+22	Query_987	Non-specific	99707	239	276	0.00978864	25.1844	cd00009	AAA	C	354812
+ENDDOMAINS
+SITES
+22	Query_987	Generic	ATP binding site	S252,V253,G254,A255,G256,K257,S258,S259	10	8	99707
+22	Query_987	Generic	Walker A motif	G251,S252,V253,G254,A255,G256,K257,S258	8	8	99707
+ENDSITES
+ENDQUERY
+ENDSESSION	22
+SESSION	23	blastp	2.10.1+	data/cdd/3.18/db/Cdd_NCBI	BLOSUM62	0.01
+ENDSESSION	23
+ENDDATA

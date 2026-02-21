@@ -1,0 +1,24 @@
+#                                                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+140076at6656_116153_0:00225c|TRINITY_DN92589_c12_g1_i3:106-1065|+ -            320 140076at6656         -            173   1.4e-54  181.7   1.0   1   3   1.2e-31   4.1e-29   98.7   0.0     7    87    94   179    89   197 0.87 -
+140076at6656_116153_0:00225c|TRINITY_DN92589_c12_g1_i3:106-1065|+ -            320 140076at6656         -            173   1.4e-54  181.7   1.0   2   3     0.013       4.4    4.2   0.0    86   108   206   228   195   233 0.81 -
+140076at6656_116153_0:00225c|TRINITY_DN92589_c12_g1_i3:106-1065|+ -            320 140076at6656         -            173   1.4e-54  181.7   1.0   3   3     1e-24   3.4e-22   76.2   0.1   100   165   237   302   228   316 0.89 -
+140076at6656_7004_0:00016f|TRINITY_DN92589_c12_g2_i2:432-587|+    -             52 140076at6656         -            173     2e-07   28.2   0.0   1   1   5.8e-10     2e-07   28.2   0.0   136   166     2    32     1    45 0.81 -
+47967at6656_108931_0:0027c6|TRINITY_DN92200_c12_g3_i1:1330-2226|- -            299 140076at6656         -            173   4.9e-06   23.6   0.1   1   1   2.9e-08   9.7e-06   22.6   0.1    40   114    36   115    28   146 0.65 -
+47967at6656_1218281_0:000faf|TRINITY_DN89748_c7_g2_i6:845-1663|+  -            273 140076at6656         -            173   1.1e-05   22.5   0.0   1   1   5.7e-08   1.9e-05   21.7   0.0    40   109    36   108    28   130 0.76 -
+140076at6656_6850_0:005143|TRINITY_DN83966_c11_g2_i1:846-1166|+   -            107 140076at6656         -            173   2.6e-05   21.2   0.1   1   1   9.7e-08   3.3e-05   20.9   0.1    22    65     1    48     1    80 0.82 -
+47967at6656_121845_0:00049b|TRINITY_DN71328_c0_g1_i1:3415-4386|-  -            324 140076at6656         -            173   0.00013   19.0   0.1   1   1   6.7e-07   0.00023   18.2   0.1    40   143    55   165    43   179 0.64 -
+117843at6656_136037_0:000d43|TRINITY_DN91344_c12_g1_i2:14-884|+   -            253 140076at6656         -            173   0.00032   17.7   0.0   1   1   1.6e-06   0.00054   17.0   0.0    40   130    94   193    84   208 0.68 -
+47967at6656_294128_0:000ce6|TRINITY_DN82486_c11_g1_i4:509-2275|-  -            589 140076at6656         -            173    0.0044   14.0   0.0   1   1   2.6e-05    0.0086   13.0   0.0    34   121   149   240   141   257 0.68 -
+105170at6656_38123_0:0026b4|TRINITY_DN71572_c0_g1_i3:587-946|-    -            120 140076at6656         -            173     0.027   11.4   0.0   1   1     9e-05      0.03   11.3   0.0    35    61    20    46    14    89 0.78 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/downloads/lineages/arthropoda_odb10/hmms/140076at6656.hmm
+# Target file:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/results/arthropoda_longest_isoform/run_arthropoda_odb10/metaeuk_output/initial_results/Trinity_longest_isoform.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/results/arthropoda_longest_isoform/run_arthropoda_odb10/hmmer_output/initial_run_results/140076at6656.out --cpu 1 /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/downloads/lineages/arthropoda_odb10/hmms/140076at6656.hmm /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/results/arthropoda_longest_isoform/run_arthropoda_odb10/metaeuk_output/initial_results/Trinity_longest_isoform.fasta.modified.fas 
+# Current dir:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/scripts
+# Date:            Tue Feb 17 19:24:08 2026
+# [ok]

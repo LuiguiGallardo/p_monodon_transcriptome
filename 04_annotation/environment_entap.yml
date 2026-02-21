@@ -1,0 +1,26 @@
+# EnTAP Conda Environment
+name: entap
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  # Core dependencies
+  - python=3.9
+  - cmake>=3.10
+  - boost-cpp
+  - rsem
+  - diamond>=2.0
+  
+  # EggNOG-mapper and dependencies
+  - eggnog-mapper
+  
+  # Additional utilities
+  - wget
+  - curl
+  - git
+  
+  # Build tools
+  - gcc_linux-64
+  - gxx_linux-64
+  - make

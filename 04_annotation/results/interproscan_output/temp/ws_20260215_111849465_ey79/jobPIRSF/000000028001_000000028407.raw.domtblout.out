@@ -1,0 +1,14 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession    qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- --------------------  ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+28331                -            100 NGFB                 PIRSF001789   253    0.0054   11.3   8.1   1   1   1.4e-05    0.0058   11.2   8.1    32   104     9    78     1    91 0.56 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      data/pirsf/3.10/sf_hmm_all
+# Target file:     /a1/luigui/2026/01_p_monodon_annot/04_annotation/interproscan_output/temp/ws_20260215_111849465_ey79//jobPIRSF/000000028001_000000028407.fasta
+# Option settings: hmmsearch -o /a1/luigui/2026/01_p_monodon_annot/04_annotation/interproscan_output/temp/ws_20260215_111849465_ey79//jobPIRSF/000000028001_000000028407.raw.out --domtblout /a1/luigui/2026/01_p_monodon_annot/04_annotation/interproscan_output/temp/ws_20260215_111849465_ey79//jobPIRSF/000000028001_000000028407.raw.domtblout.out --acc -E 0.01 --cpu 1 data/pirsf/3.10/sf_hmm_all /a1/luigui/2026/01_p_monodon_annot/04_annotation/interproscan_output/temp/ws_20260215_111849465_ey79//jobPIRSF/000000028001_000000028407.fasta 
+# Current dir:     /home/luigui/miniforge3/envs/entap/share/InterProScan
+# Date:            Sun Feb 15 11:19:18 2026
+# [ok]

@@ -1,0 +1,101 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  data/tigrfam/15.0/TIGRFAMs_HMM.LIB
+# target sequence database:        /a1/luigui/2026/01_p_monodon_annot/04_annotation/interproscan_output/temp/ws_20260215_111849465_ey79//jobTIGRFAM/000000016001_000000020000.fasta
+# output directed to file:         /a1/luigui/2026/01_p_monodon_annot/04_annotation/interproscan_output/temp/ws_20260215_111849465_ey79//jobTIGRFAM/000000016001_000000020000.raw.out
+# model-specific thresholding:     TC cutoffs
+# sequence search space set to:    4488
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       TIGR01027  [M=363]
+Accession:   TIGR01027
+Description: proB: glutamate 5-kinase
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (363 nodes)
+Target sequences:                       4000  (962949 residues searched)
+Passed MSV filter:                        58  (0.0145); expected 80.0 (0.02)
+Passed bias filter:                       39  (0.00975); expected 80.0 (0.02)
+Passed Vit filter:                         3  (0.00075); expected 4.0 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               4488  [as set by --Z on cmdline]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 31699.48
+//
+Query:       TIGR01241  [M=496]
+Accession:   TIGR01241
+Description: FtsH_fam: ATP-dependent metallopeptidase HflB
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (496 nodes)
+Target sequences:                       4000  (962949 residues searched)
+Passed MSV filter:                       170  (0.0425); expected 80.0 (0.02)
+Passed bias filter:                      116  (0.029); expected 80.0 (0.02)
+Passed Vit filter:                        15  (0.00375); expected 4.0 (0.001)
+Passed Fwd filter:                         6  (0.0015); expected 0.0 (1e-05)
+Initial search space (Z):               4488  [as set by --Z on cmdline]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.03
+# Mc/sec: 12683.54
+//
+Query:       TIGR01949  [M=255]
+Accession:   TIGR01949
+Description: AroFGH_arch: predicted phospho-2-dehydro-3-deoxyheptonate aldolase
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (255 nodes)
+Target sequences:                       4000  (962949 residues searched)
+Passed MSV filter:                        44  (0.011); expected 80.0 (0.02)
+Passed bias filter:                       37  (0.00925); expected 80.0 (0.02)
+Passed Vit filter:                         3  (0.00075); expected 4.0 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):               4488  [as set by --Z on cmdline]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 30815.40
+//
+[ok]

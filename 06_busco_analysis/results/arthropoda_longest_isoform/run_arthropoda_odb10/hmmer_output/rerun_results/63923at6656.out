@@ -1,0 +1,16 @@
+#                                                                                                                      --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                  accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                          ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+63923at6656_6973_0:001dda|TRINITY_DN76346_c9_g1_i2:37-772|+    -            183 63923at6656          -            369   4.3e-74  245.4  15.5   1   1   1.2e-76     5e-74  245.2  15.5   207   369     4   181     1   181 0.92 -
+63923at6656_407821_0:0053ac|TRINITY_DN85782_c7_g3_i3:355-819|- -            155 63923at6656          -            369   2.2e-27   91.7   0.1   1   2   1.1e-21   4.8e-19   64.3   0.0     1    70    12   100    12   105 0.81 -
+63923at6656_407821_0:0053ac|TRINITY_DN85782_c7_g3_i3:355-819|- -            155 63923at6656          -            369   2.2e-27   91.7   0.1   2   2     5e-10   2.1e-07   25.9   0.0    61    98   107   150   101   155 0.76 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/downloads/lineages/arthropoda_odb10/hmms/63923at6656.hmm
+# Target file:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/results/arthropoda_longest_isoform/run_arthropoda_odb10/metaeuk_output/rerun_results/Trinity_longest_isoform.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/results/arthropoda_longest_isoform/run_arthropoda_odb10/hmmer_output/rerun_results/63923at6656.out --cpu 1 /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/downloads/lineages/arthropoda_odb10/hmms/63923at6656.hmm /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/results/arthropoda_longest_isoform/run_arthropoda_odb10/metaeuk_output/rerun_results/Trinity_longest_isoform.fasta.modified.fas 
+# Current dir:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/scripts
+# Date:            Tue Feb 17 19:28:10 2026
+# [ok]

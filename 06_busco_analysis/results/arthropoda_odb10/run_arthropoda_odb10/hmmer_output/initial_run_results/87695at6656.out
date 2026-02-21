@@ -1,0 +1,23 @@
+#                                                                                                                        --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                    accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                            ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+87695at6656_218467_0:002c6d|TRINITY_DN86755_c16_g3_i2:442-1431|+ -            330 87695at6656          -            294   7.4e-62  208.7  21.5   1   2   2.5e-17   4.3e-14   51.9   5.6    47   136     5   106     1   127 0.76 -
+87695at6656_218467_0:002c6d|TRINITY_DN86755_c16_g3_i2:442-1431|+ -            330 87695at6656          -            294   7.4e-62  208.7  21.5   2   2   3.7e-50   6.4e-47  159.6   9.0   121   293   127   330   121   330 0.82 -
+87695at6656_218467_0:002c6d|TRINITY_DN86755_c16_g3_i3:430-1419|+ -            330 87695at6656          -            294   7.4e-62  208.7  21.5   1   2   2.5e-17   4.3e-14   51.9   5.6    47   136     5   106     1   127 0.76 -
+87695at6656_218467_0:002c6d|TRINITY_DN86755_c16_g3_i3:430-1419|+ -            330 87695at6656          -            294   7.4e-62  208.7  21.5   2   2   3.7e-50   6.4e-47  159.6   9.0   121   293   127   330   121   330 0.82 -
+87695at6656_438502_0:003018|TRINITY_DN86755_c16_g3_i4:526-813|+  -             96 87695at6656          -            294   1.4e-35  122.4   0.5   1   1   8.8e-39   1.5e-35  122.3   0.5   202   292     1    96     1    96 0.96 -
+87695at6656_166361_0:000728|TRINITY_DN86755_c16_g3_i1:403-1131|+ -            243 87695at6656          -            294   2.7e-26   91.9  15.8   1   2   3.4e-18   5.8e-15   54.7   5.2    42   136    13   119     4   140 0.75 -
+87695at6656_166361_0:000728|TRINITY_DN86755_c16_g3_i1:403-1131|+ -            243 87695at6656          -            294   2.7e-26   91.9  15.8   2   2   3.3e-14   5.7e-11   41.6   3.9   120   195   139   225   133   241 0.75 -
+87695at6656_166361_0:000728|TRINITY_DN86755_c16_g3_i5:391-1119|+ -            243 87695at6656          -            294   2.7e-26   91.9  15.8   1   2   3.4e-18   5.8e-15   54.7   5.2    42   136    13   119     4   140 0.75 -
+87695at6656_166361_0:000728|TRINITY_DN86755_c16_g3_i5:391-1119|+ -            243 87695at6656          -            294   2.7e-26   91.9  15.8   2   2   3.3e-14   5.7e-11   41.6   3.9   120   195   139   225   133   241 0.75 -
+87695at6656_1507135_0:0018aa|TRINITY_DN80614_c5_g1_i1:61-330|+   -             90 87695at6656          -            294   0.00031   19.5   1.2   1   1   2.5e-07   0.00043   19.0   0.8     8    52    38    85    30    88 0.71 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_downloads/lineages/arthropoda_odb10/hmms/87695at6656.hmm
+# Target file:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon/run_arthropoda_odb10/metaeuk_output/initial_results/Trinity.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon/run_arthropoda_odb10/hmmer_output/initial_run_results/87695at6656.out --cpu 1 /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_downloads/lineages/arthropoda_odb10/hmms/87695at6656.hmm /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon/run_arthropoda_odb10/metaeuk_output/initial_results/Trinity.fasta.modified.fas 
+# Current dir:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis
+# Date:            Tue Feb 17 14:44:55 2026
+# [ok]

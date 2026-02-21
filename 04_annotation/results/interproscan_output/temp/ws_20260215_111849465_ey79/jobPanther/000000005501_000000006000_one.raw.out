@@ -1,0 +1,2 @@
+query_id	panther_id	score	evalue	dom_score	dom_evalue	hmm_start	hmm_end	ali_start	ali_end	env_start	env_end	node_id
+5945	PTHR23076:SF110	172.8	4.4e-47	172.7	4.9e-47	232	459	55	282	10	338	AN399

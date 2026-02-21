@@ -1,0 +1,13 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name            accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----  -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      data/panther/17.0/famhmm/binHmm
+# Target file:     /a1/luigui/2026/01_p_monodon_annot/04_annotation/interproscan_output/temp/ws_20260215_111849465_ey79//jobPanther/000000016501_000000017000.fasta
+# Option settings: hmmsearch -o /a1/luigui/2026/01_p_monodon_annot/04_annotation/interproscan_output/temp/ws_20260215_111849465_ey79//jobPanther/000000016501_000000017000.raw.out --domtblout /a1/luigui/2026/01_p_monodon_annot/04_annotation/interproscan_output/temp/ws_20260215_111849465_ey79//jobPanther/000000016501_000000017000.raw.domtblout.out --notextw -E 0.001 --domE 0.00000001 --incdomE 0.00000001 -Z 65000000 --cpu 1 data/panther/17.0/famhmm/binHmm /a1/luigui/2026/01_p_monodon_annot/04_annotation/interproscan_output/temp/ws_20260215_111849465_ey79//jobPanther/000000016501_000000017000.fasta 
+# Current dir:     /home/luigui/miniforge3/envs/entap/share/InterProScan
+# Date:            Sun Feb 15 11:19:28 2026
+# [ok]

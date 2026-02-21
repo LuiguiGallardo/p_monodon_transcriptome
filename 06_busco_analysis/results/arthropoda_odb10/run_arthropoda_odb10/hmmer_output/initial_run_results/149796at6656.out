@@ -1,0 +1,17 @@
+#                                                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                   accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                           ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+149796at6656_294128_0:0038f9|TRINITY_DN73387_c8_g1_i4:133-600|+ -            156 149796at6656         -            122   3.4e-50  168.3   1.2   1   1   2.4e-52   6.1e-49  164.2   1.2     1   122     2   151     2   151 0.85 -
+149796at6656_294128_0:0038f9|TRINITY_DN73387_c8_g1_i1:147-536|+ -            130 149796at6656         -            122   3.2e-48  161.9   0.1   1   1   1.5e-51     4e-48  161.6   0.1    16   122     4   125     2   125 0.90 -
+125234at6656_294128_0:004732|TRINITY_DN91799_c6_g4_i1:88-630|+  -            181 149796at6656         -            122    0.0077   15.4   0.1   1   1     5e-06     0.013   14.6   0.1    12   104    42   144    20   155 0.70 -
+125234at6656_294128_0:004732|TRINITY_DN91799_c6_g4_i2:173-715|+ -            181 149796at6656         -            122    0.0077   15.4   0.1   1   1     5e-06     0.013   14.6   0.1    12   104    42   144    20   155 0.70 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_downloads/lineages/arthropoda_odb10/hmms/149796at6656.hmm
+# Target file:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon/run_arthropoda_odb10/metaeuk_output/initial_results/Trinity.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon/run_arthropoda_odb10/hmmer_output/initial_run_results/149796at6656.out --cpu 1 /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_downloads/lineages/arthropoda_odb10/hmms/149796at6656.hmm /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon/run_arthropoda_odb10/metaeuk_output/initial_results/Trinity.fasta.modified.fas 
+# Current dir:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis
+# Date:            Tue Feb 17 14:44:47 2026
+# [ok]

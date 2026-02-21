@@ -1,0 +1,27 @@
+#                                                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+389367at33208_6669_0:0001ce|TRINITY_DN73704_c14_g1_i4:260-1174|+  -            305 389367at33208        -            254  5.8e-121  401.6   4.5   1   1  2.1e-122  1.4e-119  397.1   4.5    13   254    34   304    26   304 0.92 -
+389367at33208_7897_0:0033b1|TRINITY_DN73704_c14_g1_i2:239-994|+   -            252 389367at33208        -            254   8.4e-90  299.5   3.6   1   1   3.7e-91   2.4e-88  294.8   3.6    13   195    41   252    33   252 0.90 -
+502691at33208_42514_0:000474|TRINITY_DN93371_c3_g1_i10:170-907|+  -            246 389367at33208        -            254   2.8e-18   65.2   0.0   1   1   6.7e-21   4.3e-18   64.5   0.0    23   221    11   219     9   235 0.81 -
+502691at33208_42514_0:000474|TRINITY_DN93371_c3_g1_i11:170-907|+  -            246 389367at33208        -            254   2.8e-18   65.2   0.0   1   1   6.7e-21   4.3e-18   64.5   0.0    23   221    11   219     9   235 0.81 -
+502691at33208_42514_0:000474|TRINITY_DN93371_c3_g1_i12:170-907|+  -            246 389367at33208        -            254   2.8e-18   65.2   0.0   1   1   6.7e-21   4.3e-18   64.5   0.0    23   221    11   219     9   235 0.81 -
+502691at33208_42514_0:000474|TRINITY_DN93371_c3_g1_i14:170-1121|+ -            246 389367at33208        -            254   2.8e-18   65.2   0.0   1   1   6.7e-21   4.3e-18   64.5   0.0    23   221    11   219     9   235 0.81 -
+502691at33208_42514_0:000474|TRINITY_DN93371_c3_g1_i4:170-907|+   -            246 389367at33208        -            254   2.8e-18   65.2   0.0   1   1   6.7e-21   4.3e-18   64.5   0.0    23   221    11   219     9   235 0.81 -
+502691at33208_8010_0:002be0|TRINITY_DN93371_c3_g1_i7:176-691|+    -            172 389367at33208        -            254   2.5e-17   62.1   0.0   1   1     5e-20   3.2e-17   61.7   0.0    23   118     9   105     7   122 0.92 -
+502691at33208_7574_0:0035a9|TRINITY_DN93371_c3_g1_i17:355-975|+   -            207 389367at33208        -            254   2.9e-12   45.5   0.0   1   1   6.1e-15   3.9e-12   45.0   0.0    53   221     3   180     1   197 0.80 -
+502691at33208_7574_0:0035a9|TRINITY_DN93371_c3_g1_i5:355-1189|+   -            207 389367at33208        -            254   2.9e-12   45.5   0.0   1   1   6.1e-15   3.9e-12   45.0   0.0    53   221     3   180     1   197 0.80 -
+502691at33208_30732_0:003c5b|TRINITY_DN93371_c3_g1_i6:343-759|+   -            139 389367at33208        -            254     2e-11   42.7   0.0   1   1     4e-14   2.6e-11   42.3   0.0    52   118     6    72     2    90 0.94 -
+592872at33208_75366_0:006e8d|TRINITY_DN77881_c9_g1_i12:397-1917|+ -            507 389367at33208        -            254   0.00034   19.0   0.0   1   1   7.8e-07    0.0005   18.5   0.0    25   117    71   164    55   173 0.80 -
+592872at33208_75366_0:006e8d|TRINITY_DN71470_c0_g2_i1:1221-2690|- -            490 389367at33208        -            254   0.00036   18.9   0.0   1   1   8.4e-07   0.00054   18.4   0.0     9   117    33   142    27   148 0.83 -
+592872at33208_75366_0:006e8d|TRINITY_DN84685_c9_g2_i1:3926-5464|- -            513 389367at33208        -            254     0.017   13.4   0.0   1   1   4.1e-05     0.026   12.8   0.0    10   117    45   152    39   170 0.83 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_downloads/lineages/metazoa_odb10/hmms/389367at33208.hmm
+# Target file:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon_metazoa_odb10/run_metazoa_odb10/metaeuk_output/initial_results/Trinity.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon_metazoa_odb10/run_metazoa_odb10/hmmer_output/initial_run_results/389367at33208.out --cpu 1 /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_downloads/lineages/metazoa_odb10/hmms/389367at33208.hmm /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon_metazoa_odb10/run_metazoa_odb10/metaeuk_output/initial_results/Trinity.fasta.modified.fas 
+# Current dir:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis
+# Date:            Tue Feb 17 15:06:48 2026
+# [ok]

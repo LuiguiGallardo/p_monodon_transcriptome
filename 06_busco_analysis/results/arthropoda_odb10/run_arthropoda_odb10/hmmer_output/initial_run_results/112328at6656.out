@@ -1,0 +1,23 @@
+#                                                                                                                        --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                    accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                            ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+112328at6656_121225_0:0021c0|TRINITY_DN83800_c12_g2_i4:205-972|+ -            256 112328at6656         -            162   5.9e-73  242.9   4.8   1   2   2.6e-70   3.8e-67  224.0   1.7     1   146     1   154     1   163 0.93 -
+112328at6656_121225_0:0021c0|TRINITY_DN83800_c12_g2_i4:205-972|+ -            256 112328at6656         -            162   5.9e-73  242.9   4.8   2   2     8e-08   0.00012   20.8   0.1   129   162   160   191   148   191 0.80 -
+112328at6656_121225_0:0021c0|TRINITY_DN83800_c12_g2_i5:205-972|+ -            256 112328at6656         -            162   5.9e-73  242.9   4.8   1   2   2.6e-70   3.8e-67  224.0   1.7     1   146     1   154     1   163 0.93 -
+112328at6656_121225_0:0021c0|TRINITY_DN83800_c12_g2_i5:205-972|+ -            256 112328at6656         -            162   5.9e-73  242.9   4.8   2   2     8e-08   0.00012   20.8   0.1   129   162   160   191   148   191 0.80 -
+112328at6656_121225_0:0021c0|TRINITY_DN83800_c12_g2_i6:102-875|+ -            258 112328at6656         -            162   6.1e-73  242.8   4.8   1   2   2.7e-70   3.9e-67  224.0   1.7     1   146     3   156     3   165 0.93 -
+112328at6656_121225_0:0021c0|TRINITY_DN83800_c12_g2_i6:102-875|+ -            258 112328at6656         -            162   6.1e-73  242.8   4.8   2   2   8.1e-08   0.00012   20.8   0.1   129   162   162   193   150   193 0.80 -
+112328at6656_116153_0:000e0f|TRINITY_DN83800_c12_g2_i1:205-642|+ -            146 112328at6656         -            162   3.2e-67  224.2   1.2   1   1   2.4e-70   3.6e-67  224.1   1.2     1   137     1   145     1   146 0.95 -
+112328at6656_116153_0:000e0f|TRINITY_DN83800_c12_g2_i3:205-642|+ -            146 112328at6656         -            162   3.2e-67  224.2   1.2   1   1   2.4e-70   3.6e-67  224.1   1.2     1   137     1   145     1   146 0.95 -
+112328at6656_418985_0:003337|TRINITY_DN83800_c12_g2_i2:111-245|+ -             45 112328at6656         -            162   1.2e-22   79.3   1.1   1   1   8.9e-26   1.3e-22   79.2   1.1     2    46     1    45     1    45 0.99 -
+112328at6656_418985_0:003337|TRINITY_DN83800_c12_g2_i7:111-245|+ -             45 112328at6656         -            162   1.2e-22   79.3   1.1   1   1   8.9e-26   1.3e-22   79.2   1.1     2    46     1    45     1    45 0.99 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_downloads/lineages/arthropoda_odb10/hmms/112328at6656.hmm
+# Target file:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon/run_arthropoda_odb10/metaeuk_output/initial_results/Trinity.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon/run_arthropoda_odb10/hmmer_output/initial_run_results/112328at6656.out --cpu 1 /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_downloads/lineages/arthropoda_odb10/hmms/112328at6656.hmm /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon/run_arthropoda_odb10/metaeuk_output/initial_results/Trinity.fasta.modified.fas 
+# Current dir:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis
+# Date:            Tue Feb 17 14:44:45 2026
+# [ok]

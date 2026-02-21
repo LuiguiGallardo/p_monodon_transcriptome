@@ -1,0 +1,17 @@
+#                                                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+146671at33208_136037_0:00107a|TRINITY_DN93592_c2_g2_i9:244-3300|- -           1019 146671at33208        -            694    2e-275  912.7  37.7   1   4  1.4e-119  3.9e-116  386.2   4.6    21   346     1   392     1   404 0.84 -
+146671at33208_136037_0:00107a|TRINITY_DN93592_c2_g2_i9:244-3300|- -           1019 146671at33208        -            694    2e-275  912.7  37.7   2   4  3.7e-124    1e-120  401.3   2.5   344   570   414   643   410   694 0.89 -
+146671at33208_136037_0:00107a|TRINITY_DN93592_c2_g2_i9:244-3300|- -           1019 146671at33208        -            694    2e-275  912.7  37.7   3   4     7e-15     2e-11   40.1   9.6   552   612   802   862   792   869 0.80 -
+146671at33208_136037_0:00107a|TRINITY_DN93592_c2_g2_i9:244-3300|- -           1019 146671at33208        -            694    2e-275  912.7  37.7   4   4   3.8e-31   1.1e-27   93.9   0.2   605   694   916  1016   895  1016 0.83 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/downloads/lineages/metazoa_odb10/hmms/146671at33208.hmm
+# Target file:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/results/metazoa_longest_isoform/run_metazoa_odb10/metaeuk_output/initial_results/Trinity_longest_isoform.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/results/metazoa_longest_isoform/run_metazoa_odb10/hmmer_output/initial_run_results/146671at33208.out --cpu 1 /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/downloads/lineages/metazoa_odb10/hmms/146671at33208.hmm /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/results/metazoa_longest_isoform/run_metazoa_odb10/metaeuk_output/initial_results/Trinity_longest_isoform.fasta.modified.fas 
+# Current dir:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/scripts
+# Date:            Tue Feb 17 19:31:24 2026
+# [ok]

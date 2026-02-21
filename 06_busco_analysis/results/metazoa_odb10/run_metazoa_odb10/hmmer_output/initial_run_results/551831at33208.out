@@ -1,0 +1,20 @@
+#                                                                                                                          --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                      accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                              ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+551831at33208_294128_0:000ca4|TRINITY_DN86665_c10_g1_i1:328-1320|+ -            331 551831at33208        -            205   1.4e-80  268.6   0.1   1   1   1.8e-83   2.3e-80  267.9   0.1     1   204     4   247     4   248 0.86 -
+551831at33208_294128_0:000ca4|TRINITY_DN86665_c10_g1_i2:328-1320|+ -            331 551831at33208        -            205   1.4e-80  268.6   0.1   1   1   1.8e-83   2.3e-80  267.9   0.1     1   204     4   247     4   248 0.86 -
+551831at33208_294128_0:000ca4|TRINITY_DN86665_c10_g1_i3:126-1127|+ -            334 551831at33208        -            205   1.5e-80  268.5   0.1   1   1   1.8e-83   2.4e-80  267.8   0.1     1   204     7   250     7   251 0.86 -
+551831at33208_294128_0:000ca4|TRINITY_DN86665_c10_g1_i4:146-1147|+ -            334 551831at33208        -            205   1.5e-80  268.5   0.1   1   1   1.8e-83   2.4e-80  267.8   0.1     1   204     7   250     7   251 0.86 -
+551831at33208_294128_0:000ca4|TRINITY_DN86665_c10_g1_i6:126-1127|+ -            334 551831at33208        -            205   1.5e-80  268.5   0.1   1   1   1.8e-83   2.4e-80  267.8   0.1     1   204     7   250     7   251 0.86 -
+551831at33208_6973_0:001a81|TRINITY_DN86665_c10_g1_i5:111-500|+    -            130 551831at33208        -            205   3.8e-37  126.7   1.4   1   1   4.8e-40   6.3e-37  126.0   1.4     1    96    12   129    12   130 0.83 -
+444231at33208_59538_0:003ca2|TRINITY_DN74900_c9_g1_i7:20-685|-     -            184 551831at33208        -            205     0.062   11.8   0.1   1   1   6.4e-05     0.082   11.3   0.1    40    76    54    91    48   116 0.82 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_downloads/lineages/metazoa_odb10/hmms/551831at33208.hmm
+# Target file:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon_metazoa_odb10/run_metazoa_odb10/metaeuk_output/initial_results/Trinity.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon_metazoa_odb10/run_metazoa_odb10/hmmer_output/initial_run_results/551831at33208.out --cpu 1 /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_downloads/lineages/metazoa_odb10/hmms/551831at33208.hmm /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon_metazoa_odb10/run_metazoa_odb10/metaeuk_output/initial_results/Trinity.fasta.modified.fas 
+# Current dir:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis
+# Date:            Tue Feb 17 15:06:52 2026
+# [ok]

@@ -1,0 +1,715 @@
+Sun Feb 15 00:57:48 2026: Start - EnTAP
+Sun Feb 15 00:57:48 2026: Printing user input...
+Sun Feb 15 00:57:48 2026: ------------------------------------------------------
+EnTAP Run Information - Execution
+------------------------------------------------------
+Current EnTAP Version: 2.3.0
+Start time: Sun Feb 15 00:57:48 2026
+
+Working directory has been set to: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output
+User Inputs:
+out-dir: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output
+config: false
+run: true
+overwrite: false
+resume: false
+run-ini: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_config/entap_run.params
+entap-ini: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_config/entap_config.ini
+input: /a1/luigui/2026/01_p_monodon_annot/04_annotation/Trinity_longest_isoform.fasta.transdecoder.pep
+database: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_databases/uniprot_sprot.dmnd,
+graph: false
+no-trim: false
+threads: 32
+state: +
+no-check: false
+output-format: 1,3,4,7,
+api-taxon: 
+ncbi-api-key: 
+ncbi-api-enable: true
+entap-db-bin: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_databases/entap_database.bin
+entap-db-sql: /home/luigui/miniforge3/envs/entap/bin/databases/entap_database.db
+entap-graph: /home/luigui/miniforge3/envs/entap/bin/src/entap_graphing.py
+data-generate: false
+data-type: 0,
+db-tax-split: 
+fpkm: 0.500000
+align: 
+single-end: false
+rsem-calculate-expression: /home/luigui/miniforge3/envs/entap/bin/libs/RSEM-1.3.3/rsem-calculate-expression
+rsem-sam-validator: /home/luigui/miniforge3/envs/entap/bin/libs/RSEM-1.3.3/rsem-sam-validator
+rsem-prepare-reference: /home/luigui/miniforge3/envs/entap/bin/libs/RSEM-1.3.3/rsem-prepare-reference
+convert-sam-for-rsem: /home/luigui/miniforge3/envs/entap/bin/libs/RSEM-1.3.3/convert-sam-for-rsem
+frame-selection: true
+transdecoder-long-exe: TransDecoder.LongOrfs
+transdecoder-predict-exe: TransDecoder.Predict
+transdecoder-m: 100
+transdecoder-no-refine-starts: false
+diamond-exe: diamond
+taxon: 
+qcoverage: 50.000000
+tcoverage: 50.000000
+contam: 
+e-value: 0.000010
+uninformative: conserved,predicted,unknown,unnamed,hypothetical,putative,unidentified,uncharacterized,uncultured,uninformative,
+diamond-sensitivity: very-sensitive
+ontology_source: 0,
+eggnog-map-exe: emapper.py
+eggnog-map-data: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_databases/eggnog_data
+eggnog-map-dmnd: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_databases/eggnog_data/eggnog_proteins.dmnd
+eggnog-contaminant: true
+eggnog-dbmem: true
+eggnog-sensitivity: more-sensitive
+interproscan-exe: interproscan.sh
+interproscan-db: 
+hgt-donor: 
+hgt-recipient: 
+hgt-gff: 
+hgt-filter-hgt-neighbors: true
+hgt-filter-contam-neighbors: true
+hgt-filter-donor-neighbors: true
+
+
+Sun Feb 15 00:57:48 2026: User has input a database at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_databases/uniprot_sprot.dmnd
+Sun Feb 15 00:57:48 2026: Verifying EnTAP database...
+Sun Feb 15 00:57:48 2026: Reading serialized database from: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_databases/entap_database.bin
+ Of type: 2
+Sun Feb 15 00:58:00 2026: Success!
+Sun Feb 15 00:58:00 2026: Spawn Object - QueryData
+Sun Feb 15 00:58:00 2026: Generating transcriptome mappings...
+Sun Feb 15 00:58:00 2026: Transcriptome Lines - START
+Sun Feb 15 00:58:00 2026: >TRINITY_DN100556_c0_g1_i1.p1 TRINITY_DN100556_c0_g1~~TRINITY_DN100556_c0_g1_i1.p1  ORF type:internal len:105 (-),score=3.74 TRINITY_DN100556_c0_g1_i1:2-313(-)
+Sun Feb 15 00:58:00 2026: KKGGLGGISQYWGFFFFFFFFFFIEDGNQLIEQHQETAAKFSLAVCNVLYIFVSPPPFYS
+Sun Feb 15 00:58:00 2026: FFPNTRVYLPLLTHVSPFLLFFFYIHLLILFVLSHHFLPPIFIS
+Sun Feb 15 00:58:00 2026: >TRINITY_DN100606_c0_g1_i1.p1 TRINITY_DN100606_c0_g1~~TRINITY_DN100606_c0_g1_i1.p1  ORF type:internal len:102 (-),score=4.34 TRINITY_DN100606_c0_g1_i1:2-304(-)
+Sun Feb 15 00:58:00 2026: FSAPLFVELLACLCLFLSVSPSVILFSSLCALCLFTSVLFFTLITLLLSPFFLLHFPVSH
+Sun Feb 15 00:58:00 2026: TQFFSFFLINHSSFVLLAFTFRVSLLLLSSLSLSLSLFFFF
+Sun Feb 15 00:58:00 2026: >TRINITY_DN100727_c0_g1_i1.p1 TRINITY_DN100727_c0_g1~~TRINITY_DN100727_c0_g1_i1.p1  ORF type:internal len:100 (-),score=14.60 TRINITY_DN100727_c0_g1_i1:3-299(-)
+Sun Feb 15 00:58:00 2026: ASVYDIAVSEFLCVCFPRFPPSLLPPIFILFLFCFRPSFVCLCPSFVSPSNPPSSLSPGY
+Sun Feb 15 00:58:00 2026: GFSFFSFCSPSCLYLVSHPSFVLSSSLLPSSLSLSFPYL
+Sun Feb 15 00:58:00 2026: Transcriptome Lines - END
+Sun Feb 15 00:58:00 2026: Success!
+Sun Feb 15 00:58:00 2026: Verifying input flag eggnog-contaminant
+Sun Feb 15 00:58:00 2026: WARNING, eggnog contaminant analysis=TRUE, but no contams selected, skipping contam analysis
+Sun Feb 15 00:58:00 2026: Verifying input flag fpkm
+Sun Feb 15 00:58:00 2026: Verifying input flag qcoverage
+Sun Feb 15 00:58:00 2026: Verifying input flag tcoverage
+Sun Feb 15 00:58:00 2026: Verifying input flag ontology_source
+Sun Feb 15 00:58:00 2026: Verifying input flag level
+Sun Feb 15 00:58:00 2026: Verifying input flag frame-selection-sw
+Sun Feb 15 00:58:00 2026: Verifying input flag transdecoder-m
+Sun Feb 15 00:58:00 2026: Determining if we want to run expression analysis
+Sun Feb 15 00:58:00 2026: NO, no alignment file specified from user
+Sun Feb 15 00:58:00 2026: Determining if we want to run frame selection...
+Sun Feb 15 00:58:00 2026: NO, protein sequences input
+Sun Feb 15 00:58:00 2026: Determining if we want to run horizontal gene transfer analysis...
+Sun Feb 15 00:58:00 2026:     No, INPUT_FLAG_HGT_DONOR_DATABASES not input
+Sun Feb 15 00:58:00 2026:     No, INPUT_FLAG_HGT_RECIPIENT_DATABASES not input
+Sun Feb 15 00:58:00 2026:     No, INPUT_FLAG_HGT_GFF not input
+Sun Feb 15 00:58:00 2026: Verifying software...
+Sun Feb 15 00:58:00 2026: Executing command: 
+diamond --version
+Sun Feb 15 00:58:00 2026: 
+Std Err:
+
+Sun Feb 15 00:58:00 2026: Verifying EggNOG-mapper inputs...
+Sun Feb 15 00:58:00 2026: Executing command: 
+emapper.py --version
+Sun Feb 15 00:58:00 2026: 
+Std Err:
+
+Sun Feb 15 00:58:00 2026: Success!
+Sun Feb 15 00:58:00 2026: Executing command: 
+diamond --version
+Sun Feb 15 00:58:01 2026: 
+Std Err:
+
+Sun Feb 15 00:58:01 2026: Success!
+Sun Feb 15 00:58:01 2026: Success! Input verified
+Sun Feb 15 00:58:01 2026: Killing Object - EntapDatabase
+Sun Feb 15 00:58:04 2026: Killing Object - QueryData
+Sun Feb 15 00:58:04 2026: QuerySequence data freed
+Sun Feb 15 00:58:04 2026: EnTAP Executing...
+Sun Feb 15 00:58:04 2026: verifying state...
+Sun Feb 15 00:58:04 2026: verifying state...
+Sun Feb 15 00:58:04 2026: Success!
+Sun Feb 15 00:58:04 2026: Spawn Object - QueryData
+Sun Feb 15 00:58:04 2026: Generating transcriptome mappings...
+Sun Feb 15 00:58:04 2026: Transcriptome Lines - START
+Sun Feb 15 00:58:04 2026: >TRINITY_DN100556_c0_g1_i1.p1 TRINITY_DN100556_c0_g1~~TRINITY_DN100556_c0_g1_i1.p1  ORF type:internal len:105 (-),score=3.74 TRINITY_DN100556_c0_g1_i1:2-313(-)
+Sun Feb 15 00:58:04 2026: KKGGLGGISQYWGFFFFFFFFFFIEDGNQLIEQHQETAAKFSLAVCNVLYIFVSPPPFYS
+Sun Feb 15 00:58:04 2026: FFPNTRVYLPLLTHVSPFLLFFFYIHLLILFVLSHHFLPPIFIS
+Sun Feb 15 00:58:04 2026: >TRINITY_DN100606_c0_g1_i1.p1 TRINITY_DN100606_c0_g1~~TRINITY_DN100606_c0_g1_i1.p1  ORF type:internal len:102 (-),score=4.34 TRINITY_DN100606_c0_g1_i1:2-304(-)
+Sun Feb 15 00:58:04 2026: FSAPLFVELLACLCLFLSVSPSVILFSSLCALCLFTSVLFFTLITLLLSPFFLLHFPVSH
+Sun Feb 15 00:58:04 2026: TQFFSFFLINHSSFVLLAFTFRVSLLLLSSLSLSLSLFFFF
+Sun Feb 15 00:58:04 2026: >TRINITY_DN100727_c0_g1_i1.p1 TRINITY_DN100727_c0_g1~~TRINITY_DN100727_c0_g1_i1.p1  ORF type:internal len:100 (-),score=14.60 TRINITY_DN100727_c0_g1_i1:3-299(-)
+Sun Feb 15 00:58:04 2026: ASVYDIAVSEFLCVCFPRFPPSLLPPIFILFLFCFRPSFVCLCPSFVSPSNPPSSLSPGY
+Sun Feb 15 00:58:04 2026: GFSFFSFCSPSCLYLVSHPSFVLSSSLLPSSLSLSFPYL
+Sun Feb 15 00:58:04 2026: Transcriptome Lines - END
+Sun Feb 15 00:58:05 2026: Success!
+Sun Feb 15 00:58:05 2026: Determining if we want to run horizontal gene transfer analysis...
+Sun Feb 15 00:58:05 2026:     No, INPUT_FLAG_HGT_DONOR_DATABASES not input
+Sun Feb 15 00:58:05 2026:     No, INPUT_FLAG_HGT_RECIPIENT_DATABASES not input
+Sun Feb 15 00:58:05 2026:     No, INPUT_FLAG_HGT_GFF not input
+Sun Feb 15 00:58:05 2026: Spawn Object - GraphingManager
+Sun Feb 15 00:58:05 2026: Reading serialized database from: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_databases/entap_database.bin
+ Of type: 2
+Sun Feb 15 00:58:12 2026: STATE - EXPRESSION FILTERING
+Sun Feb 15 00:58:12 2026: Determining if we want to run expression analysis
+Sun Feb 15 00:58:12 2026: NO, no alignment file specified from user
+Sun Feb 15 00:58:12 2026: No alignment file specified, skipping expression analysis
+Sun Feb 15 00:58:12 2026: verifying state...
+Sun Feb 15 00:58:12 2026: STATE - FRAME SELECTION
+Sun Feb 15 00:58:12 2026: Determining if we want to run frame selection...
+Sun Feb 15 00:58:12 2026: NO, protein sequences input
+Sun Feb 15 00:58:12 2026: verifying state...
+Sun Feb 15 00:58:12 2026: Beginning to copy final transcriptome to be used...
+Sun Feb 15 00:58:12 2026: FINAL transcriptome generated to: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/transcriptomes/Trinity_longest_isoform_final.fasta
+Sun Feb 15 00:58:12 2026: verifying state...
+Sun Feb 15 00:58:12 2026: STATE - SIMILARITY SEARCH
+Sun Feb 15 00:58:12 2026: Spawn Object - SimilaritySearch
+Sun Feb 15 00:58:12 2026: opendir: Path could not be read: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/processed/
+Sun Feb 15 00:58:12 2026: opendir: Path could not be read: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/overall_results
+Sun Feb 15 00:58:12 2026: Spawn Object - ModDiamond: DIAMOND
+Sun Feb 15 00:58:12 2026: Verifying previous execution of database: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_databases/uniprot_sprot.dmnd...
+Sun Feb 15 00:58:12 2026: File for database uniprot_sprot does not exist.
+/a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/blastp_Trinity_longest_isoform_final_uniprot_sprot.out
+Sun Feb 15 00:58:12 2026: Success! Verified files for DIAMOND, continuing...
+Sun Feb 15 00:58:12 2026: Executing DIAMOND for necessary files....
+Sun Feb 15 00:58:12 2026: File not found, executing against database at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_databases/uniprot_sprot.dmnd
+Sun Feb 15 00:58:12 2026: Executing command: 
+diamond blastp -p 32 -o /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/blastp_Trinity_longest_isoform_final_uniprot_sprot.out --very-sensitive --max-target-seqs 3 --evalue 0.000010 -f 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp stitle --subject-cover 50.000000 --query-cover 50.000000 -q /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/transcriptomes/Trinity_longest_isoform_final.fasta -d /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_databases/uniprot_sprot.dmnd 
+Sun Feb 15 00:58:39 2026: WARNING: Suppressing error log from child process, check error file generated for full output
+Sun Feb 15 00:58:39 2026: 
+Printing to files:
+Std Out: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/blastp_Trinity_longest_isoform_final_uniprot_sprot.out_std.out
+Std Err: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/blastp_Trinity_longest_isoform_final_uniprot_sprot.out_std.err
+Sun Feb 15 00:58:39 2026: Success! Results written to: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/blastp_Trinity_longest_isoform_final_uniprot_sprot.out
+Sun Feb 15 00:58:39 2026: Beginning to filter individual DIAMOND files...
+Sun Feb 15 00:58:39 2026: DIAMOND file located at /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/blastp_Trinity_longest_isoform_final_uniprot_sprot.out being parsed
+Sun Feb 15 00:58:39 2026: Database file at /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/blastp_Trinity_longest_isoform_final_uniprot_sprot.out
+Determined to be UniProt
+Sun Feb 15 00:58:39 2026: Database file at /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/blastp_Trinity_longest_isoform_final_uniprot_sprot.out
+Determined to be NCBI
+Sun Feb 15 00:58:40 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:40 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:40 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:42 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:42 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:42 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:44 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:44 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:44 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:46 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:46 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:46 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:48 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:48 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:48 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:50 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:50 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:50 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:52 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:52 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:52 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:54 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:54 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:54 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:56 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:56 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:56 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:58 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:58 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:58:58 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:00 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:00 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:00 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:02 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:02 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:02 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:04 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:04 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:04 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:06 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:06 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:06 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:08 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:08 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:08 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:10 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:10 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:10 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:12 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:12 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:12 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:14 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:14 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:14 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:16 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:16 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:16 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:18 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:18 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:18 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:20 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:20 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:20 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 00:59:22 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:22 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:22 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:24 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:24 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:24 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:26 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:26 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:26 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:28 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:28 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:28 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:30 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:30 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:30 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:32 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:32 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:32 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:34 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:34 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:34 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:36 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:36 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:36 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:38 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:38 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:38 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:40 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:40 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:40 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:42 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 00:59:42 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:42 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:44 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:44 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:44 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:46 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:46 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:46 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:48 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:48 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:48 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:50 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:50 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:50 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:52 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:52 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:52 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:54 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:54 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:54 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:56 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:56 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:56 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:58 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:58 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 00:59:58 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 01:00:00 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 01:00:00 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 01:00:00 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 01:00:02 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:02 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 01:00:02 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:04 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:04 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:04 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:06 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:06 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:06 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:08 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:08 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:08 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:10 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:10 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:10 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:12 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:12 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:12 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:14 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:14 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:14 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:16 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:16 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:16 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:18 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:18 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:18 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:20 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:20 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:20 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:22 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:22 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:22 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:24 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:24 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:24 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:26 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:26 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:26 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:28 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:28 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:28 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:30 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:30 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:30 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:32 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:32 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:32 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:34 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:34 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:34 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:36 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:36 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:36 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:38 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:38 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:38 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:40 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:40 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:40 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:42 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:42 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:42 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:44 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 01:00:44 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 01:00:44 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 01:00:46 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 01:00:46 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 01:00:46 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 01:00:48 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 01:00:48 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 01:00:48 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 01:00:50 2026: Retrying NCBI_ACCESSION_ENTREZ: 0
+Sun Feb 15 01:00:50 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:52 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:52 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:52 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:54 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:54 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:54 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:56 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:56 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:56 2026: Retrying NCBI_ACCESSION_ENTREZ: 1
+Sun Feb 15 01:00:58 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:58 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:00:58 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:01:00 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:01:00 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:01:00 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:01:02 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:01:02 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:01:02 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:01:04 2026: Retrying NCBI_ACCESSION_ENTREZ: 2
+Sun Feb 15 01:01:05 2026: File parsed, calculating statistics and writing output...
+Sun Feb 15 01:01:05 2026: Alignment file started: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated
+Sun Feb 15 01:01:05 2026: Alignment file started: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated_without_contam
+Sun Feb 15 01:01:05 2026: Alignment file started: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_unselected_hits
+Sun Feb 15 01:01:05 2026: Alignment file started: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/processed/uniprot_sprot/unannotated
+Sun Feb 15 01:01:05 2026: Alignment file ended: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated
+Sun Feb 15 01:01:05 2026: Alignment file ended: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated_without_contam
+Sun Feb 15 01:01:05 2026: Alignment file ended: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_unselected_hits
+Sun Feb 15 01:01:05 2026: Alignment file ended: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/processed/uniprot_sprot/unannotated
+Sun Feb 15 01:01:05 2026: Success!
+Sun Feb 15 01:01:05 2026: Calculating overall Similarity Searching statistics...
+Sun Feb 15 01:01:05 2026: Alignment file started: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/overall_results/diamond_annotated
+Sun Feb 15 01:01:05 2026: Alignment file started: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/overall_results/diamond_annotated_without_contam
+Sun Feb 15 01:01:05 2026: Alignment file started: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/overall_results/diamond_unselected_hits
+Sun Feb 15 01:01:05 2026: Alignment file started: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/overall_results/unannotated
+Sun Feb 15 01:01:06 2026: Alignment file ended: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/overall_results/diamond_annotated
+Sun Feb 15 01:01:06 2026: Alignment file ended: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/overall_results/diamond_annotated_without_contam
+Sun Feb 15 01:01:06 2026: Alignment file ended: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/overall_results/diamond_unselected_hits
+Sun Feb 15 01:01:06 2026: Alignment file ended: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/overall_results/unannotated
+Sun Feb 15 01:01:06 2026: Success!
+Sun Feb 15 01:01:06 2026: verifying state...
+Sun Feb 15 01:01:06 2026: STATE - GENE ONTOLOGY
+Sun Feb 15 01:01:06 2026: Spawn Object - Ontology
+Sun Feb 15 01:01:06 2026: opendir: Path could not be read: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/gene_family/EggNOG/processed/
+Sun Feb 15 01:01:06 2026: Overwrite was unselected, verifying output files...
+Sun Feb 15 01:01:06 2026: No Eggnog-mapper output files found, running...
+Sun Feb 15 01:01:06 2026: Running EggNOG-mapper from beginning...
+Sun Feb 15 01:01:06 2026: Executing command: 
+emapper.py --cpu 32 --dmnd_db /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_databases/eggnog_data/eggnog_proteins.dmnd --no_file_comments -i /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/transcriptomes/Trinity_longest_isoform_final.fasta --sensmode more-sensitive --dbmem --output_dir /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/gene_family/EggNOG --data_dir /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_databases/eggnog_data -o blastp_Trinity_longest_isoform -m diamond 
+Sun Feb 15 01:44:49 2026: 
+Std Err:
+[1;32mFunctional annotation of hits...[0m
+[1;34mTime to load the DB into memory: 190.1810793876648[0m
+500 192.04327607154846 2.60 q/s (% mem usage: 39.20, % mem avail: 60.78)
+1000 193.99334502220154 5.15 q/s (% mem usage: 39.20, % mem avail: 60.78)
+1500 195.95636868476868 7.65 q/s (% mem usage: 39.20, % mem avail: 60.78)
+2000 197.82619524002075 10.11 q/s (% mem usage: 39.20, % mem avail: 60.78)
+2500 199.61116814613342 12.52 q/s (% mem usage: 39.20, % mem avail: 60.78)
+3000 201.4893717765808 14.89 q/s (% mem usage: 39.20, % mem avail: 60.78)
+3500 203.34522795677185 17.21 q/s (% mem usage: 39.20, % mem avail: 60.78)
+4000 205.03815627098083 19.51 q/s (% mem usage: 39.20, % mem avail: 60.78)
+4500 206.77353072166443 21.76 q/s (% mem usage: 39.20, % mem avail: 60.78)
+5000 208.55411791801453 23.97 q/s (% mem usage: 39.20, % mem avail: 60.78)
+5500 210.4246745109558 26.14 q/s (% mem usage: 39.20, % mem avail: 60.78)
+6000 212.22908544540405 28.27 q/s (% mem usage: 39.20, % mem avail: 60.78)
+6500 213.96187949180603 30.38 q/s (% mem usage: 39.20, % mem avail: 60.78)
+7000 215.82798504829407 32.43 q/s (% mem usage: 39.20, % mem avail: 60.78)
+7500 217.6692225933075 34.46 q/s (% mem usage: 39.20, % mem avail: 60.78)
+8000 219.47788190841675 36.45 q/s (% mem usage: 39.20, % mem avail: 60.78)
+8500 221.4274082183838 38.39 q/s (% mem usage: 39.20, % mem avail: 60.78)
+9000 223.2812101840973 40.31 q/s (% mem usage: 39.20, % mem avail: 60.78)
+9500 225.21911668777466 42.18 q/s (% mem usage: 39.20, % mem avail: 60.78)
+9623 230.87240195274353 41.68 q/s (% mem usage: 6.50, % mem avail: 93.53)
+
+Sun Feb 15 01:44:49 2026: 
+Printing to files:
+Std Out: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/gene_family/EggNOG/blastp_Trinity_longest_isoform__std.out
+Std Err: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/gene_family/EggNOG/blastp_Trinity_longest_isoform__std.err
+Sun Feb 15 01:44:49 2026: Success! EggNOG execution complete
+Sun Feb 15 01:44:49 2026: Beginning to parse eggnog mapper results...
+Sun Feb 15 01:44:49 2026: Eggnog file located at /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/gene_family/EggNOG/blastp_Trinity_longest_isoform.emapper.annotations being filtered
+Sun Feb 15 01:44:49 2026: Alignment file started: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/gene_family/EggNOG/processed/eggnog_annotated
+Sun Feb 15 01:44:49 2026: Skipping EggNOG contaminant analysis, one or more required flags missing
+Sun Feb 15 01:44:52 2026: Killing object - EggNOG Database
+Sun Feb 15 01:44:52 2026: Alignment file ended: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/gene_family/EggNOG/processed/eggnog_annotated
+Sun Feb 15 01:44:52 2026: Success! Printing output files
+Sun Feb 15 01:44:52 2026: Success! Computing overall statistics...
+Sun Feb 15 01:44:52 2026: Success! EggNOG results parsed
+Sun Feb 15 01:44:52 2026: Killing object - ModEggnog
+Sun Feb 15 01:44:52 2026: verifying state...
+Sun Feb 15 01:44:52 2026: STATE - HORIZONTAL GENE TRANSFER
+Sun Feb 15 01:44:52 2026: Determining if we want to run horizontal gene transfer analysis...
+Sun Feb 15 01:44:52 2026:     No, INPUT_FLAG_HGT_DONOR_DATABASES not input
+Sun Feb 15 01:44:52 2026:     No, INPUT_FLAG_HGT_RECIPIENT_DATABASES not input
+Sun Feb 15 01:44:52 2026:     No, INPUT_FLAG_HGT_GFF not input
+Sun Feb 15 01:44:52 2026: User has not input required flags for HGT analysis, skipping...
+Sun Feb 15 01:44:52 2026: verifying state...
+Sun Feb 15 01:44:52 2026: Pipeline finished! Calculating final statistics...
+Sun Feb 15 01:44:52 2026: Alignment file started: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/final_results/annotated
+Sun Feb 15 01:44:52 2026: Alignment file started: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/final_results/unannotated
+Sun Feb 15 01:44:52 2026: Alignment file started: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/final_results/entap_results
+Sun Feb 15 01:44:56 2026: Alignment file ended: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/final_results/annotated
+Sun Feb 15 01:44:56 2026: Alignment file ended: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/final_results/entap_results
+Sun Feb 15 01:44:56 2026: Alignment file ended: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/final_results/unannotated
+Sun Feb 15 01:44:56 2026: Killing Object - QueryData
+Sun Feb 15 01:44:56 2026: QuerySequence data freed
+Sun Feb 15 01:44:56 2026: Killing Object - GraphingManager
+Sun Feb 15 01:44:56 2026: Killing Object - EntapDatabase
+Sun Feb 15 01:45:00 2026: End - EnTAP
+Sun Feb 15 01:45:00 2026: Killing object - FileSystem
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m55s204.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m29s76.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m43s7.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m37s179.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m45s9.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m1s124.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m31s79.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m15s145.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m21s65.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m17s148.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m27s164.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m21s155.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m59s212.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m5s40.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m1s34.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m31s78.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m51s198.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m1s33.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m15s146.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m3s127.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m21s64.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m25s159.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m25s71.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m59s120.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m55s24.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m53s111.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m23s68.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m27s163.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m33s172.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m55s115.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m53s202.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h1m1s215.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m11s50.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m11s49.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m39s92.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m45s100.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m53s113.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m41s183.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m45s11.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m43s187.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m29s75.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m33s82.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h1m1s214.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m41s94.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m39s90.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m31s168.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m57s27.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m29s167.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m59s122.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m43s97.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m13s53.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m43s8.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m51s200.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m19s152.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m5s41.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m53s203.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m29s165.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m45s101.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m7s134.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m59s121.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m3s36.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m57s207.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m47s103.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m59s32.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m27s73.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m23s158.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m49s105.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m1s35.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m9s137.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m7s42.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m37s89.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m37s177.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m47s13.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m35s174.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m5s39.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m5s129.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m15s56.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m35s175.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m19s150.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m37s178.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m31s80.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m11s139.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m55s114.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m41s95.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m9s45.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m39s181.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m49s15.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m11s48.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m43s6.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m13s51.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m21s63.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m19s61.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m13s52.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m13s142.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m27s162.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m55s116.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m25s160.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m19s60.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m31s169.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m37s87.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m43s96.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m15s144.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m15s54.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m55s206.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m45s191.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m47s193.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m1s125.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m49s106.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m21s154.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m51s110.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m27s72.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m39s91.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m35s176.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m3s128.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m9s135.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m47s14.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m49s107.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m53s21.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m41s4.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m53s112.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m13s143.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m45s10.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m3s38.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m19s151.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m33s173.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m59s210.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m39s180.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m45s190.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m57s118.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m7s44.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m41s3.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m21s153.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m51s199.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m25s161.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m17s57.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m47s194.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m1s123.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m35s84.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m47s102.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m7s132.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m49s197.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m3s126.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m13s141.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m39s2.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m55s205.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h1m3s216.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m39s0.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m7s43.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m33s83.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m59s31.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m25s70.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m45s189.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m57s29.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m55s25.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m25s69.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m5s131.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m37s88.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m51s20.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m9s136.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m5s130.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m41s184.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m57s117.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m33s171.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m49s195.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m51s19.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m57s119.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m41s5.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m53s22.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m17s59.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m43s186.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m55s26.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m23s66.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m17s58.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m17s149.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m31s170.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m59s30.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m11s140.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m29s166.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m9s47.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m59s211.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m43s188.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h1m1s213.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m11s138.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m35s85.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m51s18.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m47s192.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m3s37.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m23s67.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m57s209.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m57s28.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m53s201.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m33s81.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m45s99.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m23s156.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m51s109.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m35s86.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m39s182.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m47s104.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m23s157.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m29s77.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m57s208.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m41s93.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m53s23.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m51s108.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m39s1.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m49s16.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m43s98.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m15s55.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m49s17.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h58m47s12.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m9s46.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m17s147.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m41s185.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m27s74.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-0h59m19s62.txt
+Sun Feb 15 01:45:00 2026: Deleting file at: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/temp/temp_2026Y2M15D-1h0m7s133.txt
+Sun Feb 15 01:45:00 2026: Killing object - UserInput

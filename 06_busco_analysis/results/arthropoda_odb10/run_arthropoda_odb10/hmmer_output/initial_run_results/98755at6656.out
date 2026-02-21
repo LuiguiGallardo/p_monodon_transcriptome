@@ -1,0 +1,19 @@
+#                                                                                                                        --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                    accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                            ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+98755at6656_7004_0:0046b4|TRINITY_DN89399_c3_g2_i10:2347-3360|-  -            338 98755at6656          -            204  3.2e-102  339.5   9.2   1   1  3.2e-104  5.4e-101  335.5   9.2     1   204    31   260    31   260 0.92 -
+98755at6656_7004_0:0046b4|TRINITY_DN89399_c3_g2_i2:2347-3360|-   -            338 98755at6656          -            204  3.2e-102  339.5   9.2   1   1  3.2e-104  5.4e-101  335.5   9.2     1   204    31   260    31   260 0.92 -
+98755at6656_294128_0:003776|TRINITY_DN89399_c3_g2_i8:2566-3963|- -            466 98755at6656          -            204  6.2e-102  338.6   8.8   1   1  5.9e-104    1e-100  334.6   8.8     1   204   232   461   232   461 0.92 -
+98755at6656_294128_0:003776|TRINITY_DN89399_c3_g2_i9:2566-3915|- -            450 98755at6656          -            204  6.3e-102  338.5   9.0   1   1  6.2e-104  1.1e-100  334.5   9.0     1   204   216   445   216   445 0.92 -
+57932at6656_6850_0:001e60|TRINITY_DN80080_c9_g1_i2:192-1475|+    -            428 98755at6656          -            204   0.00087   18.1   1.5   1   1   8.7e-07    0.0015   17.3   1.5    86   200   164   282   158   285 0.84 -
+57932at6656_6850_0:001e60|TRINITY_DN80080_c9_g1_i4:277-1560|+    -            428 98755at6656          -            204   0.00087   18.1   1.5   1   1   8.7e-07    0.0015   17.3   1.5    86   200   164   282   158   285 0.84 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_downloads/lineages/arthropoda_odb10/hmms/98755at6656.hmm
+# Target file:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon/run_arthropoda_odb10/metaeuk_output/initial_results/Trinity.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon/run_arthropoda_odb10/hmmer_output/initial_run_results/98755at6656.out --cpu 1 /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_downloads/lineages/arthropoda_odb10/hmms/98755at6656.hmm /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon/run_arthropoda_odb10/metaeuk_output/initial_results/Trinity.fasta.modified.fas 
+# Current dir:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis
+# Date:            Tue Feb 17 14:44:59 2026
+# [ok]

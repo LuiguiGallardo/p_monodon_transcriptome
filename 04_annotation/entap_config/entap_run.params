@@ -1,0 +1,24 @@
+# EnTAP Run Parameters
+
+# Input transcriptome (protein sequences)
+input=/a1/luigui/2026/01_p_monodon_annot/04_annotation/Trinity_longest_isoform.fasta.transdecoder.pep
+
+# Reference databases for similarity search
+database=/a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_databases/uniprot_sprot.dmnd
+
+# Number of threads (adjust based on your system)
+threads=32
+
+# Output directory
+out-dir=/a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output
+
+# Taxonomic scope (optional - specify your organism's taxonomy)
+# For Penaeus monodon (black tiger shrimp): taxon=6687
+# Note: taxon 6687 not found in EnTAP database, running without taxonomic filtering
+# taxon=6687
+
+# Contaminant detection (optional)
+# contam=fungi,bacteria
+
+# Skip ontology annotation (EggNOG) since database is unavailable
+# Leave ontology_source unset to skip all ontology sources

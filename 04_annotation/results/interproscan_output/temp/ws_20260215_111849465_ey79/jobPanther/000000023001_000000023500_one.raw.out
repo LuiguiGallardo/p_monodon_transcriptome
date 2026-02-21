@@ -1,0 +1,2 @@
+query_id	panther_id	score	evalue	dom_score	dom_evalue	hmm_start	hmm_end	ali_start	ali_end	env_start	env_end	node_id
+23443	PTHR11707:SF28	565.9	1.3e-166	553.3	8.7e-163	8	405	48	507	45	507	AN59

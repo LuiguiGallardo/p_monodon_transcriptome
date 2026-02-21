@@ -1,0 +1,38 @@
+================================================================================
+TRANSCRIPTOME ANNOTATION SUMMARY REPORT
+================================================================================
+
+OVERVIEW:
+  Total proteins analyzed: 28,423
+  Output directory: annotation_graphics
+
+ANNOTATION STATISTICS:
+  Proteins with BLAST hits: 5,138 (18.1%)
+  Proteins with eggNOG annotations: 9,313 (32.8%)
+  Proteins with KEGG KO: 6,898 (24.3%)
+  Proteins with KEGG Pathways: ~4,200 (14.8%)
+  Proteins with GO Terms: 7,372 (25.9%)
+  Proteins with InterProScan: 13,361 (47.0%)
+  Proteins with ANY annotation: 15,966 (56.2%)
+
+INTERPROSCAN DATABASES:
+  MobiDBLite          : 12,351 ( 43.5%)
+  Coils               :  4,917 ( 17.3%)
+  SMART               :     79 (  0.3%)
+  CDD                 :     66 (  0.2%)
+  SUPERFAMILY         :     49 (  0.2%)
+  Pfam                :     47 (  0.2%)
+  PANTHER             :     30 (  0.1%)
+  Gene3D              :      5 (  0.0%)
+  TIGRFAM             :      1 (  0.0%)
+
+================================================================================
+GRAPHICS GENERATED:
+  1. 01_annotation_summary.png - Overview of annotation statistics
+  2. 02_database_comparison.png - Annotation coverage across databases
+  3. 03_kegg_analysis.png - KEGG pathways and KO analysis
+  4. 04_interpro_analysis.png - InterProScan database distribution
+  5. 05_go_terms_analysis.png - Gene Ontology terms analysis
+  6. 06_eggnog_analysis.png - eggNOG annotation features
+  7. 07_annotation_completeness.png - Protein annotation completeness
+================================================================================

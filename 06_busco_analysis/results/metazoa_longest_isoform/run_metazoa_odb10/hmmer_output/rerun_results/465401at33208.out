@@ -1,0 +1,23 @@
+#                                                                                                                           --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                       accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                               ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+465401at33208_91411_0:001757|TRINITY_DN85362_c8_g2_i4:128-1450|+    -            198 465401at33208        -            212   5.9e-23   77.2   0.0   1   1   7.1e-25   7.4e-23   76.9   0.0     4   153    35   188    32   197 0.83 -
+465401at33208_51655_0:0020b5|TRINITY_DN88129_c11_g1_i3:1048-1914|-  -            289 465401at33208        -            212   1.3e-15   53.2   0.0   1   1   1.7e-17   1.8e-15   52.7   0.0    29   165    88   236    62   265 0.79 -
+465401at33208_166361_0:002bc3|TRINITY_DN71187_c0_g1_i1:1206-1940|-  -            245 465401at33208        -            212   7.2e-14   47.5   0.9   1   1   1.3e-15   1.4e-13   46.6   0.9    29   168    58   208     1   234 0.79 -
+465401at33208_104452_0:0015c5|TRINITY_DN90466_c14_g1_i4:1950-2918|- -            323 465401at33208        -            212   3.2e-09   32.3   0.7   1   2   2.1e-07   2.2e-05   19.8   0.1    28    75    73   123    53   145 0.84 -
+465401at33208_104452_0:0015c5|TRINITY_DN90466_c14_g1_i4:1950-2918|- -            323 465401at33208        -            212   3.2e-09   32.3   0.7   2   2   0.00012     0.012   10.8   0.0    79   183   194   306   183   318 0.72 -
+465401at33208_79782_0:002749|TRINITY_DN85185_c7_g1_i2:265-864|+     -            200 465401at33208        -            212   3.3e-09   32.3   0.2   1   1   4.7e-11   4.9e-09   31.7   0.2    21   135    53   177    35   195 0.75 -
+465401at33208_32264_0:00268c|TRINITY_DN92825_c10_g2_i1:807-1520|-   -            238 465401at33208        -            212   3.1e-07   25.8   8.7   1   2   2.5e-06   0.00026   16.3   1.0    25    80    73   130    54   142 0.83 -
+465401at33208_32264_0:00268c|TRINITY_DN92825_c10_g2_i1:807-1520|-   -            238 465401at33208        -            212   3.1e-07   25.8   8.7   2   2   1.5e-05    0.0015   13.7   1.6    76   162   147   236   139   238 0.70 -
+465401at33208_40932_0:00532f|TRINITY_DN37144_c0_g1_i1:1-288|+       -             96 465401at33208        -            212   4.4e-05   18.8   0.0   1   1   5.1e-07   5.3e-05   18.5   0.0    25    67    52    96    31    96 0.73 -
+465401at33208_6198_0:000d0f|TRINITY_DN89836_c8_g1_i1:447-1178|-     -            244 465401at33208        -            212   0.00025   16.3   0.8   1   1   0.00011     0.012   10.8   0.8    41    79    59    97    20   175 0.85 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/downloads/lineages/metazoa_odb10/hmms/465401at33208.hmm
+# Target file:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/results/metazoa_longest_isoform/run_metazoa_odb10/metaeuk_output/rerun_results/Trinity_longest_isoform.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/results/metazoa_longest_isoform/run_metazoa_odb10/hmmer_output/rerun_results/465401at33208.out --cpu 1 /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/downloads/lineages/metazoa_odb10/hmms/465401at33208.hmm /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/results/metazoa_longest_isoform/run_metazoa_odb10/metaeuk_output/rerun_results/Trinity_longest_isoform.fasta.modified.fas 
+# Current dir:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/scripts
+# Date:            Tue Feb 17 19:35:20 2026
+# [ok]

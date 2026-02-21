@@ -1,0 +1,3 @@
+query_id	panther_id	score	evalue	dom_score	dom_evalue	hmm_start	hmm_end	ali_start	ali_end	env_start	env_end	node_id
+25296	PTHR23076:SF97	223.2	2.5e-62	215.9	4.2e-60	218	480	28	312	5	383	AN0
+25147	PTHR23076:SF97	148.8	8.2e-40	145.6	7.6e-39	282	474	14	235	9	252	AN0

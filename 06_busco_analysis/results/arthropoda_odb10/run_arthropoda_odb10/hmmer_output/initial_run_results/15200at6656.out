@@ -1,0 +1,32 @@
+#                                                                                                                        --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                    accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                            ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+15200at6656_294128_0:001dd5|TRINITY_DN91867_c8_g6_i1:2699-4447|- -            583 15200at6656          -            874  6.3e-264  877.4  17.9   1   2  3.9e-231  3.7e-228  759.0  10.5   370   795     1   468     1   484 0.93 -
+15200at6656_294128_0:001dd5|TRINITY_DN91867_c8_g6_i1:2699-4447|- -            583 15200at6656          -            874  6.3e-264  877.4  17.9   2   2   5.5e-39   5.1e-36  123.3   0.8   788   874   484   583   480   583 0.90 -
+15200at6656_7539_0:0030ef|TRINITY_DN91867_c8_g1_i11:576-2030|+   -            485 15200at6656          -            874  4.1e-175  583.5  23.4   1   2  4.7e-124  4.4e-121  404.8  13.9     1   286     3   363     3   367 0.85 -
+15200at6656_7539_0:0030ef|TRINITY_DN91867_c8_g1_i11:576-2030|+   -            485 15200at6656          -            874  4.1e-175  583.5  23.4   2   2   4.8e-55   4.5e-52  176.4   1.9   287   376   396   485   393   485 0.99 -
+15200at6656_7539_0:0030ef|TRINITY_DN91867_c8_g1_i12:576-2658|+   -            485 15200at6656          -            874  4.1e-175  583.5  23.4   1   2  4.7e-124  4.4e-121  404.8  13.9     1   286     3   363     3   367 0.85 -
+15200at6656_7539_0:0030ef|TRINITY_DN91867_c8_g1_i12:576-2658|+   -            485 15200at6656          -            874  4.1e-175  583.5  23.4   2   2   4.8e-55   4.5e-52  176.4   1.9   287   376   396   485   393   485 0.99 -
+15200at6656_7539_0:0030ef|TRINITY_DN91867_c8_g1_i13:576-2367|+   -            485 15200at6656          -            874  4.1e-175  583.5  23.4   1   2  4.7e-124  4.4e-121  404.8  13.9     1   286     3   363     3   367 0.85 -
+15200at6656_7539_0:0030ef|TRINITY_DN91867_c8_g1_i13:576-2367|+   -            485 15200at6656          -            874  4.1e-175  583.5  23.4   2   2   4.8e-55   4.5e-52  176.4   1.9   287   376   396   485   393   485 0.99 -
+15200at6656_7539_0:0030ef|TRINITY_DN91867_c8_g1_i1:230-1684|+    -            485 15200at6656          -            874  4.1e-175  583.5  23.4   1   2  4.7e-124  4.4e-121  404.8  13.9     1   286     3   363     3   367 0.85 -
+15200at6656_7539_0:0030ef|TRINITY_DN91867_c8_g1_i1:230-1684|+    -            485 15200at6656          -            874  4.1e-175  583.5  23.4   2   2   4.8e-55   4.5e-52  176.4   1.9   287   376   396   485   393   485 0.99 -
+15200at6656_7539_0:0030ef|TRINITY_DN91867_c8_g1_i4:206-1997|+    -            485 15200at6656          -            874  4.1e-175  583.5  23.4   1   2  4.7e-124  4.4e-121  404.8  13.9     1   286     3   363     3   367 0.85 -
+15200at6656_7539_0:0030ef|TRINITY_DN91867_c8_g1_i4:206-1997|+    -            485 15200at6656          -            874  4.1e-175  583.5  23.4   2   2   4.8e-55   4.5e-52  176.4   1.9   287   376   396   485   393   485 0.99 -
+15200at6656_7539_0:0030ef|TRINITY_DN91867_c8_g1_i8:230-2021|+    -            485 15200at6656          -            874  4.1e-175  583.5  23.4   1   2  4.7e-124  4.4e-121  404.8  13.9     1   286     3   363     3   367 0.85 -
+15200at6656_7539_0:0030ef|TRINITY_DN91867_c8_g1_i8:230-2021|+    -            485 15200at6656          -            874  4.1e-175  583.5  23.4   2   2   4.8e-55   4.5e-52  176.4   1.9   287   376   396   485   393   485 0.99 -
+15200at6656_7539_0:0030ef|TRINITY_DN91867_c8_g1_i9:230-2312|+    -            485 15200at6656          -            874  4.1e-175  583.5  23.4   1   2  4.7e-124  4.4e-121  404.8  13.9     1   286     3   363     3   367 0.85 -
+15200at6656_7539_0:0030ef|TRINITY_DN91867_c8_g1_i9:230-2312|+    -            485 15200at6656          -            874  4.1e-175  583.5  23.4   2   2   4.8e-55   4.5e-52  176.4   1.9   287   376   396   485   393   485 0.99 -
+15200at6656_121845_0:0031db|TRINITY_DN91867_c8_g1_i2:582-1298|+  -            239 15200at6656          -            874   6.5e-98  328.1   7.2   1   1  7.8e-101   7.3e-98  327.9   7.2     1   205     1   234     1   239 0.90 -
+15200at6656_121845_0:0031db|TRINITY_DN91867_c8_g1_i3:212-928|+   -            239 15200at6656          -            874   6.5e-98  328.1   7.2   1   1  7.8e-101   7.3e-98  327.9   7.2     1   205     1   234     1   239 0.90 -
+15200at6656_121845_0:0031db|TRINITY_DN91867_c8_g1_i6:236-952|+   -            239 15200at6656          -            874   6.5e-98  328.1   7.2   1   1  7.8e-101   7.3e-98  327.9   7.2     1   205     1   234     1   239 0.90 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_downloads/lineages/arthropoda_odb10/hmms/15200at6656.hmm
+# Target file:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon/run_arthropoda_odb10/metaeuk_output/initial_results/Trinity.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon/run_arthropoda_odb10/hmmer_output/initial_run_results/15200at6656.out --cpu 1 /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_downloads/lineages/arthropoda_odb10/hmms/15200at6656.hmm /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon/run_arthropoda_odb10/metaeuk_output/initial_results/Trinity.fasta.modified.fas 
+# Current dir:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis
+# Date:            Tue Feb 17 14:44:47 2026
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name            accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----  -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+20733                -            755 PTHR23076.orig.30.pir -            683   1.3e-78  277.1   0.0   1   2   1.3e-45   4.4e-38  143.1   0.0   164   474   134   463     2   470 0.68 -
+20733                -            755 PTHR23076.orig.30.pir -            683   1.3e-78  277.1   0.0   2   2     3e-42   9.9e-35  132.0   0.0   234   481   478   730   466   747 0.86 -
+20643                -            197 PTHR23076.orig.30.pir -            683     1e-28  112.1   0.0   1   1   3.9e-36   1.3e-28  111.8   0.0   341   462    19   167     8   194 0.85 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      data/panther/17.0/famhmm/binHmm
+# Target file:     /a1/luigui/2026/01_p_monodon_annot/04_annotation/interproscan_output/temp/ws_20260215_111849465_ey79//jobPanther/000000020501_000000021000.fasta
+# Option settings: hmmsearch -o /a1/luigui/2026/01_p_monodon_annot/04_annotation/interproscan_output/temp/ws_20260215_111849465_ey79//jobPanther/000000020501_000000021000.raw.out --domtblout /a1/luigui/2026/01_p_monodon_annot/04_annotation/interproscan_output/temp/ws_20260215_111849465_ey79//jobPanther/000000020501_000000021000.raw.domtblout.out --notextw -E 0.001 --domE 0.00000001 --incdomE 0.00000001 -Z 65000000 --cpu 1 data/panther/17.0/famhmm/binHmm /a1/luigui/2026/01_p_monodon_annot/04_annotation/interproscan_output/temp/ws_20260215_111849465_ey79//jobPanther/000000020501_000000021000.fasta 
+# Current dir:     /home/luigui/miniforge3/envs/entap/share/InterProScan
+# Date:            Sun Feb 15 11:19:28 2026
+# [ok]

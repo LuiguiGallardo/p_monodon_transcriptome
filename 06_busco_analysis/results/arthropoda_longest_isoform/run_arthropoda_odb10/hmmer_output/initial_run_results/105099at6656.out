@@ -1,0 +1,18 @@
+#                                                                                                                        --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                    accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                            ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+105099at6656_294128_0:00177d|TRINITY_DN91408_c5_g2_i5:108-1346|+ -            413 105099at6656         -            270   2.4e-74  247.7   9.7   1   4   7.2e-67   1.1e-63  212.8   0.1     2   170    12   197    11   210 0.88 -
+105099at6656_294128_0:00177d|TRINITY_DN91408_c5_g2_i5:108-1346|+ -            413 105099at6656         -            270   2.4e-74  247.7   9.7   2   4   3.7e-13   5.6e-10   36.6   0.0   155   227   218   298   215   306 0.78 -
+105099at6656_294128_0:00177d|TRINITY_DN91408_c5_g2_i5:108-1346|+ -            413 105099at6656         -            270   2.4e-74  247.7   9.7   3   4     0.046        70    0.3   0.1   218   257   309   348   300   360 0.71 -
+105099at6656_294128_0:00177d|TRINITY_DN91408_c5_g2_i5:108-1346|+ -            413 105099at6656         -            270   2.4e-74  247.7   9.7   4   4     0.038        57    0.5   2.8   221   261   345   387   332   400 0.68 -
+105099at6656_74869_0:002849|TRINITY_DN81320_c7_g1_i2:699-1196|+  -            166 105099at6656         -            270   8.9e-05   19.6   0.5   1   1   1.4e-07   0.00021   18.4   0.5    34   136     1   109     1   164 0.65 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/downloads/lineages/arthropoda_odb10/hmms/105099at6656.hmm
+# Target file:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/results/arthropoda_longest_isoform/run_arthropoda_odb10/metaeuk_output/initial_results/Trinity_longest_isoform.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/results/arthropoda_longest_isoform/run_arthropoda_odb10/hmmer_output/initial_run_results/105099at6656.out --cpu 1 /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/downloads/lineages/arthropoda_odb10/hmms/105099at6656.hmm /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/results/arthropoda_longest_isoform/run_arthropoda_odb10/metaeuk_output/initial_results/Trinity_longest_isoform.fasta.modified.fas 
+# Current dir:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/scripts
+# Date:            Tue Feb 17 19:24:07 2026
+# [ok]

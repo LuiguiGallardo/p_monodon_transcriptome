@@ -1,0 +1,71 @@
+{
+    "parameters": {
+        "out_path": "/home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output",
+        "cpu": "24",
+        "force": "True",
+        "restart": "False",
+        "quiet": "False",
+        "download_path": "/home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_downloads",
+        "datasets_version": "odb10",
+        "offline": "False",
+        "download_base_url": "https://busco-data.ezlab.org/v5/data/",
+        "auto-lineage": "False",
+        "auto-lineage-prok": "False",
+        "auto-lineage-euk": "False",
+        "use_augustus": "False",
+        "use_miniprot": "False",
+        "use_metaeuk": "False",
+        "skip_bbtools": "False",
+        "batch_mode": "False",
+        "tar": "False",
+        "opt-out-run-stats": "False",
+        "in": "/home/luigui/Documents/2026/p_monodon_transcriptome/05_multiple_group_clustering/Trinity.fasta",
+        "out": "busco_p_monodon",
+        "mode": "euk_tran",
+        "lineage_dataset": "/home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_downloads/lineages/arthropoda_odb10",
+        "main_out": "/home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon",
+        "lineage_results_dir": "run_arthropoda_odb10",
+        "domain": "eukaryota",
+        "max_intron": "130000",
+        "max_seq_len": "160000",
+        "orthodb_version": "10.1",
+        "metaeuk_parameters": "",
+        "metaeuk_rerun_parameters": ""
+    },
+    "lineage_dataset": {
+        "name": "arthropoda_odb10",
+        "creation_date": "2024-01-08",
+        "number_of_buscos": "1013",
+        "number_of_species": "90"
+    },
+    "versions": {
+        "hmmsearch": 3.4,
+        "metaeuk": "7.bba0d80",
+        "python": [
+            3,
+            12,
+            12,
+            "final",
+            0
+        ],
+        "busco": "5.7.1"
+    },
+    "results": {
+        "one_line_summary": "C:89.4%[S:33.9%,D:55.5%],F:5.2%,M:5.4%,n:1013",
+        "Complete percentage": 89.4,
+        "Complete BUSCOs": 905,
+        "Single copy percentage": 33.9,
+        "Single copy BUSCOs": 343,
+        "Multi copy percentage": 55.5,
+        "Multi copy BUSCOs": 562,
+        "Fragmented percentage": 5.2,
+        "Fragmented BUSCOs": 53,
+        "Missing percentage": 5.4,
+        "Missing BUSCOs": 55,
+        "n_markers": 1013,
+        "avg_identity": null,
+        "domain": "eukaryota",
+        "internal_stop_codon_count": 0,
+        "internal_stop_codon_percent": 0
+    }
+}

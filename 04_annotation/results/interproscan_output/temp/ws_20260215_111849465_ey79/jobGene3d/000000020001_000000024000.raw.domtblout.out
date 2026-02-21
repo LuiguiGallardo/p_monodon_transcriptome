@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+23443                -            636 1o7jA01-i1           -            218   2.6e-43  149.9   0.0   1   1   1.2e-46     8e-42  145.0   0.0     5   188    51   254    48   277 0.76 -
+23443                -            636 1o7jA02-i2           -            109   1.1e-21   78.8   0.0   1   1   4.1e-26   2.7e-21   77.6   0.0     2   106   284   399   283   401 0.87 -
+20259                -            127 1udkA00-i1           -             51   7.8e-06   27.5   7.2   1   1   4.2e-10   1.4e-05   26.7   7.2     2    40    73   109    72   121 0.88 -
+21222                -            127 1udkA00-i1           -             51   0.00044   21.9  12.5   1   2      0.53   1.7e+04   -2.4   2.3    20    49    17    24    11    36 0.59 -
+21222                -            127 1udkA00-i1           -             51   0.00044   21.9  12.5   2   2   1.3e-08   0.00044   21.9  12.5     4    47    44    89    42    92 0.88 -
+23443                -            636 2wltA02-i1           -            112   2.9e-11   45.3   0.0   1   1   1.1e-15     7e-11   44.1   0.0     2   101   284   389   283   400 0.85 -
+20259                -            127 2z7fI00-i1           -             50   2.8e-05   25.9   7.2   1   1   1.4e-09   4.7e-05   25.2   7.2     2    39    73   109    72   122 0.81 -
+21222                -            127 2z7fI00-i1           -             50   7.4e-05   24.6  12.8   1   2      0.67   2.2e+04   -2.5   2.6    47    47    24    24    12    38 0.58 -
+21222                -            127 2z7fI00-i1           -             50   7.4e-05   24.6  12.8   2   2   2.3e-09   7.4e-05   24.6  12.8     4    41    44    83    43    92 0.83 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      data/gene3d/4.3.0/gene3d_main.hmm
+# Target file:     /a1/luigui/2026/01_p_monodon_annot/04_annotation/interproscan_output/temp/ws_20260215_111849465_ey79//jobGene3d/000000020001_000000024000.fasta
+# Option settings: hmmsearch -o /a1/luigui/2026/01_p_monodon_annot/04_annotation/interproscan_output/temp/ws_20260215_111849465_ey79//jobGene3d/000000020001_000000024000.raw.out --domtblout /a1/luigui/2026/01_p_monodon_annot/04_annotation/interproscan_output/temp/ws_20260215_111849465_ey79//jobGene3d/000000020001_000000024000.raw.domtblout.out -E 0.001 -Z 65245 --cpu 1 data/gene3d/4.3.0/gene3d_main.hmm /a1/luigui/2026/01_p_monodon_annot/04_annotation/interproscan_output/temp/ws_20260215_111849465_ey79//jobGene3d/000000020001_000000024000.fasta 
+# Current dir:     /home/luigui/miniforge3/envs/entap/share/InterProScan
+# Date:            Sun Feb 15 11:19:59 2026
+# [ok]

@@ -1,0 +1,108 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  data/panther/17.0/famhmm/binHmm
+# target sequence database:        /a1/luigui/2026/01_p_monodon_annot/04_annotation/interproscan_output/temp/ws_20260215_111849465_ey79//jobPanther/000000018001_000000018500.fasta
+# output directed to file:         /a1/luigui/2026/01_p_monodon_annot/04_annotation/interproscan_output/temp/ws_20260215_111849465_ey79//jobPanther/000000018001_000000018500.raw.out
+# per-dom hits tabular output:     /a1/luigui/2026/01_p_monodon_annot/04_annotation/interproscan_output/temp/ws_20260215_111849465_ey79//jobPanther/000000018001_000000018500.raw.domtblout.out
+# max ASCII text line length:      unlimited
+# sequence reporting threshold:    E-value <= 0.001
+# domain reporting threshold:      E-value <= 1e-08
+# domain inclusion threshold:      E-value <= 1e-08
+# sequence search space set to:    65000000
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PTHR23076.orig.30.pir  [M=683]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    2.3e-61  220.0   0.0    1.4e-60  217.5   0.0    2.0  1  18440     
+
+
+Domain annotation for each sequence (and alignments):
+>> 18440  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  217.5   0.0   2.1e-68   1.4e-60     241     462 ..     864    1101 ..     853    1176 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 217.5 bits;  conditional E-value: 2.1e-68
+  PTHR23076.orig.30.pir  241 vagvdeakeeleeiVefLk.npekftrlgaklpkGVLLvGpPGtGKTlLAkaiagEagvpffslsgseFeemfVGvgasrvrdLFkaAkknaPciiFiDEiDavggsRgtgkdqqereqtlnQLLvemDGFeqnegviviaATnrpeiLDpALlRpGRFDrqvrvplPdvegreeIlkvhakkkklekdvdlseiarrtpGfsgAdlanlvneaallaarrg................a 462 
+                             v g+++ak+ lee  +     p  f++++ +l+ GVLL+GpPG+GKTlLA a+ ++   +f+s++g e+ ++++G +++ vrd F++A   +Pc+ F DE+ +++ +Rg    +  ++   nQLL++mDG e+ +gv ++aAT rp+ +DpALlRpGR+D+ v+ p P+ e r+eIl+v ++++ + +++d+se+a+ t  fsgAdl+ +++ a +  a +                 +
+                  18440  864 VGGMKDAKKILEETLTWPSlYPNLFSKVNLRLRSGVLLYGPPGCGKTLLANAVSAHCQLNFISVKGPELLSKYIGASEQAVRDAFERASSAKPCVLFFDEFESIAPRRGHDS-TGVTDRVVNQLLTQMDGVEGLTGVYILAATSRPDLIDPALLRPGRLDKCVYCPMPSEEDRKEILEVLSQDVDFGEEIDWSEVASLTESFSGADLQSILSTAQVAVAQEAfgddlykgvippaneeR 1101
+                             89***********99999978************************************************************************************9995554.578999**********************************************************************************************97744433355555555555554442 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (683 nodes)
+Target sequences:                        500  (131381 residues searched)
+Passed MSV filter:                        91  (0.182); expected 10.0 (0.02)
+Passed bias filter:                       54  (0.108); expected 10.0 (0.02)
+Passed Vit filter:                        21  (0.042); expected 0.5 (0.001)
+Passed Fwd filter:                         3  (0.006); expected 0.0 (1e-05)
+Initial search space (Z):           65000000  [as set by --Z on cmdline]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.07
+# Mc/sec: 1207.44
+//
+Query:       PTHR11707.orig.30.pir  [M=405]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (405 nodes)
+Target sequences:                        500  (131381 residues searched)
+Passed MSV filter:                        10  (0.02); expected 10.0 (0.02)
+Passed bias filter:                        4  (0.008); expected 10.0 (0.02)
+Passed Vit filter:                         1  (0.002); expected 0.5 (0.001)
+Passed Fwd filter:                         1  (0.002); expected 0.0 (1e-05)
+Initial search space (Z):           65000000  [as set by --Z on cmdline]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 7925.27
+//
+Query:       PTHR11589.orig.30.pir  [M=246]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (246 nodes)
+Target sequences:                        500  (131381 residues searched)
+Passed MSV filter:                        86  (0.172); expected 10.0 (0.02)
+Passed bias filter:                       38  (0.076); expected 10.0 (0.02)
+Passed Vit filter:                         5  (0.01); expected 0.5 (0.001)
+Passed Fwd filter:                         1  (0.002); expected 0.0 (1e-05)
+Initial search space (Z):           65000000  [as set by --Z on cmdline]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 8796.25
+//
+[ok]

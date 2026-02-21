@@ -1,0 +1,1512 @@
+6003	46	86
+6003	71	86	Proline-rich
+6004	37	67
+6004	50	66	Positive Polyelectrolyte
+6010	1	20
+6010	1	16	Polar
+6011	1	102
+6011	1	24	Polyampholyte
+6011	25	41	Positive Polyelectrolyte
+6011	42	75	Polyampholyte
+6011	76	102	Polar
+6013	1	25
+6015	223	247
+6016	1	67
+6016	1	46	Polyampholyte
+6017	1	271
+6017	1	17	Polar
+6017	35	119	Polyampholyte
+6017	120	135	Polar
+6017	153	181	Polar
+6017	213	237	Polar
+6017	243	260	Negative Polyelectrolyte
+6018	255	317
+6018	268	284	Polyampholyte
+6019	1	122
+6019	1	17	Positive Polyelectrolyte
+6019	18	61	Polyampholyte
+6019	83	97	Polar
+6019	107	122	Polar
+6020	1	54
+6020	1	15	Positive Polyelectrolyte
+6021	1	65
+6021	1	63	Polyampholyte
+6021	138	162
+6021	144	158	Polyampholyte
+6021	192	244
+6021	197	244	Polyampholyte
+6023	1	82
+6023	24	41	Polyampholyte
+6023	48	66	Polyampholyte
+6023	149	228
+6023	156	181	Polar
+6023	187	202	Polyampholyte
+6024	1	38
+6025	641	664
+6030	278	405
+6030	278	306	Polar
+6030	324	338	Polyampholyte
+6030	339	390	Polar
+6035	20	117
+6035	30	56	Negative Polyelectrolyte
+6035	73	87	Polyampholyte
+6035	98	117	Polyampholyte
+6038	389	514
+6038	389	409	Polar
+6038	457	514	Polar
+6038	570	590
+6038	576	590	Polar
+6038	609	630
+6038	652	719
+6038	697	719	Polar
+6038	778	823
+6038	780	808	Polar
+6040	1	73
+6040	1	61	Polyampholyte
+6042	1	92
+6042	13	27	Positive Polyelectrolyte
+6042	28	44	Polyampholyte
+6042	45	61	Polar
+6042	213	287
+6042	257	287	Polar
+6042	315	473
+6042	315	386	Polyampholyte
+6042	430	453	Polyampholyte
+6047	704	772
+6047	704	720	Polyampholyte
+6047	727	762	Polyampholyte
+6047	827	858
+6047	827	857	Polyampholyte
+6047	980	1090
+6047	996	1017	Polyampholyte
+6047	1029	1090	Polyampholyte
+6048	488	509
+6048	491	508	Positive Polyelectrolyte
+6049	1	32
+6051	1	20
+6051	631	652
+6054	978	1003
+6054	984	1003	Positive Polyelectrolyte
+6056	1	27
+6056	75	107
+6056	77	107	Polyampholyte
+6057	78	110
+6057	81	103	Polar
+6060	22	68
+6060	44	61	Polyampholyte
+6061	1	61
+6061	31	45	Positive Polyelectrolyte
+6061	46	61	Polyampholyte
+6063	264	294
+6063	265	279	Polar
+6065	1	153
+6065	42	62	Proline-rich
+6065	98	115	Proline-rich
+6065	116	153	Polar
+6066	1	142
+6066	22	47	Polar
+6066	48	62	Polyampholyte
+6066	63	96	Polar
+6066	111	126	Polar
+6066	197	229
+6066	214	229	Polar
+6066	390	418
+6066	393	418	Polyampholyte
+6068	1	113
+6068	15	113	Polyampholyte
+6071	1	24
+6072	1	81
+6072	31	47	Polyampholyte
+6072	54	81	Polar
+6072	220	247
+6072	230	247	Polyampholyte
+6073	27	52
+6073	29	45	Proline-rich
+6073	64	217
+6073	73	134	Proline-rich
+6073	135	160	Polar
+6073	187	201	Proline-rich
+6073	202	217	Polar
+6073	236	438
+6073	240	257	Proline-rich
+6073	271	301	Polar
+6073	323	337	Polar
+6075	1	22
+6075	1	22	Polyampholyte
+6076	1	110
+6076	1	110	Polyampholyte
+6078	1	82
+6078	1	20	Negative Polyelectrolyte
+6078	34	53	Polar
+6078	66	82	Polar
+6078	278	311
+6078	278	292	Polar
+6078	296	311	Polyampholyte
+6081	1	61
+6081	1	18	Positive Polyelectrolyte
+6081	40	61	Polyampholyte
+6083	1	22
+6083	1	22	Polyampholyte
+6085	92	158
+6086	1	104
+6086	1	33	Positive Polyelectrolyte
+6086	41	65	Positive Polyelectrolyte
+6086	80	95	Proline-rich
+6090	1	100
+6090	1	37	Polyampholyte
+6090	38	57	Positive Polyelectrolyte
+6090	58	76	Polyampholyte
+6095	1	99
+6095	1	61	Polyampholyte
+6101	1	100
+6101	7	31	Polyampholyte
+6101	61	100	Polyampholyte
+6108	34	54
+6108	184	216
+6110	6	31
+6110	10	31	Polyampholyte
+6111	1	39
+6111	1	39	Polyampholyte
+6111	77	96
+6111	77	96	Polar
+6116	1	101
+6116	1	19	Polyampholyte
+6116	34	86	Polyampholyte
+6116	87	101	Negative Polyelectrolyte
+6121	33	65
+6122	326	390
+6122	349	370	Polar
+6122	371	390	Polyampholyte
+6124	58	101
+6124	66	101	Positive Polyelectrolyte
+6125	1	133
+6125	1	18	Polyampholyte
+6125	40	60	Positive Polyelectrolyte
+6125	96	117	Proline-rich
+6127	1	109
+6127	1	109	Polyampholyte
+6129	46	68
+6129	46	68	Proline-rich
+6130	108	244
+6130	112	129	Polar
+6130	189	232	Polyampholyte
+6131	69	94
+6133	1	29
+6133	14	28	Positive Polyelectrolyte
+6134	1	73
+6134	1	51	Polar
+6134	251	274
+6134	259	274	Polar
+6135	1	24
+6135	1	24	Polyampholyte
+6136	1	302
+6136	1	55	Polyampholyte
+6136	63	107	Polyampholyte
+6136	129	150	Polyampholyte
+6136	159	238	Polyampholyte
+6136	243	259	Polar
+6136	260	302	Polyampholyte
+6139	1	37
+6139	15	33	Polyampholyte
+6139	276	353
+6139	276	311	Polyampholyte
+6139	331	353	Positive Polyelectrolyte
+6141	1	34
+6141	1	34	Polyampholyte
+6142	1	77
+6142	1	38	Polyampholyte
+6142	39	56	Positive Polyelectrolyte
+6144	80	103
+6144	89	103	Polyampholyte
+6146	1	20
+6146	1	20	Polar
+6147	75	120
+6147	75	120	Polyampholyte
+6148	182	244
+6148	182	202	Polyampholyte
+6148	203	232	Negative Polyelectrolyte
+6148	372	427
+6148	374	400	Polyampholyte
+6150	1	27
+6150	82	101
+6151	10	32
+6151	225	246
+6151	663	696
+6151	663	677	Polar
+6151	678	694	Polyampholyte
+6152	1	21
+6152	70	103
+6154	284	303
+6154	284	303	Polyampholyte
+6154	492	517
+6154	498	517	Polyampholyte
+6154	1275	1300
+6154	1275	1300	Polar
+6154	1594	1617
+6154	1594	1617	Polar
+6156	11	36
+6156	11	31	Polyampholyte
+6156	266	317
+6156	275	306	Negative Polyelectrolyte
+6156	420	539
+6156	511	530	Polar
+6161	1	49
+6161	1	49	Polar
+6161	155	174
+6161	155	174	Polar
+6161	229	354
+6161	229	249	Polar
+6161	279	294	Polar
+6161	311	327	Polar
+6161	335	354	Polyampholyte
+6161	505	527
+6161	548	625
+6161	573	625	Polar
+6161	997	1048
+6161	997	1016	Polar
+6161	1029	1048	Polyampholyte
+6164	51	75
+6164	51	70	Polyampholyte
+6169	1	47
+6169	1	15	Negative Polyelectrolyte
+6174	85	104
+6175	1	31
+6175	43	99
+6175	83	99	Positive Polyelectrolyte
+6177	1	65
+6177	33	53	Polyampholyte
+6179	1	37
+6179	1	37	Polyampholyte
+6181	562	1061
+6181	562	595	Polyampholyte
+6181	623	651	Polar
+6181	674	755	Polyampholyte
+6181	765	851	Polyampholyte
+6181	881	923	Polyampholyte
+6181	924	943	Polar
+6181	944	969	Polyampholyte
+6181	1016	1060	Polar
+6181	1094	1242
+6181	1106	1147	Polar
+6181	1185	1199	Polyampholyte
+6181	1224	1242	Polyampholyte
+6181	1268	1296
+6181	1273	1287	Polyampholyte
+6183	47	112
+6183	49	64	Polyampholyte
+6183	94	112	Positive Polyelectrolyte
+6185	1	265
+6185	24	38	Polar
+6185	83	102	Polar
+6185	118	134	Polar
+6185	136	160	Polyampholyte
+6185	168	182	Polar
+6185	200	216	Polar
+6185	236	254	Polar
+6187	1	64
+6187	1	18	Polar
+6187	38	61	Polar
+6190	94	113
+6193	1	58
+6193	70	274
+6193	122	180	Polar
+6193	203	220	Polar
+6193	237	268	Polar
+6197	1	34
+6198	24	102
+6198	45	66	Polyampholyte
+6199	1	112
+6199	1	18	Positive Polyelectrolyte
+6199	19	60	Polyampholyte
+6199	67	112	Polyampholyte
+6201	266	289
+6208	1	107
+6208	14	28	Polar
+6208	38	56	Polar
+6208	57	107	Polyampholyte
+6209	258	418
+6209	258	351	Polar
+6209	360	375	Polar
+6209	376	392	Polyampholyte
+6209	393	411	Polar
+6210	84	103
+6210	84	103	Polyampholyte
+6211	24	44
+6211	24	44	Polar
+6214	1	45
+6214	14	40	Positive Polyelectrolyte
+6215	21	49
+6215	21	37	Proline-rich
+6217	76	176
+6217	76	176	Polyampholyte
+6224	1	101
+6224	22	77	Polyampholyte
+6224	87	101	Polyampholyte
+6228	1	45
+6228	1	26	Polyampholyte
+6228	242	326
+6228	242	262	Polyampholyte
+6228	279	293	Polyampholyte
+6228	294	326	Negative Polyelectrolyte
+6229	1	85
+6229	30	46	Positive Polyelectrolyte
+6229	65	81	Polar
+6231	1	49
+6231	1	49	Polyampholyte
+6232	1	20
+6232	1	18	Polyampholyte
+6232	56	83
+6232	61	83	Polyampholyte
+6236	236	258
+6236	236	258	Polyampholyte
+6238	364	434
+6238	382	415	Negative Polyelectrolyte
+6238	416	434	Polyampholyte
+6239	183	222
+6239	183	222	Polyampholyte
+6239	324	620
+6239	340	355	Polyampholyte
+6239	365	380	Proline-rich
+6239	389	404	Proline-rich
+6239	444	458	Polar
+6239	471	603	Polar
+6240	1	48
+6240	1	41	Polyampholyte
+6241	387	457
+6241	387	410	Polar
+6244	326	597
+6244	403	419	Negative Polyelectrolyte
+6244	524	541	Polar
+6244	577	597	Polar
+6244	674	695
+6244	794	1140
+6244	810	842	Proline-rich
+6244	913	929	Polar
+6244	960	979	Polar
+6244	993	1008	Polar
+6244	1022	1038	Polar
+6244	1052	1140	Polar
+6245	27	91
+6245	27	51	Polyampholyte
+6245	67	88	Polyampholyte
+6247	1	32
+6247	1	32	Polyampholyte
+6247	46	103
+6247	46	95	Polyampholyte
+6249	47	122
+6249	47	62	Polar
+6249	73	87	Polyampholyte
+6249	95	112	Polyampholyte
+6251	1	50
+6251	1	50	Polyampholyte
+6256	1	46
+6256	1	20	Positive Polyelectrolyte
+6256	21	46	Polyampholyte
+6257	43	221
+6257	59	172	Polar
+6257	176	191	Positive Polyelectrolyte
+6259	401	431
+6259	413	431	Polyampholyte
+6261	11	109
+6261	36	50	Polar
+6261	67	109	Polar
+6263	593	633
+6267	1	63
+6267	1	45	Polyampholyte
+6268	1	28
+6268	9	25	Proline-rich
+6269	31	106
+6269	39	106	Polyampholyte
+6270	1	97
+6270	1	62	Polyampholyte
+6272	1	76
+6272	1	76	Polyampholyte
+6273	68	91
+6273	69	91	Polar
+6275	60	94
+6275	60	94	Polar
+6277	489	639
+6277	516	566	Negative Polyelectrolyte
+6277	567	586	Polyampholyte
+6277	587	611	Negative Polyelectrolyte
+6277	618	639	Negative Polyelectrolyte
+6278	271	312
+6278	271	298	Polar
+6278	928	948
+6278	931	945	Polar
+6280	1	178
+6280	1	29	Polyampholyte
+6280	45	83	Polyampholyte
+6280	84	119	Polar
+6280	120	135	Polyampholyte
+6280	137	156	Polar
+6280	157	171	Polyampholyte
+6281	1	129
+6281	1	28	Polar
+6281	29	53	Polyampholyte
+6281	54	68	Positive Polyelectrolyte
+6284	1	111
+6284	1	15	Polyampholyte
+6285	1	73
+6285	12	51	Polyampholyte
+6287	1	119
+6287	1	119	Polyampholyte
+6290	1	35
+6291	53	81
+6293	1	122
+6293	9	27	Polar
+6293	62	78	Polar
+6295	85	125
+6295	88	125	Polar
+6299	85	104
+6300	1	113
+6300	1	17	Positive Polyelectrolyte
+6300	18	39	Polyampholyte
+6300	48	69	Polyampholyte
+6300	70	96	Positive Polyelectrolyte
+6300	97	113	Polyampholyte
+6301	177	216
+6301	177	216	Polyampholyte
+6304	457	505
+6304	463	485	Polyampholyte
+6305	141	274
+6305	141	173	Polyampholyte
+6305	174	190	Polar
+6305	191	208	Polyampholyte
+6305	223	265	Polar
+6305	367	403
+6305	376	390	Proline-rich
+6306	1	37
+6306	9	29	Polyampholyte
+6307	1	110
+6307	18	72	Polyampholyte
+6310	30	60
+6315	384	430
+6315	387	408	Polar
+6315	467	497
+6315	482	497	Polar
+6315	861	890
+6316	14	79
+6316	26	47	Polyampholyte
+6317	1	84
+6317	1	54	Proline-rich
+6317	65	84	Polyampholyte
+6317	124	147
+6317	131	147	Negative Polyelectrolyte
+6319	11	107
+6319	11	73	Polyampholyte
+6323	1	107
+6323	1	52	Polar
+6323	61	80	Polyampholyte
+6324	18	106
+6324	35	66	Positive Polyelectrolyte
+6324	67	92	Polyampholyte
+6326	1	29
+6328	1	102
+6328	29	44	Polyampholyte
+6328	55	71	Polyampholyte
+6328	78	102	Polyampholyte
+6330	40	111
+6330	40	78	Polyampholyte
+6330	85	105	Polyampholyte
+6332	1	93
+6332	54	93	Polyampholyte
+6332	199	220
+6332	199	220	Polyampholyte
+6332	248	466
+6332	248	293	Polyampholyte
+6332	312	386	Polyampholyte
+6332	387	466	Positive Polyelectrolyte
+6334	1	119
+6334	1	34	Polar
+6334	59	79	Polyampholyte
+6335	1	58
+6335	21	51	Polyampholyte
+6337	1	249
+6337	1	27	Polyampholyte
+6337	42	69	Polyampholyte
+6337	81	95	Polar
+6337	114	129	Polar
+6337	150	164	Polyampholyte
+6337	165	186	Polar
+6337	222	243	Polar
+6337	266	318
+6337	266	304	Polyampholyte
+6339	1	44
+6339	1	44	Polyampholyte
+6343	113	231
+6343	129	143	Polyampholyte
+6343	144	159	Polar
+6343	164	194	Polyampholyte
+6343	195	209	Polar
+6343	210	224	Polyampholyte
+6347	108	127
+6347	160	217
+6347	164	180	Polar
+6347	182	196	Polyampholyte
+6347	197	211	Negative Polyelectrolyte
+6347	260	282
+6351	1	66
+6351	7	28	Polyampholyte
+6351	29	55	Positive Polyelectrolyte
+6356	1	53
+6357	301	417
+6357	301	317	Polyampholyte
+6357	336	350	Polyampholyte
+6357	356	372	Polar
+6357	383	400	Polyampholyte
+6362	27	46
+6362	72	108
+6362	77	92	Polar
+6363	1	26
+6364	1	123
+6364	7	21	Polyampholyte
+6364	43	90	Polar
+6365	1	27
+6365	1	19	Polyampholyte
+6367	1	41
+6367	7	39	Polyampholyte
+6368	1	63
+6368	1	18	Polyampholyte
+6368	31	56	Polyampholyte
+6369	457	476
+6370	1	20
+6371	1	37
+6371	1	15	Polar
+6371	22	37	Proline-rich
+6371	80	123
+6371	101	115	Proline-rich
+6371	257	286
+6371	415	468
+6373	1	117
+6373	23	38	Positive Polyelectrolyte
+6373	96	110	Polyampholyte
+6374	103	172
+6374	103	118	Polar
+6378	19	40
+6378	24	40	Polyampholyte
+6380	1	31
+6380	285	408
+6380	285	308	Polyampholyte
+6380	331	401	Negative Polyelectrolyte
+6381	437	491
+6381	437	464	Polyampholyte
+6381	465	491	Negative Polyelectrolyte
+6384	164	204
+6384	164	190	Polar
+6384	741	781
+6384	741	781	Polyampholyte
+6386	314	400
+6386	338	352	Positive Polyelectrolyte
+6386	965	997
+6386	983	997	Polyampholyte
+6390	1	101
+6390	13	71	Polar
+6390	505	532
+6390	516	531	Polyampholyte
+6394	1	53
+6394	1	19	Polyampholyte
+6399	245	317
+6399	245	307	Polyampholyte
+6405	1	110
+6405	1	27	Proline-rich
+6405	41	55	Proline-rich
+6405	80	110	Polar
+6406	169	253
+6406	173	219	Polar
+6408	57	101
+6408	57	90	Positive Polyelectrolyte
+6411	1	43
+6411	1	43	Polyampholyte
+6412	33	75
+6412	33	63	Polyampholyte
+6413	23	44
+6413	27	44	Polyampholyte
+6415	1	77
+6415	8	26	Polyampholyte
+6416	1	22
+6416	1	15	Positive Polyelectrolyte
+6416	44	99
+6416	44	80	Polyampholyte
+6418	32	82
+6418	44	66	Polyampholyte
+6419	1	51
+6419	13	30	Negative Polyelectrolyte
+6419	31	51	Polyampholyte
+6420	25	99
+6420	29	99	Polyampholyte
+6425	120	196
+6425	138	157	Polyampholyte
+6425	158	173	Polar
+6425	174	193	Polyampholyte
+6425	393	427
+6431	1	108
+6431	1	42	Polyampholyte
+6431	43	76	Positive Polyelectrolyte
+6432	22	109
+6432	45	109	Polyampholyte
+6437	1	43
+6437	1	43	Polar
+6438	1	106
+6438	1	106	Polyampholyte
+6440	1	72
+6440	1	68	Polyampholyte
+6441	1	99
+6441	9	38	Polyampholyte
+6441	39	57	Positive Polyelectrolyte
+6445	1	22
+6445	1	15	Positive Polyelectrolyte
+6447	297	325
+6448	120	287
+6448	120	147	Polyampholyte
+6448	148	190	Polar
+6448	200	219	Polyampholyte
+6449	126	152
+6451	96	160
+6451	96	118	Polar
+6451	142	157	Polar
+6455	1	93
+6457	1	164
+6457	14	121	Polyampholyte
+6458	1	26
+6458	1	26	Polyampholyte
+6465	1	53
+6465	15	43	Polyampholyte
+6465	70	90
+6468	1	37
+6468	52	134
+6468	68	94	Polar
+6470	1	140
+6470	8	31	Polyampholyte
+6470	45	107	Polyampholyte
+6472	1	59
+6472	9	23	Polyampholyte
+6472	24	39	Positive Polyelectrolyte
+6472	43	59	Polar
+6473	1	82
+6473	39	63	Polar
+6474	145	167
+6474	145	167	Polar
+6475	1	44
+6475	1	44	Polar
+6478	1	30
+6478	1	30	Polyampholyte
+6479	106	141
+6479	106	141	Polyampholyte
+6480	86	107
+6483	58	129
+6486	77	118
+6488	444	490
+6488	469	490	Polar
+6488	590	609
+6489	735	759
+6489	735	759	Proline-rich
+6489	786	838
+6489	798	815	Proline-rich
+6490	37	376
+6490	37	64	Polyampholyte
+6490	65	89	Polar
+6490	172	251	Polar
+6490	491	517
+6491	18	69
+6491	28	49	Polyampholyte
+6491	121	145
+6491	121	139	Polar
+6493	73	101
+6493	74	101	Polar
+6496	1	50
+6496	13	27	Polyampholyte
+6497	764	788
+6497	769	788	Polar
+6498	88	146
+6498	230	265
+6498	234	265	Polyampholyte
+6498	311	352
+6498	311	326	Polar
+6498	327	341	Polyampholyte
+6498	408	427
+6498	409	424	Polar
+6499	1	92
+6499	1	57	Polyampholyte
+6499	72	86	Polyampholyte
+6501	1	31
+6501	189	210
+6506	1	103
+6506	20	39	Polar
+6506	47	61	Proline-rich
+6506	62	103	Polar
+6512	1	52
+6512	16	33	Polyampholyte
+6514	105	132
+6514	112	132	Polyampholyte
+6515	93	119
+6515	97	119	Polyampholyte
+6515	139	163
+6515	187	563
+6515	275	306	Polar
+6515	325	344	Polar
+6515	393	432	Polar
+6515	455	472	Polyampholyte
+6515	513	544	Polar
+6515	607	828
+6515	610	627	Polyampholyte
+6515	676	771	Polar
+6515	772	786	Polyampholyte
+6515	787	828	Polar
+6515	875	956
+6515	878	916	Polar
+6515	937	956	Polar
+6515	1096	1436
+6515	1118	1142	Polar
+6515	1145	1202	Polyampholyte
+6515	1232	1256	Polar
+6515	1272	1291	Polar
+6515	1299	1322	Polar
+6515	1341	1371	Polar
+6515	1388	1405	Polar
+6515	1416	1436	Polar
+6515	1464	1524
+6515	1464	1481	Polar
+6515	1492	1508	Polar
+6515	1509	1524	Polyampholyte
+6515	1549	1577
+6515	1550	1569	Polar
+6516	1	76
+6516	1	26	Polyampholyte
+6516	88	125
+6517	80	111
+6517	96	111	Polyampholyte
+6518	876	902
+6521	119	142
+6522	83	122
+6522	83	122	Polyampholyte
+6523	1	483
+6523	9	23	Proline-rich
+6523	44	59	Polar
+6523	109	123	Proline-rich
+6523	162	216	Proline-rich
+6523	258	272	Polar
+6523	309	330	Proline-rich
+6523	331	358	Polar
+6523	365	384	Polar
+6523	425	457	Polar
+6523	599	907
+6523	599	631	Polar
+6523	654	695	Polar
+6523	712	726	Polar
+6523	742	776	Polar
+6523	786	804	Proline-rich
+6523	825	897	Polar
+6525	24	106
+6525	24	73	Polyampholyte
+6525	82	106	Polyampholyte
+6527	1	44
+6527	1	42	Polar
+6527	152	238
+6527	161	175	Positive Polyelectrolyte
+6527	201	222	Positive Polyelectrolyte
+6529	1	31
+6529	1	31	Polyampholyte
+6530	219	238
+6530	221	238	Polar
+6530	299	435
+6530	300	314	Proline-rich
+6530	342	395	Polar
+6530	418	432	Polyampholyte
+6530	476	532
+6530	499	513	Polyampholyte
+6530	514	532	Polar
+6539	68	89
+6540	329	370
+6540	337	357	Proline-rich
+6541	1	85
+6541	20	44	Polar
+6541	50	85	Polyampholyte
+6541	104	143
+6541	104	121	Polyampholyte
+6541	128	142	Proline-rich
+6541	199	544
+6541	221	238	Polar
+6541	249	265	Proline-rich
+6541	288	305	Polyampholyte
+6541	363	379	Polar
+6541	386	407	Polar
+6542	1	47
+6542	8	24	Polar
+6545	170	190
+6545	172	190	Polar
+6549	82	106
+6549	85	101	Polyampholyte
+6559	1	96
+6559	2139	2341
+6559	2139	2169	Polar
+6559	2185	2210	Polyampholyte
+6559	2211	2273	Polar
+6559	2284	2298	Polar
+6559	2756	2832
+6562	119	209
+6562	131	154	Polyampholyte
+6562	173	209	Polar
+6562	392	422
+6562	392	422	Polar
+6565	1	53
+6565	1	35	Polar
+6565	36	53	Polyampholyte
+6567	1	40
+6567	15	30	Polar
+6567	54	105
+6567	54	69	Positive Polyelectrolyte
+6569	153	179
+6569	153	169	Polyampholyte
+6570	38	84
+6570	54	84	Polyampholyte
+6570	97	279
+6570	97	151	Polyampholyte
+6570	161	189	Polyampholyte
+6570	195	209	Polar
+6570	218	279	Polyampholyte
+6572	1	103
+6572	23	44	Polyampholyte
+6576	1	119
+6576	1	106	Polyampholyte
+6579	69	100
+6580	32	94
+6582	71	115
+6582	71	93	Polar
+6582	293	405
+6582	309	327	Polyampholyte
+6582	328	347	Positive Polyelectrolyte
+6582	364	405	Polyampholyte
+6582	424	561
+6582	426	456	Polar
+6582	457	479	Polyampholyte
+6582	480	508	Polar
+6582	522	561	Polar
+6582	583	741
+6582	583	741	Polar
+6583	40	82
+6583	58	74	Polyampholyte
+6583	132	250
+6583	132	242	Polyampholyte
+6590	127	158
+6590	132	158	Polyampholyte
+6590	356	407
+6590	356	385	Polyampholyte
+6592	1	96
+6592	73	88	Polyampholyte
+6593	1	102
+6593	1	22	Positive Polyelectrolyte
+6593	23	93	Polyampholyte
+6596	1	24
+6596	8	24	Polyampholyte
+6597	1	43
+6597	1	43	Polyampholyte
+6599	23	64
+6599	32	56	Positive Polyelectrolyte
+6604	1	103
+6604	16	51	Polyampholyte
+6604	63	87	Polyampholyte
+6606	1	28
+6606	10	28	Polar
+6608	1	160
+6608	1	18	Positive Polyelectrolyte
+6608	19	73	Polyampholyte
+6612	88	130
+6612	88	130	Proline-rich
+6619	1	100
+6619	7	49	Polyampholyte
+6619	78	100	Polar
+6626	119	141
+6626	119	141	Polar
+6627	1	59
+6627	7	43	Polyampholyte
+6628	1	38
+6628	1	23	Negative Polyelectrolyte
+6628	24	38	Polyampholyte
+6630	1	247
+6630	32	65	Polar
+6630	99	130	Polar
+6630	148	164	Polar
+6630	165	196	Proline-rich
+6630	197	247	Polar
+6630	364	530
+6630	388	413	Negative Polyelectrolyte
+6634	1	38
+6634	1	38	Polyampholyte
+6635	79	100
+6635	79	100	Polar
+6636	23	99
+6636	35	51	Polyampholyte
+6636	52	66	Positive Polyelectrolyte
+6636	67	99	Polyampholyte
+6637	394	467
+6637	422	441	Negative Polyelectrolyte
+6637	452	467	Positive Polyelectrolyte
+6638	1	44
+6638	15	29	Polyampholyte
+6641	1	84
+6641	1	84	Polyampholyte
+6646	49	194
+6646	49	71	Polyampholyte
+6646	72	94	Polar
+6646	145	165	Polar
+6646	251	343
+6646	256	298	Polar
+6646	310	343	Polar
+6646	443	465
+6646	445	465	Polar
+6648	468	498
+6650	1	26
+6650	41	172
+6650	63	80	Polar
+6650	83	97	Positive Polyelectrolyte
+6650	146	172	Polar
+6651	1	20
+6651	1	20	Polar
+6651	86	217
+6651	115	202	Polyampholyte
+6658	48	106
+6658	58	81	Polyampholyte
+6659	81	105
+6662	1	40
+6662	1	35	Polyampholyte
+6663	1	70
+6663	22	37	Proline-rich
+6663	43	70	Polar
+6664	1	20
+6664	27	93
+6664	37	52	Polar
+6669	1	22
+6669	43	146
+6669	48	131	Polyampholyte
+6670	31	80
+6670	51	80	Polyampholyte
+6670	203	264
+6670	204	229	Negative Polyelectrolyte
+6671	21	99
+6671	28	45	Positive Polyelectrolyte
+6671	46	77	Polyampholyte
+6673	285	308
+6673	285	299	Polar
+6673	403	431
+6673	465	692
+6673	465	500	Polar
+6673	501	519	Proline-rich
+6673	520	550	Polar
+6673	584	650	Proline-rich
+6673	676	692	Polar
+6679	34	174
+6679	34	51	Polar
+6679	75	108	Polar
+6680	1	100
+6680	1	26	Polyampholyte
+6680	35	57	Polyampholyte
+6682	1	119
+6682	52	73	Polar
+6682	90	119	Polyampholyte
+6682	321	383
+6682	321	337	Polar
+6682	338	364	Polyampholyte
+6682	830	850
+6682	830	850	Polar
+6682	874	936
+6682	890	914	Proline-rich
+6682	1060	1098
+6682	1060	1076	Polar
+6682	1163	1308
+6682	1164	1207	Polar
+6682	1243	1308	Polar
+6684	1	111
+6684	1	53	Polar
+6686	172	196
+6686	172	196	Polar
+6687	307	329
+6694	1	42
+6695	43	102
+6695	55	71	Proline-rich
+6695	77	91	Polyampholyte
+6697	1	107
+6697	1	26	Positive Polyelectrolyte
+6697	32	48	Polar
+6698	77	123
+6698	77	117	Polyampholyte
+6701	182	204
+6702	172	259
+6702	176	200	Polar
+6702	232	253	Polar
+6702	352	400
+6702	352	375	Proline-rich
+6702	376	400	Polar
+6702	427	477
+6702	427	442	Polar
+6702	444	459	Polyampholyte
+6702	642	744
+6702	642	671	Polar
+6702	682	718	Polar
+6704	60	105
+6704	60	84	Polyampholyte
+6704	85	105	Positive Polyelectrolyte
+6707	87	129
+6707	99	129	Polar
+6708	28	54
+6711	113	136
+6714	87	108
+6714	92	108	Polyampholyte
+6719	1	20
+6720	1	29
+6720	1	29	Polar
+6720	48	199
+6720	48	103	Polar
+6720	113	145	Polar
+6720	147	161	Polyampholyte
+6720	162	199	Polar
+6720	262	300
+6720	273	300	Polar
+6722	1	44
+6722	12	32	Polyampholyte
+6723	19	101
+6723	19	47	Polar
+6723	50	80	Positive Polyelectrolyte
+6724	1	218
+6724	1	16	Proline-rich
+6724	53	99	Polar
+6724	108	174	Polyampholyte
+6724	175	191	Polar
+6724	192	218	Positive Polyelectrolyte
+6729	1	41
+6729	1	37	Polyampholyte
+6730	1	92
+6730	1	22	Positive Polyelectrolyte
+6730	43	63	Polar
+6730	66	82	Positive Polyelectrolyte
+6731	1	76
+6731	1	28	Positive Polyelectrolyte
+6731	29	57	Polyampholyte
+6732	249	275
+6732	251	275	Polyampholyte
+6733	53	116
+6733	62	109	Polyampholyte
+6734	1	29
+6734	1	29	Polyampholyte
+6735	1	129
+6735	1	20	Proline-rich
+6735	21	44	Polar
+6735	52	105	Proline-rich
+6735	349	412
+6735	383	412	Polar
+6738	1	107
+6738	1	19	Polar
+6738	36	78	Polyampholyte
+6739	29	115
+6739	33	47	Positive Polyelectrolyte
+6739	48	82	Polyampholyte
+6741	1	38
+6741	10	25	Negative Polyelectrolyte
+6741	97	117
+6743	1	67
+6743	22	43	Polar
+6743	80	101
+6743	85	101	Polyampholyte
+6744	148	174
+6744	148	174	Polar
+6745	70	100
+6745	70	94	Polyampholyte
+6747	22	495
+6747	32	49	Polar
+6747	62	86	Polyampholyte
+6747	151	165	Polyampholyte
+6747	190	209	Polyampholyte
+6747	231	250	Polyampholyte
+6747	268	287	Polyampholyte
+6747	315	330	Polyampholyte
+6747	346	366	Polyampholyte
+6747	383	399	Polyampholyte
+6747	413	427	Polyampholyte
+6747	466	492	Polar
+6747	538	557
+6751	1	22
+6753	498	517
+6754	100	133
+6754	114	133	Polar
+6755	1	224
+6755	20	183	Polyampholyte
+6755	184	204	Positive Polyelectrolyte
+6759	41	70
+6759	208	280
+6759	220	234	Proline-rich
+6759	235	280	Polar
+6765	1	27
+6765	72	92
+6765	391	427
+6772	319	352
+6772	402	433
+6772	402	419	Polyampholyte
+6772	582	624
+6772	592	623	Polyampholyte
+6772	658	694
+6772	664	682	Polyampholyte
+6773	1	27
+6773	255	281
+6773	368	393
+6773	368	388	Polyampholyte
+6773	504	594
+6774	1	41
+6774	1	28	Polyampholyte
+6774	309	513
+6774	309	366	Polyampholyte
+6774	367	382	Polar
+6774	391	419	Polyampholyte
+6774	426	446	Polar
+6774	464	482	Polyampholyte
+6774	496	510	Polyampholyte
+6774	526	547
+6774	628	660
+6776	59	100
+6776	74	88	Polar
+6776	147	226
+6776	186	221	Polyampholyte
+6776	361	437
+6776	368	392	Polyampholyte
+6776	394	423	Polar
+6777	1	99
+6777	1	21	Proline-rich
+6777	22	73	Polyampholyte
+6783	62	127
+6783	70	108	Polar
+6785	1	91
+6787	357	625
+6787	357	377	Polar
+6787	392	429	Polar
+6787	462	527	Polar
+6787	528	554	Proline-rich
+6787	555	585	Polar
+6787	638	669
+6787	638	669	Polar
+6787	711	738
+6787	715	732	Polar
+6787	889	915
+6787	1051	1427
+6787	1051	1139	Polar
+6787	1150	1407	Polar
+6795	1	37
+6795	12	28	Positive Polyelectrolyte
+6801	34	72
+6801	42	67	Polyampholyte
+6801	101	122
+6801	108	122	Polar
+6802	1	97
+6802	1	25	Polyampholyte
+6802	30	63	Polar
+6802	64	93	Proline-rich
+6804	51	684
+6804	66	94	Polar
+6804	112	126	Polar
+6804	127	141	Polyampholyte
+6804	160	183	Polar
+6804	198	227	Polyampholyte
+6804	233	251	Polar
+6804	257	301	Polyampholyte
+6804	306	321	Polar
+6804	344	379	Polar
+6804	410	438	Polyampholyte
+6804	457	497	Polyampholyte
+6804	565	592	Polar
+6804	605	619	Polar
+6804	628	661	Polar
+6804	712	774
+6804	758	774	Polar
+6804	836	1000
+6804	838	1000	Polyampholyte
+6804	1028	1115
+6804	1037	1078	Polar
+6804	1099	1113	Polyampholyte
+6806	44	63
+6806	44	63	Polar
+6807	1	22
+6809	16	43
+6809	23	37	Polyampholyte
+6809	90	121
+6809	94	112	Polar
+6815	1	102
+6815	14	57	Polyampholyte
+6815	88	102	Polar
+6816	1	77
+6816	1	26	Polyampholyte
+6816	27	46	Polar
+6817	47	73
+6819	1	134
+6819	15	81	Polyampholyte
+6819	82	100	Polar
+6819	101	118	Polyampholyte
+6819	119	133	Positive Polyelectrolyte
+6821	450	472
+6821	455	472	Polyampholyte
+6823	1	99
+6823	1	16	Negative Polyelectrolyte
+6823	17	41	Polyampholyte
+6823	74	99	Polyampholyte
+6825	1	37
+6825	61	211
+6825	127	146	Polar
+6825	160	204	Polar
+6827	52	89
+6829	1	61
+6829	1	61	Polyampholyte
+6831	1	419
+6831	1	15	Polar
+6831	28	47	Polar
+6831	134	152	Polyampholyte
+6831	180	291	Polar
+6831	305	385	Polar
+6831	386	400	Polyampholyte
+6831	815	879
+6831	820	836	Proline-rich
+6831	1046	1237
+6831	1046	1141	Polyampholyte
+6831	1178	1203	Polyampholyte
+6831	1217	1231	Polar
+6831	1253	1334
+6831	1281	1318	Negative Polyelectrolyte
+6831	1319	1334	Polyampholyte
+6831	1346	1464
+6831	1390	1423	Polar
+6831	1424	1464	Polyampholyte
+6831	1581	1871
+6831	1592	1611	Negative Polyelectrolyte
+6831	1612	1632	Polyampholyte
+6831	1640	1669	Polyampholyte
+6831	1681	1729	Polyampholyte
+6831	1744	1764	Polyampholyte
+6831	1783	1813	Polar
+6831	1833	1847	Polyampholyte
+6831	1850	1871	Polar
+6833	51	112
+6833	97	112	Polyampholyte
+6834	605	716
+6834	605	644	Polar
+6834	677	695	Polyampholyte
+6834	697	711	Polar
+6834	753	782
+6834	753	767	Polar
+6837	23	105
+6837	188	213
+6837	228	311
+6837	248	298	Polar
+6839	1	71
+6839	15	71	Polyampholyte
+6840	1	51
+6840	1	47	Polyampholyte
+6843	1	346
+6843	1	24	Positive Polyelectrolyte
+6843	28	49	Polar
+6843	53	67	Polyampholyte
+6843	94	112	Polar
+6843	136	152	Polar
+6843	183	252	Polar
+6843	253	303	Positive Polyelectrolyte
+6843	312	328	Positive Polyelectrolyte
+6844	1	63
+6844	1	23	Polyampholyte
+6844	91	120
+6844	106	120	Polar
+6846	37	95
+6846	70	95	Polyampholyte
+6848	72	100
+6848	82	96	Polyampholyte
+6848	232	374
+6848	244	264	Polar
+6848	282	332	Polar
+6848	345	374	Polyampholyte
+6849	1	34
+6849	1	16	Polar
+6849	17	33	Polyampholyte
+6850	18	102
+6850	47	61	Polar
+6851	643	693
+6851	643	658	Polyampholyte
+6851	676	693	Polar
+6852	318	357
+6852	320	357	Polar
+6852	381	414
+6852	580	654
+6852	600	645	Polar
+6858	73	107
+6858	73	107	Polar
+6863	33	96
+6863	65	79	Polar
+6869	1	105
+6869	1	19	Polyampholyte
+6869	34	81	Polar
+6869	91	105	Proline-rich
+6870	1	82
+6870	1	82	Polyampholyte
+6875	92	118
+6875	99	118	Polyampholyte
+6876	94	275
+6876	105	141	Proline-rich
+6876	206	227	Negative Polyelectrolyte
+6876	254	271	Polar
+6876	328	351
+6876	328	347	Polar
+6876	364	399
+6876	364	399	Polar
+6877	1	55
+6877	12	48	Polar
+6877	82	110
+6878	22	119
+6878	24	119	Polar
+6879	1	106
+6879	1	19	Positive Polyelectrolyte
+6879	20	55	Polyampholyte
+6879	68	91	Polyampholyte
+6883	1	92
+6883	1	31	Polyampholyte
+6883	39	80	Polyampholyte
+6885	125	172
+6885	131	147	Polar
+6887	1	39
+6887	1	19	Polyampholyte
+6887	20	36	Positive Polyelectrolyte
+6888	1	48
+6888	19	45	Polar
+6892	1	129
+6892	33	82	Positive Polyelectrolyte
+6892	83	129	Polyampholyte
+6894	1	22
+6894	1	19	Negative Polyelectrolyte
+6895	1	28
+6895	50	80
+6895	158	207
+6895	158	192	Polyampholyte
+6895	329	364
+6895	329	364	Polar
+6895	772	825
+6895	787	813	Polyampholyte
+6898	88	250
+6898	98	190	Polar
+6898	202	223	Polar
+6898	224	238	Proline-rich
+6898	423	462
+6899	1	86
+6899	1	86	Polyampholyte
+6900	34	55
+6900	34	50	Positive Polyelectrolyte
+6902	1	27
+6902	1	18	Polar
+6902	86	176
+6902	90	151	Polar
+6902	160	174	Polar
+6902	341	371
+6902	341	371	Polar
+6902	443	496
+6902	465	479	Proline-rich
+6906	379	403
+6906	379	403	Polyampholyte
+6906	601	627
+6906	603	627	Polar
+6906	744	774
+6906	753	768	Positive Polyelectrolyte
+6910	28	127
+6910	36	96	Polyampholyte
+6910	97	119	Polar
+6913	81	110
+6913	81	110	Polyampholyte
+6915	1	28
+6915	1	28	Polyampholyte
+6915	93	113
+6916	146	201
+6916	157	175	Polar
+6916	176	192	Polyampholyte
+6917	68	101
+6919	18	76
+6919	19	43	Polyampholyte
+6919	62	76	Polar
+6923	66	99
+6929	1	103
+6929	1	96	Polyampholyte
+6931	1	78
+6931	1	25	Positive Polyelectrolyte
+6931	26	47	Polyampholyte
+6931	62	78	Polar
+6937	114	154
+6937	126	140	Polar
+6938	29	115
+6938	31	45	Polar
+6938	89	115	Polyampholyte
+6942	70	301
+6942	70	96	Polyampholyte
+6942	101	155	Polar
+6942	188	223	Polyampholyte
+6942	230	270	Polyampholyte
+6942	271	301	Polar
+6948	29	94
+6948	42	86	Polyampholyte
+6950	1	52
+6950	25	41	Polar
+6952	1	101
+6952	1	83	Polyampholyte
+6954	23	48
+6954	83	109
+6954	91	109	Polyampholyte
+6955	1	103
+6955	1	48	Polyampholyte
+6955	54	69	Positive Polyelectrolyte
+6955	70	84	Polyampholyte
+6958	1	100
+6958	1	29	Polar
+6958	50	82	Polar
+6958	83	100	Polyampholyte
+6959	1	47
+6959	9	47	Polyampholyte
+6961	1	35
+6961	15	35	Polar
+6961	71	118
+6961	71	118	Polar
+6962	1	43
+6962	20	43	Polyampholyte
+6962	57	107
+6963	1	55
+6963	1	27	Positive Polyelectrolyte
+6963	28	52	Polyampholyte
+6964	98	201
+6964	98	137	Polyampholyte
+6964	138	187	Polar
+6964	225	244
+6965	1	47
+6965	1	47	Polyampholyte
+6965	68	113
+6965	68	104	Polyampholyte
+6966	1	99
+6966	10	30	Negative Polyelectrolyte
+6966	50	99	Polyampholyte
+6966	265	286
+6967	1	21
+6967	1	21	Polyampholyte
+6969	71	160
+6969	84	101	Polyampholyte
+6972	1	108
+6972	1	38	Polyampholyte
+6972	39	76	Positive Polyelectrolyte
+6972	77	100	Polyampholyte
+6973	24	102
+6973	53	69	Positive Polyelectrolyte
+6973	70	102	Polyampholyte
+6983	1	38
+6983	1	20	Polar
+6983	21	38	Polyampholyte
+6984	54	80
+6984	54	80	Polar
+6984	146	189
+6984	160	185	Polar
+6985	1	24
+6985	54	93
+6985	58	93	Positive Polyelectrolyte
+6987	17	123
+6987	46	62	Polyampholyte
+6987	92	108	Polyampholyte
+6992	1	108
+6992	1	45	Polyampholyte
+6992	92	108	Polar
+6996	59	83
+6998	314	357
+6998	319	335	Polyampholyte

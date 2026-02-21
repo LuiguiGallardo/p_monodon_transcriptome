@@ -20,37 +20,80 @@ Trinity.fasta
 *.bt2l
 
 # Large result files in iterations - exclude everything except small summaries
-05_multiple_group_clustering/results_iterations/*/RSEM_matrix.gene.counts.matrix
-05_multiple_group_clustering/results_iterations/*/RSEM_matrix.gene.TMM.EXPR.matrix
-05_multiple_group_clustering/results_iterations/*/RSEM_matrix.gene.TPM.not_cross_norm
-05_multiple_group_clustering/results_iterations/*/RSEM_matrix.gene.TPM.not_cross_norm.runTMM.R
-05_multiple_group_clustering/results_iterations/*/RSEM_matrix.isoform.counts.matrix
-05_multiple_group_clustering/results_iterations/*/RSEM_matrix.isoform.TMM.EXPR.matrix
-05_multiple_group_clustering/results_iterations/*/RSEM_matrix.isoform.TPM.not_cross_norm
-05_multiple_group_clustering/results_iterations/*/RSEM_matrix.isoform.TPM.not_cross_norm.runTMM.R
+05_multiple_group_clustering/results/results_iterations/*/RSEM_matrix.gene.counts.matrix
+05_multiple_group_clustering/results/results_iterations/*/RSEM_matrix.gene.TMM.EXPR.matrix
+05_multiple_group_clustering/results/results_iterations/*/RSEM_matrix.gene.TPM.not_cross_norm
+05_multiple_group_clustering/results/results_iterations/*/RSEM_matrix.gene.TPM.not_cross_norm.runTMM.R
+05_multiple_group_clustering/results/results_iterations/*/RSEM_matrix.isoform.counts.matrix
+05_multiple_group_clustering/results/results_iterations/*/RSEM_matrix.isoform.TMM.EXPR.matrix
+05_multiple_group_clustering/results/results_iterations/*/RSEM_matrix.isoform.TPM.not_cross_norm
+05_multiple_group_clustering/results/results_iterations/*/RSEM_matrix.isoform.TPM.not_cross_norm.runTMM.R
 
 # DESeq2 large files - keep only .txt and small .subset files
-05_multiple_group_clustering/results_iterations/*/deseq2_genes/*.DE_results
-05_multiple_group_clustering/results_iterations/*/deseq2_genes/*.count_matrix
-05_multiple_group_clustering/results_iterations/*/deseq2_genes/*.RData
-05_multiple_group_clustering/results_iterations/*/deseq2_genes/*.dat
-05_multiple_group_clustering/results_iterations/*/deseq2_genes/*.R
-05_multiple_group_clustering/results_iterations/*/deseq2_genes/*.Rscript
-05_multiple_group_clustering/results_iterations/*/deseq2_genes/*.pdf
-05_multiple_group_clustering/results_iterations/*/deseq2_genes/*.samples
-05_multiple_group_clustering/results_iterations/*/deseq2_genes/*.matrix
-05_multiple_group_clustering/results_iterations/*/deseq2_genes/*.png
+05_multiple_group_clustering/results/results_iterations/*/deseq2_genes/*.DE_results
+05_multiple_group_clustering/results/results_iterations/*/deseq2_genes/*.count_matrix
+05_multiple_group_clustering/results/results_iterations/*/deseq2_genes/*.RData
+05_multiple_group_clustering/results/results_iterations/*/deseq2_genes/*.dat
+05_multiple_group_clustering/results/results_iterations/*/deseq2_genes/*.R
+05_multiple_group_clustering/results/results_iterations/*/deseq2_genes/*.Rscript
+05_multiple_group_clustering/results/results_iterations/*/deseq2_genes/*.pdf
+05_multiple_group_clustering/results/results_iterations/*/deseq2_genes/*.samples
+05_multiple_group_clustering/results/results_iterations/*/deseq2_genes/*.matrix
+05_multiple_group_clustering/results/results_iterations/*/deseq2_genes/*.png
 
-05_multiple_group_clustering/results_iterations/*/deseq2_isoforms/*.DE_results
-05_multiple_group_clustering/results_iterations/*/deseq2_isoforms/*.count_matrix
-05_multiple_group_clustering/results_iterations/*/deseq2_isoforms/*.RData
-05_multiple_group_clustering/results_iterations/*/deseq2_isoforms/*.dat
-05_multiple_group_clustering/results_iterations/*/deseq2_isoforms/*.R
-05_multiple_group_clustering/results_iterations/*/deseq2_isoforms/*.Rscript
-05_multiple_group_clustering/results_iterations/*/deseq2_isoforms/*.pdf
-05_multiple_group_clustering/results_iterations/*/deseq2_isoforms/*.samples
-05_multiple_group_clustering/results_iterations/*/deseq2_isoforms/*.matrix
-05_multiple_group_clustering/results_iterations/*/deseq2_isoforms/*.png
+05_multiple_group_clustering/results/results_iterations/*/deseq2_isoforms/*.DE_results
+05_multiple_group_clustering/results/results_iterations/*/deseq2_isoforms/*.count_matrix
+05_multiple_group_clustering/results/results_iterations/*/deseq2_isoforms/*.RData
+05_multiple_group_clustering/results/results_iterations/*/deseq2_isoforms/*.dat
+05_multiple_group_clustering/results/results_iterations/*/deseq2_isoforms/*.R
+05_multiple_group_clustering/results/results_iterations/*/deseq2_isoforms/*.Rscript
+05_multiple_group_clustering/results/results_iterations/*/deseq2_isoforms/*.pdf
+05_multiple_group_clustering/results/results_iterations/*/deseq2_isoforms/*.samples
+05_multiple_group_clustering/results/results_iterations/*/deseq2_isoforms/*.matrix
+05_multiple_group_clustering/results/results_iterations/*/deseq2_isoforms/*.png
 
 # Keep only: .txt files, .subset files, and .TMM_info.txt files
 
+# Annotation databases downloads
+04_annotation/downloads/
+
+# Huge Annotation generated tables
+04_annotation/results/entap_output/**/*.tsv
+04_annotation/results/interproscan_output/Trinity_longest_isoform_final_clean.fasta.json
+
+# Huge Busco lineage files
+06_busco_analysis/downloads/
+
+# Massive SVG plots in diff expr
+03_diff_expr/**/*.svg
+
+# --------------------------------------------------------------------------------
+# Specific ignores for 05_multiple_group_clustering
+# --------------------------------------------------------------------------------
+
+# Ignore all data inputs (very large FASTA, TAR in data/)
+05_multiple_group_clustering/data/
+
+# Ignore log files generated during runs
+05_multiple_group_clustering/logs/
+
+# Ignore massive intermediate and sample mapping directories inside results
+05_multiple_group_clustering/results/10_S10/
+05_multiple_group_clustering/results/11_S11/
+05_multiple_group_clustering/results/12_S12/
+05_multiple_group_clustering/results/1_S1/
+05_multiple_group_clustering/results/2_S2/
+05_multiple_group_clustering/results/3_S3/
+05_multiple_group_clustering/results/4_S4/
+05_multiple_group_clustering/results/5_S5/
+05_multiple_group_clustering/results/6_S6/
+05_multiple_group_clustering/results/7_S7/
+05_multiple_group_clustering/results/8_S8/
+05_multiple_group_clustering/results/9_S9/
+05_multiple_group_clustering/results/tmp_quality_data/
+05_multiple_group_clustering/results/results_iterations/
+05_multiple_group_clustering/results/RSEM_abundance_all/
+
+# Ignore heavy PDF reports
+05_multiple_group_clustering/results/*.pdf
+05_multiple_group_clustering/results/results_iterations/**/*.pdf

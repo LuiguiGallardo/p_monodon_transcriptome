@@ -1,0 +1,240 @@
+------------------------------------------------------
+EnTAP Run Information - Execution
+------------------------------------------------------
+Current EnTAP Version: 2.3.0
+Start time: Sun Feb 15 00:57:48 2026
+
+Working directory has been set to: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output
+User Inputs:
+out-dir: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output
+config: false
+run: true
+overwrite: false
+resume: false
+run-ini: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_config/entap_run.params
+entap-ini: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_config/entap_config.ini
+input: /a1/luigui/2026/01_p_monodon_annot/04_annotation/Trinity_longest_isoform.fasta.transdecoder.pep
+database: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_databases/uniprot_sprot.dmnd,
+graph: false
+no-trim: false
+threads: 32
+state: +
+no-check: false
+output-format: 1,3,4,7,
+api-taxon: 
+ncbi-api-key: 
+ncbi-api-enable: true
+entap-db-bin: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_databases/entap_database.bin
+entap-db-sql: /home/luigui/miniforge3/envs/entap/bin/databases/entap_database.db
+entap-graph: /home/luigui/miniforge3/envs/entap/bin/src/entap_graphing.py
+data-generate: false
+data-type: 0,
+db-tax-split: 
+fpkm: 0.500000
+align: 
+single-end: false
+rsem-calculate-expression: /home/luigui/miniforge3/envs/entap/bin/libs/RSEM-1.3.3/rsem-calculate-expression
+rsem-sam-validator: /home/luigui/miniforge3/envs/entap/bin/libs/RSEM-1.3.3/rsem-sam-validator
+rsem-prepare-reference: /home/luigui/miniforge3/envs/entap/bin/libs/RSEM-1.3.3/rsem-prepare-reference
+convert-sam-for-rsem: /home/luigui/miniforge3/envs/entap/bin/libs/RSEM-1.3.3/convert-sam-for-rsem
+frame-selection: true
+transdecoder-long-exe: TransDecoder.LongOrfs
+transdecoder-predict-exe: TransDecoder.Predict
+transdecoder-m: 100
+transdecoder-no-refine-starts: false
+diamond-exe: diamond
+taxon: 
+qcoverage: 50.000000
+tcoverage: 50.000000
+contam: 
+e-value: 0.000010
+uninformative: conserved,predicted,unknown,unnamed,hypothetical,putative,unidentified,uncharacterized,uncultured,uninformative,
+diamond-sensitivity: very-sensitive
+ontology_source: 0,
+eggnog-map-exe: emapper.py
+eggnog-map-data: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_databases/eggnog_data
+eggnog-map-dmnd: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_databases/eggnog_data/eggnog_proteins.dmnd
+eggnog-contaminant: true
+eggnog-dbmem: true
+eggnog-sensitivity: more-sensitive
+interproscan-exe: interproscan.sh
+interproscan-db: 
+hgt-donor: 
+hgt-recipient: 
+hgt-gff: 
+hgt-filter-hgt-neighbors: true
+hgt-filter-contam-neighbors: true
+hgt-filter-donor-neighbors: true
+
+------------------------------------------------------
+Transcriptome Statistics
+------------------------------------------------------
+Protein sequences found
+Total sequences: 28423
+Total length of transcriptome(bp): 22749738
+Average sequence length(bp): 800.00
+n50: 984
+n90: 405
+Longest sequence(bp): 16287 (TRINITY_DN93815_c2_g1_i1.p1)
+Shortest sequence(bp): 339 (TRINITY_DN91594_c1_g1_i1.p1)
+------------------------------------------------------
+Similarity Search - DIAMOND - uniprot_sprot
+------------------------------------------------------
+Search results:
+/a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/blastp_Trinity_longest_isoform_final_uniprot_sprot.out
+	Total alignments: 14532
+	Total unselected results: 9394
+		Written to: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_unselected_hits
+	Total unique transcripts with an alignment: 5138
+		Reference transcriptome sequences with an alignment (FASTA):
+			/a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated
+		Search results (TSV):
+			/a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/processed/uniprot_sprot/diamond_annotated
+	Total unique transcripts without an alignment: 23285
+		Reference transcriptome sequences without an alignment (FASTA):
+			/a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/processed/uniprot_sprot/unannotated
+	Total unique informative alignments: 5052
+	Total unique uninformative alignments: 86
+	Top 10 alignments by species:
+			1)homo sapiens: 941(3.31% of total retained sequences)
+			2)mus musculus: 854(3.00% of total retained sequences)
+			3)drosophila melanogaster: 620(2.18% of total retained sequences)
+			4)rattus norvegicus: 350(1.23% of total retained sequences)
+			5)bos taurus: 320(1.13% of total retained sequences)
+			6)danio rerio: 298(1.05% of total retained sequences)
+			7)xenopus laevis: 250(0.88% of total retained sequences)
+			8)gallus gallus: 153(0.54% of total retained sequences)
+			9)pongo abelii: 138(0.49% of total retained sequences)
+			10)xenopus tropicalis: 131(0.46% of total retained sequences)
+
+------------------------------------------------------
+Compiled Similarity Search - DIAMOND - Best Overall
+------------------------------------------------------
+
+	Total unique transcripts with an alignment: 5138
+		Reference transcriptome sequences with an alignment (FASTA):
+			/a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/overall_results/diamond_annotated
+		Search results (TSV):
+			/a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/overall_results/diamond_annotated
+	Total unique transcripts without an alignment: 23285
+		Reference transcriptome sequences without an alignment (FASTA):
+			/a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/similarity_search/DIAMOND/overall_results/unannotated
+	Total unique informative alignments: 5052
+	Total unique uninformative alignments: 86
+	Top 10 alignments by species:
+			1)homo sapiens: 941(3.31% of total retained sequences)
+			2)mus musculus: 854(3.00% of total retained sequences)
+			3)drosophila melanogaster: 620(2.18% of total retained sequences)
+			4)rattus norvegicus: 350(1.23% of total retained sequences)
+			5)bos taurus: 320(1.13% of total retained sequences)
+			6)danio rerio: 298(1.05% of total retained sequences)
+			7)xenopus laevis: 250(0.88% of total retained sequences)
+			8)gallus gallus: 153(0.54% of total retained sequences)
+			9)pongo abelii: 138(0.49% of total retained sequences)
+			10)xenopus tropicalis: 131(0.46% of total retained sequences)
+
+------------------------------------------------------
+Gene Family - Gene Ontology and Pathway - EggNOG
+------------------------------------------------------
+Statistics for overall Eggnog results: 
+Total unique sequences with family assignment: 9623
+	Written to: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/gene_family/EggNOG/processed/eggnog_annotated
+Total unique sequences without family assignment: 18800
+	Written to: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output/gene_family/EggNOG/processed/eggnog_unannotated
+Top 10 Taxonomic Scopes Assigned:
+	1)33208|Metazoa: 8990(31.63% of total retained sequences)
+	2)2759|Eukaryota: 181(0.64% of total retained sequences)
+	3)4751|Fungi: 100(0.35% of total retained sequences)
+	4)35493|Streptophyta: 69(0.24% of total retained sequences)
+	5)33154|Opisthokonta: 59(0.21% of total retained sequences)
+	6)201174|Actinobacteria: 48(0.17% of total retained sequences)
+	7)28211|Alphaproteobacteria: 17(0.06% of total retained sequences)
+	8)1236|Gammaproteobacteria: 16(0.06% of total retained sequences)
+	9)976|Bacteroidetes: 11(0.04% of total retained sequences)
+	10)2|Bacteria: 11(0.04% of total retained sequences)
+Total unique sequences with at least one GO term: 7652
+Total unique sequences without GO terms: 1971
+Total GO terms assigned: 1120701
+Total molecular_function terms: 100368
+Total unique molecular_function terms: 3409
+Top 10 molecular_function terms assigned: 
+	1)GO:0003674: 6535(6.51% of total GO terms)
+	2)GO:0005488: 4924(4.91% of total GO terms)
+	3)GO:0005515: 3771(3.76% of total GO terms)
+	4)GO:0003824: 3168(3.16% of total GO terms)
+	5)GO:0097159: 1891(1.88% of total GO terms)
+	6)GO:1901363: 1867(1.86% of total GO terms)
+	7)GO:0019899: 1506(1.50% of total GO terms)
+	8)GO:0003676: 1401(1.40% of total GO terms)
+	9)GO:0016787: 1366(1.36% of total GO terms)
+	10)GO:0016740: 1327(1.32% of total GO terms)
+Total cellular_component terms: 208054
+Total unique cellular_component terms: 1841
+Top 10 cellular_component terms assigned: 
+	1)GO:0005575: 7243(3.48% of total GO terms)
+	2)GO:0005623: 7069(3.40% of total GO terms)
+	3)GO:0044464: 7069(3.40% of total GO terms)
+	4)GO:0005622: 6712(3.23% of total GO terms)
+	5)GO:0044424: 6701(3.22% of total GO terms)
+	6)GO:0043226: 6041(2.90% of total GO terms)
+	7)GO:0043229: 5963(2.87% of total GO terms)
+	8)GO:0043227: 5636(2.71% of total GO terms)
+	9)GO:0005737: 5601(2.69% of total GO terms)
+	10)GO:0043231: 5322(2.56% of total GO terms)
+Total overall terms: 1120701
+Total unique overall terms: 19103
+Top 10 overall terms assigned: 
+	1)GO:0008150: 7372(0.66% of total GO terms)
+	2)GO:0005575: 7243(0.65% of total GO terms)
+	3)GO:0005623: 7069(0.63% of total GO terms)
+	4)GO:0044464: 7069(0.63% of total GO terms)
+	5)GO:0005622: 6712(0.60% of total GO terms)
+	6)GO:0044424: 6701(0.60% of total GO terms)
+	7)GO:0009987: 6563(0.59% of total GO terms)
+	8)GO:0003674: 6535(0.58% of total GO terms)
+	9)GO:0043226: 6041(0.54% of total GO terms)
+	10)GO:0043229: 5963(0.53% of total GO terms)
+Total biological_process terms: 812279
+Total unique biological_process terms: 13853
+Top 10 biological_process terms assigned: 
+	1)GO:0008150: 7372(0.91% of total GO terms)
+	2)GO:0009987: 6563(0.81% of total GO terms)
+	3)GO:0065007: 5354(0.66% of total GO terms)
+	4)GO:0050789: 5012(0.62% of total GO terms)
+	5)GO:0008152: 4836(0.60% of total GO terms)
+	6)GO:0050794: 4736(0.58% of total GO terms)
+	7)GO:0071704: 4672(0.58% of total GO terms)
+	8)GO:0044237: 4553(0.56% of total GO terms)
+	9)GO:0044238: 4451(0.55% of total GO terms)
+	10)GO:0006807: 4231(0.52% of total GO terms)
+Total unique sequences with at least one KEGG assignment: 4245
+Total unique sequences without KEGG assignment: 5378
+------------------------------------------------------
+Final Annotation Statistics
+------------------------------------------------------
+Total Input Sequences: 28423
+Similarity Search
+	Total unique sequences with an alignment: 5138 (18.08% of total input sequences)
+		No contaminants were selected by user
+	Total unique sequences without an alignment: 23285 (81.92% of total input sequences)
+Gene Families
+	Total unique sequences with family assignment: 9623 (33.86% of total input sequences)
+	Total unique sequences without family assignment: 18800 (66.14% of total input sequences)
+	Total unique sequences with at least one GO term: 7652 (26.92% of total input sequences)
+	Total unique sequences with at least one pathway (KEGG) assignment: 4245 (14.94% of total input sequences)
+	Total unique sequences flagged as an EggNOG contaminant: 0 (0.00% of EggNOG assignments)
+	Total unique sequences NOT flagged as an EggNOG contaminant: 9623 (100.00% of total unique family assignments)
+Totals
+EnTAP files written to: /a1/luigui/2026/01_p_monodon_annot/04_annotation/entap_output
+	Total retained sequences (after filtering and/or frame selection): 28423
+		Final transcriptome written to directory: transcriptomes/
+	Total unique sequences annotated (similarity search alignments only): 12 (0.04% of total retained)
+	Total unique sequences annotated (gene family assignment only): 4497 (15.82% of total retained)
+	Total unique sequences annotated (gene family and/or similarity search): 9635 (33.90% of total retained)
+		Written to: final_results/annotated
+		No contaminants were selected by user
+	Total unique sequences unannotated (gene family and/or similarity search): 18788 (66.10% of total retained)
+		Written to: final_results/unannotated
+
+EnTAP has completed!
+Total runtime (minutes): 47

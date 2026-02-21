@@ -1,0 +1,23 @@
+#                                                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+533690at33208_6850_0:00316c|TRINITY_DN87497_c9_g1_i1:219-956|+    -            246 533690at33208        -            183   4.7e-69  230.5   4.5   1   1     2e-71   2.2e-68  228.3   4.5     1   183    29   246    29   246 0.86 -
+533690at33208_6850_0:00316c|TRINITY_DN87497_c9_g1_i2:660-1397|+   -            246 533690at33208        -            183   4.7e-69  230.5   4.5   1   1     2e-71   2.2e-68  228.3   4.5     1   183    29   246    29   246 0.86 -
+496219at33208_133901_0:00120d|TRINITY_DN80300_c9_g1_i1:429-1340|- -            304 533690at33208        -            183     3e-30  104.0   0.2   1   1   1.1e-32   1.2e-29  102.0   0.2     8   180   111   295    87   298 0.82 -
+495605at33208_7574_0:003da4|TRINITY_DN77361_c17_g1_i1:246-962|-   -            239 533690at33208        -            183     3e-05   22.5   0.2   1   2   1.6e-05     0.018   13.5   0.1    30    82    76   128    51   133 0.86 -
+495605at33208_7574_0:003da4|TRINITY_DN77361_c17_g1_i1:246-962|-   -            239 533690at33208        -            183     3e-05   22.5   0.2   2   2     0.002       2.2    6.6   0.0   121   160   180   222   163   231 0.75 -
+495605at33208_7574_0:003da4|TRINITY_DN77361_c17_g1_i2:224-1060|-  -            279 533690at33208        -            183     4e-05   22.1   0.1   1   2   1.9e-05     0.021   13.2   0.1    30    82    76   128    47   133 0.85 -
+495605at33208_7574_0:003da4|TRINITY_DN77361_c17_g1_i2:224-1060|-  -            279 533690at33208        -            183     4e-05   22.1   0.1   2   2     0.002       2.2    6.6   0.0   121   161   180   223   163   244 0.76 -
+496219at33208_29053_0:000b00|TRINITY_DN79803_c12_g1_i2:166-684|+  -            173 533690at33208        -            183    0.0025   16.3   0.0   1   1   3.4e-06    0.0038   15.6   0.0    33    81    45    92    29   106 0.81 -
+496219at33208_29053_0:000b00|TRINITY_DN79803_c12_g1_i4:166-684|+  -            173 533690at33208        -            183    0.0025   16.3   0.0   1   1   3.4e-06    0.0038   15.6   0.0    33    81    45    92    29   106 0.81 -
+496219at33208_29053_0:000b00|TRINITY_DN79803_c12_g1_i5:166-684|+  -            173 533690at33208        -            183    0.0025   16.3   0.0   1   1   3.4e-06    0.0038   15.6   0.0    33    81    45    92    29   106 0.81 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_downloads/lineages/metazoa_odb10/hmms/533690at33208.hmm
+# Target file:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon_metazoa_odb10/run_metazoa_odb10/metaeuk_output/initial_results/Trinity.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon_metazoa_odb10/run_metazoa_odb10/hmmer_output/initial_run_results/533690at33208.out --cpu 1 /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_downloads/lineages/metazoa_odb10/hmms/533690at33208.hmm /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon_metazoa_odb10/run_metazoa_odb10/metaeuk_output/initial_results/Trinity.fasta.modified.fas 
+# Current dir:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis
+# Date:            Tue Feb 17 15:06:52 2026
+# [ok]

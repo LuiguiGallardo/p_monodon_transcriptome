@@ -1,0 +1,17 @@
+#                                                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                   accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                           ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+401196at33208_7160_0:002d39|TRINITY_DN82231_c0_g1_i4:139-870|+  -            244 401196at33208        -            175   1.1e-71  239.1   4.1   1   1   1.3e-72   3.8e-69  230.8   4.1     5   175    13   216    10   216 0.87 -
+401196at33208_62324_0:000582|TRINITY_DN82231_c0_g1_i3:172-981|+ -            270 401196at33208        -            175   1.6e-71  238.6   4.2   1   1   1.9e-72   5.7e-69  230.3   4.2     5   175    53   256    50   256 0.87 -
+401196at33208_6669_0:0026de|TRINITY_DN82231_c0_g1_i1:172-774|+  -            201 401196at33208        -            175   7.7e-40  135.4   4.4   1   2   7.1e-20   2.1e-16   59.1   0.1     5    76    53   134    50   147 0.87 -
+401196at33208_6669_0:0026de|TRINITY_DN82231_c0_g1_i1:172-774|+  -            201 401196at33208        -            175   7.7e-40  135.4   4.4   2   2   2.7e-25   8.1e-22   76.7   1.9    71   123   149   201   134   201 0.89 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_downloads/lineages/metazoa_odb10/hmms/401196at33208.hmm
+# Target file:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon_metazoa_odb10/run_metazoa_odb10/metaeuk_output/initial_results/Trinity.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon_metazoa_odb10/run_metazoa_odb10/hmmer_output/initial_run_results/401196at33208.out --cpu 1 /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_downloads/lineages/metazoa_odb10/hmms/401196at33208.hmm /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis/busco_output/busco_p_monodon_metazoa_odb10/run_metazoa_odb10/metaeuk_output/initial_results/Trinity.fasta.modified.fas 
+# Current dir:     /home/luigui/Documents/2026/p_monodon_transcriptome/06_busco_analysis
+# Date:            Tue Feb 17 15:06:50 2026
+# [ok]
