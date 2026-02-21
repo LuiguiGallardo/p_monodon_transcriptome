@@ -11,8 +11,8 @@ from matplotlib.gridspec import GridSpec
 import re
 
 # Load annotation data
-pmstat_annot = pd.read_csv('/tmp/pmstat_annot.csv')
-wssv_annot = pd.read_csv('/tmp/wssv_annot.csv')
+pmstat_annot = pd.read_csv('../docs/pmstat_annot.csv')
+wssv_annot = pd.read_csv('../docs/wssv_annot.csv')
 
 # KEGG pathway mapping (KO code to pathway name)
 KEGG_PATHWAYS = {
@@ -271,7 +271,7 @@ def create_enhanced_figures():
     plt.suptitle('Figure 4: KEGG Pathway Enrichment Analysis - Named Pathways', 
                  fontsize=15, fontweight='bold', y=0.98)
     
-    plt.savefig('reviewer_response/Figure_4_KEGG_Pathways_Named.pdf', dpi=300, bbox_inches='tight', format='pdf')
+    plt.savefig('only_differential_expression_proteins/Figure_4_KEGG_Pathways_Named.pdf', dpi=300, bbox_inches='tight', format='pdf')
     print("    ✓ Saved Figure 4")
     plt.close()
     
@@ -390,7 +390,7 @@ def create_enhanced_figures():
     plt.suptitle('Figure 5: Functional Category Analysis & Interpretation', 
                  fontsize=15, fontweight='bold', y=0.98)
     
-    plt.savefig('reviewer_response/Figure_5_Functional_Analysis.pdf', dpi=300, bbox_inches='tight', format='pdf')
+    plt.savefig('only_differential_expression_proteins/Figure_5_Functional_Analysis.pdf', dpi=300, bbox_inches='tight', format='pdf')
     print("    ✓ Saved Figure 5")
     plt.close()
     
@@ -561,12 +561,12 @@ def create_enhanced_figures():
     plt.suptitle('Figure 6: Immune & Stress Response Pathways - Interpretation', 
                  fontsize=15, fontweight='bold', y=0.98)
     
-    plt.savefig('reviewer_response/Figure_6_Immune_Response.pdf', dpi=300, bbox_inches='tight', format='pdf')
+    plt.savefig('only_differential_expression_proteins/Figure_6_Immune_Response.pdf', dpi=300, bbox_inches='tight', format='pdf')
     print("    ✓ Saved Figure 6")
     plt.close()
     
     print("\n✓ Boom! All enhanced interpretation figures generated successfully!")
-    print(f"  Saved to: reviewer_response/")
+    print(f"  Saved to: only_differential_expression_proteins/")
 
 if __name__ == '__main__':
     create_enhanced_figures()

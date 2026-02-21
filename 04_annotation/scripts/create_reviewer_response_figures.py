@@ -12,10 +12,10 @@ from pathlib import Path
 from collections import Counter
 
 # Load annotation data from Excel
-excel_file = 'reviewer_response/Differential_Gene_Expression_Annotations.xlsx'
+excel_file = 'only_differential_expression_proteins/Differential_Gene_Expression_Annotations.xlsx'
 pmstat_annot = pd.read_excel(excel_file, sheet_name='genes_UP_PmSTAT dsRNA+WSSV')
 wssv_annot = pd.read_excel(excel_file, sheet_name='genes_UP_WSSV')
-output_dir = Path('reviewer_response')
+output_dir = Path('only_differential_expression_proteins')
 
 # Print data verification
 print(f"Loaded data: PmSTAT={len(pmstat_annot)}, WSSV={len(wssv_annot)}")
@@ -469,7 +469,7 @@ def create_individual_panels():
     print("\n" + "=" * 60)
     print("✓ ALL INDIVIDUAL FIGURE MODULES GENERATED")
     print("=" * 60)
-    print(f"Saved to: reviewer_response/")
+    print(f"Saved to: only_differential_expression_proteins/")
     print(f"\nFigure 1 (Database Coverage): 1a, 1b, 1c, 1d")
     print(f"Figure 2 (Functional Annotations): 2a, 2b, 2c, 2d")
     print(f"Figure 3 (Structural Features): 3a, 3b, 3c, 3d")

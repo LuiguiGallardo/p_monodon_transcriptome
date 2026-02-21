@@ -157,40 +157,45 @@ class PublicationFigures:
         - Panel B: Top GO terms biological process
         - Panel C: Top GO terms molecular function
         - Panel D: KEGG pathway categories
+
+        Also saves each panel as a separate PNG (300 DPI) and SVG file.
         """
-        fig = plt.figure(figsize=(16, 12))
-        gs = fig.add_gridspec(2, 2, hspace=0.35, wspace=0.3)
-        
-        fig.suptitle('Figure 2: Functional Characterization and Gene Ontology Analysis', 
-                    fontsize=18, fontweight='bold', y=0.98)
-        
-        # Panel A: GO domain distribution
-        ax_a = fig.add_subplot(gs[0, 0])
-        
+        import os
+        out_dir = os.path.dirname(output_path)
+
+        def _save_panel(fig_panel, stem):
+            """Save a standalone figure as PNG and SVG."""
+            png = os.path.join(out_dir, f'{stem}.png')
+            svg = os.path.join(out_dir, f'{stem}.svg')
+            fig_panel.savefig(png, dpi=300, bbox_inches='tight')
+            fig_panel.savefig(svg, format='svg', bbox_inches='tight')
+            print(f"  ✓ {stem}.png / .svg")
+
+        # ── Panel A ──────────────────────────────────────────────────────────
         go_domains = {
             'Biological\nProcess': 3500,
             'Molecular\nFunction': 2800,
             'Cellular\nComponent': 2100
         }
-        
         colors_a = ['#3498db', '#e74c3c', '#2ecc71']
+
+        fig_a, ax_a = plt.subplots(figsize=(8, 6))
         bars_a = ax_a.bar(list(go_domains.keys()), list(go_domains.values()),
-                         color=colors_a, alpha=0.8, edgecolor='black', linewidth=2)
-        
+                          color=colors_a, alpha=0.8, edgecolor='black', linewidth=2)
         for bar in bars_a:
             height = bar.get_height()
             ax_a.text(bar.get_x() + bar.get_width()/2., height,
-                     f'{int(height):,}',
-                     ha='center', va='bottom', fontweight='bold', fontsize=11)
-        
+                      f'{int(height):,}', ha='center', va='bottom',
+                      fontweight='bold', fontsize=11)
         ax_a.set_ylabel('Number of GO Terms', fontsize=11, fontweight='bold')
-        ax_a.set_title('A. Gene Ontology Domain Distribution', 
-                      fontsize=13, fontweight='bold', loc='left')
+        ax_a.set_title('A. Gene Ontology Domain Distribution',
+                       fontsize=13, fontweight='bold', loc='left')
         ax_a.grid(axis='y', alpha=0.3)
-        
-        # Panel B: Top biological process GO terms
-        ax_b = fig.add_subplot(gs[0, 1])
-        
+        fig_a.tight_layout()
+        _save_panel(fig_a, 'Figure2a_GO_Domain_Distribution')
+        plt.close(fig_a)
+
+        # ── Panel B ──────────────────────────────────────────────────────────
         bp_terms = {
             'Cellular process': 1800,
             'Metabolic process': 1400,
@@ -199,25 +204,25 @@ class PublicationFigures:
             'Developmental process': 550,
             'Transport': 420
         }
-        
         colors_b = plt.cm.Blues(np.linspace(0.4, 0.9, len(bp_terms)))
+
+        fig_b, ax_b = plt.subplots(figsize=(8, 6))
         bars_b = ax_b.barh(list(bp_terms.keys()), list(bp_terms.values()),
-                          color=colors_b, alpha=0.8, edgecolor='black', linewidth=1.5)
-        
-        for i, bar in enumerate(bars_b):
+                           color=colors_b, alpha=0.8, edgecolor='black', linewidth=1.5)
+        for bar in bars_b:
             width = bar.get_width()
             ax_b.text(width + 30, bar.get_y() + bar.get_height()/2.,
-                     f'{int(width):,}',
-                     ha='left', va='center', fontweight='bold', fontsize=9)
-        
+                      f'{int(width):,}', ha='left', va='center',
+                      fontweight='bold', fontsize=9)
         ax_b.set_xlabel('Count', fontsize=11, fontweight='bold')
-        ax_b.set_title('B. Top Biological Process GO Terms', 
-                      fontsize=13, fontweight='bold', loc='left')
+        ax_b.set_title('B. Top Biological Process GO Terms',
+                       fontsize=13, fontweight='bold', loc='left')
         ax_b.grid(axis='x', alpha=0.3)
-        
-        # Panel C: Top molecular function GO terms
-        ax_c = fig.add_subplot(gs[1, 0])
-        
+        fig_b.tight_layout()
+        _save_panel(fig_b, 'Figure2b_Top_Biological_Process')
+        plt.close(fig_b)
+
+        # ── Panel C ──────────────────────────────────────────────────────────
         mf_terms = {
             'Binding': 1200,
             'Catalytic activity': 950,
@@ -226,25 +231,25 @@ class PublicationFigures:
             'DNA binding': 180,
             'Metal ion binding': 150
         }
-        
         colors_c = plt.cm.Oranges(np.linspace(0.4, 0.9, len(mf_terms)))
+
+        fig_c, ax_c = plt.subplots(figsize=(8, 6))
         bars_c = ax_c.barh(list(mf_terms.keys()), list(mf_terms.values()),
-                          color=colors_c, alpha=0.8, edgecolor='black', linewidth=1.5)
-        
-        for i, bar in enumerate(bars_c):
+                           color=colors_c, alpha=0.8, edgecolor='black', linewidth=1.5)
+        for bar in bars_c:
             width = bar.get_width()
             ax_c.text(width + 30, bar.get_y() + bar.get_height()/2.,
-                     f'{int(width):,}',
-                     ha='left', va='center', fontweight='bold', fontsize=9)
-        
+                      f'{int(width):,}', ha='left', va='center',
+                      fontweight='bold', fontsize=9)
         ax_c.set_xlabel('Count', fontsize=11, fontweight='bold')
-        ax_c.set_title('C. Top Molecular Function GO Terms', 
-                      fontsize=13, fontweight='bold', loc='left')
+        ax_c.set_title('C. Top Molecular Function GO Terms',
+                       fontsize=13, fontweight='bold', loc='left')
         ax_c.grid(axis='x', alpha=0.3)
-        
-        # Panel D: KEGG pathway categories
-        ax_d = fig.add_subplot(gs[1, 1])
-        
+        fig_c.tight_layout()
+        _save_panel(fig_c, 'Figure2c_Top_Molecular_Function')
+        plt.close(fig_c)
+
+        # ── Panel D ──────────────────────────────────────────────────────────
         kegg_categories = {
             'Metabolism': 2200,
             'Signal Transduction': 1600,
@@ -254,24 +259,84 @@ class PublicationFigures:
             'Organismal Systems': 350,
             'Human Diseases': 120
         }
-        
         colors_d = plt.cm.Spectral(np.linspace(0, 1, len(kegg_categories)))
+
+        fig_d, ax_d = plt.subplots(figsize=(8, 6))
         bars_d = ax_d.barh(list(kegg_categories.keys()), list(kegg_categories.values()),
-                          color=colors_d, alpha=0.8, edgecolor='black', linewidth=1.5)
-        
-        for i, bar in enumerate(bars_d):
+                           color=colors_d, alpha=0.8, edgecolor='black', linewidth=1.5)
+        for bar in bars_d:
             width = bar.get_width()
             ax_d.text(width + 40, bar.get_y() + bar.get_height()/2.,
-                     f'{int(width):,}',
-                     ha='left', va='center', fontweight='bold', fontsize=9)
-        
+                      f'{int(width):,}', ha='left', va='center',
+                      fontweight='bold', fontsize=9)
         ax_d.set_xlabel('Number of Proteins', fontsize=11, fontweight='bold')
-        ax_d.set_title('D. KEGG Pathway Categories', 
-                      fontsize=13, fontweight='bold', loc='left')
+        ax_d.set_title('D. KEGG Pathway Categories',
+                       fontsize=13, fontweight='bold', loc='left')
         ax_d.grid(axis='x', alpha=0.3)
-        
+        fig_d.tight_layout()
+        _save_panel(fig_d, 'Figure2d_KEGG_Pathway_Categories')
+        plt.close(fig_d)
+
+        # ── Combined PDF (all 4 panels) ───────────────────────────────────────
+        fig = plt.figure(figsize=(16, 12))
+        gs = fig.add_gridspec(2, 2, hspace=0.35, wspace=0.3)
+        fig.suptitle('Figure 2: Functional Characterization and Gene Ontology Analysis',
+                     fontsize=18, fontweight='bold', y=0.98)
+
+        ax_a2 = fig.add_subplot(gs[0, 0])
+        ax_a2.bar(list(go_domains.keys()), list(go_domains.values()),
+                  color=colors_a, alpha=0.8, edgecolor='black', linewidth=2)
+        for bar in ax_a2.patches:
+            height = bar.get_height()
+            ax_a2.text(bar.get_x() + bar.get_width()/2., height,
+                       f'{int(height):,}', ha='center', va='bottom',
+                       fontweight='bold', fontsize=11)
+        ax_a2.set_ylabel('Number of GO Terms', fontsize=11, fontweight='bold')
+        ax_a2.set_title('A. Gene Ontology Domain Distribution',
+                        fontsize=13, fontweight='bold', loc='left')
+        ax_a2.grid(axis='y', alpha=0.3)
+
+        ax_b2 = fig.add_subplot(gs[0, 1])
+        ax_b2.barh(list(bp_terms.keys()), list(bp_terms.values()),
+                   color=colors_b, alpha=0.8, edgecolor='black', linewidth=1.5)
+        for bar in ax_b2.patches:
+            width = bar.get_width()
+            ax_b2.text(width + 30, bar.get_y() + bar.get_height()/2.,
+                       f'{int(width):,}', ha='left', va='center',
+                       fontweight='bold', fontsize=9)
+        ax_b2.set_xlabel('Count', fontsize=11, fontweight='bold')
+        ax_b2.set_title('B. Top Biological Process GO Terms',
+                        fontsize=13, fontweight='bold', loc='left')
+        ax_b2.grid(axis='x', alpha=0.3)
+
+        ax_c2 = fig.add_subplot(gs[1, 0])
+        ax_c2.barh(list(mf_terms.keys()), list(mf_terms.values()),
+                   color=colors_c, alpha=0.8, edgecolor='black', linewidth=1.5)
+        for bar in ax_c2.patches:
+            width = bar.get_width()
+            ax_c2.text(width + 30, bar.get_y() + bar.get_height()/2.,
+                       f'{int(width):,}', ha='left', va='center',
+                       fontweight='bold', fontsize=9)
+        ax_c2.set_xlabel('Count', fontsize=11, fontweight='bold')
+        ax_c2.set_title('C. Top Molecular Function GO Terms',
+                        fontsize=13, fontweight='bold', loc='left')
+        ax_c2.grid(axis='x', alpha=0.3)
+
+        ax_d2 = fig.add_subplot(gs[1, 1])
+        ax_d2.barh(list(kegg_categories.keys()), list(kegg_categories.values()),
+                   color=colors_d, alpha=0.8, edgecolor='black', linewidth=1.5)
+        for bar in ax_d2.patches:
+            width = bar.get_width()
+            ax_d2.text(width + 40, bar.get_y() + bar.get_height()/2.,
+                       f'{int(width):,}', ha='left', va='center',
+                       fontweight='bold', fontsize=9)
+        ax_d2.set_xlabel('Number of Proteins', fontsize=11, fontweight='bold')
+        ax_d2.set_title('D. KEGG Pathway Categories',
+                        fontsize=13, fontweight='bold', loc='left')
+        ax_d2.grid(axis='x', alpha=0.3)
+
         plt.savefig(output_path, dpi=300, bbox_inches='tight', format='pdf')
-        print(f"✓ Saved: {output_path}")
+        print(f"✓ Saved combined: {output_path}")
         plt.close()
         
     def create_figure3(self, output_path='../results/annotation_graphics/Figure3.pdf'):

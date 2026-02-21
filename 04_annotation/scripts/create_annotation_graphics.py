@@ -157,11 +157,11 @@ class AnnotationVisualizer:
         for i, (bar, pct) in enumerate(zip(bars, percentages)):
             width = bar.get_width()
             ax.text(width + 300, bar.get_y() + bar.get_height()/2,
-                   f'{int(width):,} ({pct}%)',
+                   f'({pct}%)',
                    ha='left', va='center', fontweight='bold', fontsize=10)
         
-        ax.set_xlabel('Number of Proteins', fontsize=12, fontweight='bold')
-        ax.set_title('Annotation Coverage by Database', fontsize=14, fontweight='bold')
+        ax.set_xlabel('Number of Proteins', fontsize=12)
+        # ax.set_title('Annotation Coverage by Database', fontsize=14, fontweight='bold')
         ax.grid(axis='x', alpha=0.3)
         
         plt.tight_layout()

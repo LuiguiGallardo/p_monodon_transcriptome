@@ -10,8 +10,8 @@ from matplotlib.gridspec import GridSpec
 import re
 
 # Load annotation data
-pmstat_annot = pd.read_csv('/tmp/pmstat_annot.csv')
-wssv_annot = pd.read_csv('/tmp/wssv_annot.csv')
+pmstat_annot = pd.read_csv('../docs/pmstat_annot.csv')
+wssv_annot = pd.read_csv('../docs/wssv_annot.csv')
 
 KEGG_PATHWAYS = {
     'ko03010': 'Ribosome',
@@ -176,13 +176,13 @@ def create_updated_figure2():
     # Panel C: Gene Ontology distribution
     ax_c = fig.add_subplot(gs[1, 0])
     
-    pmstat_go_bio = pmstat_annot['EggNOG_GO_Biological'].notna().sum()
-    pmstat_go_mol = pmstat_annot['EggNOG_GO_Molecular'].notna().sum()
-    pmstat_go_cell = pmstat_annot['EggNOG_GO_Cellular'].notna().sum()
+    pmstat_go_bio = pmstat_annot['GO_BP'].notna().sum()
+    pmstat_go_mol = pmstat_annot['GO_MF'].notna().sum()
+    pmstat_go_cell = pmstat_annot['GO_CC'].notna().sum()
     
-    wssv_go_bio = wssv_annot['EggNOG_GO_Biological'].notna().sum()
-    wssv_go_mol = wssv_annot['EggNOG_GO_Molecular'].notna().sum()
-    wssv_go_cell = wssv_annot['EggNOG_GO_Cellular'].notna().sum()
+    wssv_go_bio = wssv_annot['GO_BP'].notna().sum()
+    wssv_go_mol = wssv_annot['GO_MF'].notna().sum()
+    wssv_go_cell = wssv_annot['GO_CC'].notna().sum()
     
     go_types = ['Biological\nProcess', 'Molecular\nFunction', 'Cellular\nComponent']
     pmstat_go = [pmstat_go_bio, pmstat_go_mol, pmstat_go_cell]
@@ -241,7 +241,7 @@ def create_updated_figure2():
     plt.suptitle('Figure 2: Functional Annotation Distribution - Updated with Named KEGG Pathways', 
                  fontsize=16, fontweight='bold', y=0.98)
     
-    plt.savefig('reviewer_response/Figure_2_Functional_Annotations.pdf', dpi=300, bbox_inches='tight', format='pdf')
+    plt.savefig('../results/only_differential_expression_proteins/Figure_2_Functional_Annotations.pdf', dpi=300, bbox_inches='tight', format='pdf')
     print("    ✓ Saved Figure 2 (updated)")
     plt.close()
 
