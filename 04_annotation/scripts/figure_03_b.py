@@ -43,12 +43,12 @@ if __name__ == '__main__':
                 edgecolor='black', linewidth=1.5)
         ax.set_yticks(range(len(top)))
         ax.set_yticklabels(names, fontsize=10)
-        ax.set_xlabel('Count', fontsize=11, fontweight='bold')
+        ax.set_xlabel('Count', fontsize=11)
         ax.grid(axis='x', alpha=0.3)
-        for i, v in enumerate(values):
-            ax.text(v + 5, i, f'{int(v)}', va='center', fontweight='bold')
+        # for i, v in enumerate(values):
+        #     ax.text(v + 5, i, f'{int(v)}', va='center', fontweight='bold')
 
-    ax.set_title('Top 20 KEGG Pathways', fontsize=13, fontweight='bold')
+    ax.set_title('Top 20 KEGG Pathways', fontsize=13)
     fig.tight_layout()
     fig.savefig(OUT / f'{STEM}.png', dpi=300, bbox_inches='tight')
     fig.savefig(OUT / f'{STEM}.svg', format='svg', bbox_inches='tight')
