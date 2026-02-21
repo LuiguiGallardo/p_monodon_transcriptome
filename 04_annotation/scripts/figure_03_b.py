@@ -22,14 +22,16 @@ XLSX = '../results/comprehensive_protein_annotations.xlsx'
 if __name__ == '__main__':
     df = pd.read_excel(XLSX, sheet_name='Protein Annotations')
 
-    # Collect all pathway codes as-is (ko and map kept separate)
-    all_codes = []
+    # Collect only 'ko' pathway codes (omitting 'map' codes)
+    ko_codes = []
     for p in df['KEGG_Pathway'].dropna():
         if isinstance(p, str):
             for code in p.split(','):
-                all_codes.append(code.strip())
+                code = code.strip()
+                if code.startswith('ko'):
+                    ko_codes.append(code)
 
-    top = Counter(all_codes).most_common(10)
+    top = Counter(ko_codes).most_common(20)
 
     fig, ax = plt.subplots(figsize=(12, 7))
     if top:
@@ -46,7 +48,7 @@ if __name__ == '__main__':
         for i, v in enumerate(values):
             ax.text(v + 5, i, f'{int(v)}', va='center', fontweight='bold')
 
-    ax.set_title('Top 10 KEGG Pathways', fontsize=13, fontweight='bold')
+    ax.set_title('Top 20 KEGG Pathways', fontsize=13, fontweight='bold')
     fig.tight_layout()
     fig.savefig(OUT / f'{STEM}.png', dpi=300, bbox_inches='tight')
     fig.savefig(OUT / f'{STEM}.svg', format='svg', bbox_inches='tight')
