@@ -22,7 +22,7 @@ if __name__ == '__main__':
         w = bar.get_width()
         ax.text(w + 300, bar.get_y() + bar.get_height() / 2,
                 f'{pct}%', ha='left', va='center', fontsize=10)
-    ax.set_xlabel('Number of Proteins', fontsize=12, fontweight='bold')
+    ax.set_xlabel('Number of proteins', fontsize=12, fontweight='bold')
     ax.set_title('Annotation Coverage by Database', fontsize=13, fontweight='bold')
     ax.grid(axis='x', alpha=0.3)
     fig.tight_layout()
