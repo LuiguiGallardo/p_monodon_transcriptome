@@ -4,7 +4,7 @@ TRANSCRIPTOME ANNOTATION SUMMARY REPORT
 
 OVERVIEW:
   Total proteins analyzed: 28,423
-  Output directory: annotation_graphics
+  Output directory: ../results/annotation_graphics
 
 ANNOTATION STATISTICS:
   Proteins with BLAST hits: 5,138 (18.1%)
