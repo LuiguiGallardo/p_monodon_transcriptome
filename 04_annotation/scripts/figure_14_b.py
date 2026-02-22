@@ -27,7 +27,7 @@ if __name__ == '__main__':
         names  = [d[0][:25] for d in top]
         counts = [d[1] for d in top]
         y = np.arange(len(names))
-        ax.barh(y, counts, color='#FF6B6B', edgecolor='black', linewidth=1.2)
+        ax.barh(y, counts, color='blue', edgecolor='black', linewidth=1.2)
         ax.set_yticks(y); ax.set_yticklabels(names, fontsize=10)
         ax.set_xlabel('Count', fontsize=12, fontweight='bold')
         ax.grid(axis='x', alpha=0.3, linestyle='--')

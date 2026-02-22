@@ -41,8 +41,8 @@ if __name__ == '__main__':
 
     x, w = np.arange(len(cats)), 0.35
     fig, ax = plt.subplots(figsize=(12, 7))
-    ax.bar(x - w/2, pm_vals, w, label='PmSTAT dsRNA+WSSV', color='#FF6B6B', edgecolor='black', linewidth=1.2)
-    ax.bar(x + w/2, ws_vals, w, label='WSSV',              color='#4ECDC4', edgecolor='black', linewidth=1.2)
+    ax.bar(x - w/2, pm_vals, w, label='PmSTAT dsRNA+WSSV', color='blue', edgecolor='black', linewidth=1.2)
+    ax.bar(x + w/2, ws_vals, w, label='WSSV',              color='red', edgecolor='black', linewidth=1.2)
     ax.set_ylabel('Number of Proteins', fontsize=11, fontweight='bold')
     ax.set_title('KEGG Pathway Categories', fontsize=13, fontweight='bold')
     ax.set_xticks(x); ax.set_xticklabels(cats, rotation=25, ha='right', fontsize=9)

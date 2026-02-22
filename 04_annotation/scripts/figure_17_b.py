@@ -26,25 +26,22 @@ def pathway_dict(df):
 
 if __name__ == '__main__':
     pm_p = pathway_dict(pd.read_csv('../docs/pmstat_annot.csv'))
-    ws_p = pathway_dict(pd.read_csv('../docs/wssv_annot.csv'))
-    cats    = list(RESPONSE.keys())
-    pm_vals = [sum(pm_p.get(c, 0) for c in RESPONSE[cat]) for cat in cats]
-    ws_vals = [sum(ws_p.get(c, 0) for c in RESPONSE[cat]) for cat in cats]
+    
+    cat_counts = [(cat, sum(pm_p.get(c, 0) for c in RESPONSE[cat])) for cat in RESPONSE.keys()]
+    cat_counts.sort(key=lambda x: x[1], reverse=True)
+    cat_counts = cat_counts[:10]
+    
+    cats = [x[0] for x in cat_counts]
+    pm_vals = [x[1] for x in cat_counts]
 
-    x, w = np.arange(len(cats)), 0.35
-    fig, ax = plt.subplots(figsize=(12, 7))
-    b1 = ax.bar(x - w/2, pm_vals, w, label='PmSTAT dsRNA+WSSV', color='#FF6B6B', edgecolor='black', linewidth=1.2)
-    b2 = ax.bar(x + w/2, ws_vals, w, label='WSSV',              color='#4ECDC4', edgecolor='black', linewidth=1.2)
-    for bars in [b1, b2]:
-        for bar in bars:
-            h = bar.get_height()
-            if h > 0:
-                ax.text(bar.get_x()+bar.get_width()/2., h, f'{int(h)}',
-                        ha='center', va='bottom', fontsize=9, fontweight='bold')
-    ax.set_ylabel('Number of Proteins', fontsize=11, fontweight='bold')
-    ax.set_title('Stress Response Pathways', fontsize=13, fontweight='bold')
-    ax.set_xticks(x); ax.set_xticklabels(cats, fontsize=10)
-    ax.legend(fontsize=10, loc='upper right'); ax.grid(axis='y', alpha=0.3, linestyle='--')
+    fig, ax = plt.subplots(figsize=(5, 7))
+    y = np.arange(len(cats))
+    bars = ax.barh(y, pm_vals, color='blue', edgecolor='black', linewidth=1.2)
+    ax.set_yticks(y); ax.set_yticklabels(cats, fontsize=10)
+    ax.invert_yaxis()
+    ax.set_xlabel('Number of Proteins', fontsize=11, fontweight='bold')
+    ax.set_title('Stress Response Pathways – PmSTAT dsRNA+WSSV', fontsize=10, fontweight='bold')
+    ax.grid(axis='x', alpha=0.3, linestyle='--')
     fig.tight_layout()
     fig.savefig(OUT / f'{STEM}.png', dpi=300, bbox_inches='tight')
     fig.savefig(OUT / f'{STEM}.svg', format='svg', bbox_inches='tight')

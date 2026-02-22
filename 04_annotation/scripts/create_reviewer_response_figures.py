@@ -85,8 +85,8 @@ def create_individual_panels():
     ]
     
     x = np.arange(len(databases))
-    bars1 = ax.bar(x - width/2, pmstat_counts, width, label='PmSTAT dsRNA+WSSV', color='#FF6B6B', edgecolor='black', linewidth=1.2)
-    bars2 = ax.bar(x + width/2, wssv_counts, width, label='WSSV', color='#4ECDC4', edgecolor='black', linewidth=1.2)
+    bars1 = ax.bar(x - width/2, pmstat_counts, width, label='PmSTAT dsRNA+WSSV', color='blue', edgecolor='black', linewidth=1.2)
+    bars2 = ax.bar(x + width/2, wssv_counts, width, label='WSSV', color='red', edgecolor='black', linewidth=1.2)
     
     ax.set_ylabel('Number of Proteins', fontsize=12, fontweight='bold')
     ax.set_title('Database Coverage Comparison', fontsize=14, fontweight='bold')
@@ -113,8 +113,8 @@ def create_individual_panels():
     wssv_pct = [count/len(wssv_annot)*100 for count in wssv_counts]
     
     x = np.arange(len(databases))
-    bars1 = ax.bar(x - width/2, pmstat_pct, width, label='PmSTAT dsRNA+WSSV', color='#FF6B6B', edgecolor='black', linewidth=1.2)
-    bars2 = ax.bar(x + width/2, wssv_pct, width, label='WSSV', color='#4ECDC4', edgecolor='black', linewidth=1.2)
+    bars1 = ax.bar(x - width/2, pmstat_pct, width, label='PmSTAT dsRNA+WSSV', color='blue', edgecolor='black', linewidth=1.2)
+    bars2 = ax.bar(x + width/2, wssv_pct, width, label='WSSV', color='red', edgecolor='black', linewidth=1.2)
     
     ax.set_ylabel('Coverage (%)', fontsize=12, fontweight='bold')
     ax.set_title('Database Coverage Percentages', fontsize=14, fontweight='bold')
@@ -177,8 +177,8 @@ def create_individual_panels():
     wssv_dist = [len(wssv_annot[wssv_annot['annot_count']==i]) for i in range(5)]
     
     x = np.arange(len(annot_cats))
-    bars1 = ax.bar(x - width/2, pmstat_dist, width, label='PmSTAT dsRNA+WSSV', color='#FF6B6B', edgecolor='black', linewidth=1.2)
-    bars2 = ax.bar(x + width/2, wssv_dist, width, label='WSSV', color='#4ECDC4', edgecolor='black', linewidth=1.2)
+    bars1 = ax.bar(x - width/2, pmstat_dist, width, label='PmSTAT dsRNA+WSSV', color='blue', edgecolor='black', linewidth=1.2)
+    bars2 = ax.bar(x + width/2, wssv_dist, width, label='WSSV', color='red', edgecolor='black', linewidth=1.2)
     
     ax.set_ylabel('Number of Proteins', fontsize=12, fontweight='bold')
     ax.set_xlabel('Number of Annotation Sources', fontsize=12, fontweight='bold')
@@ -204,7 +204,7 @@ def create_individual_panels():
     pmstat_pathway_counts = [p[1] for p in pmstat_pathways]
     
     y_pos = np.arange(len(pmstat_pathway_names))
-    ax.barh(y_pos, pmstat_pathway_counts, color='#FF6B6B', edgecolor='black', linewidth=1.2)
+    ax.barh(y_pos, pmstat_pathway_counts, color='blue', edgecolor='black', linewidth=1.2)
     ax.set_yticks(y_pos)
     ax.set_yticklabels(pmstat_pathway_names, fontsize=10)
     ax.set_xlabel('Count', fontsize=12, fontweight='bold')
@@ -227,7 +227,7 @@ def create_individual_panels():
     wssv_pathway_counts = [p[1] for p in wssv_pathways]
     
     y_pos = np.arange(len(wssv_pathway_names))
-    ax.barh(y_pos, wssv_pathway_counts, color='#4ECDC4', edgecolor='black', linewidth=1.2)
+    ax.barh(y_pos, wssv_pathway_counts, color='red', edgecolor='black', linewidth=1.2)
     ax.set_yticks(y_pos)
     ax.set_yticklabels(wssv_pathway_names, fontsize=10)
     ax.set_xlabel('Count', fontsize=12, fontweight='bold')
@@ -258,8 +258,8 @@ def create_individual_panels():
     wssv_go = [wssv_go_bio, wssv_go_mol, wssv_go_cell]
     
     x = np.arange(len(go_types))
-    bars1 = ax.bar(x - width/2, pmstat_go, width, label='PmSTAT dsRNA+WSSV', color='#FF6B6B', edgecolor='black', linewidth=1.2)
-    bars2 = ax.bar(x + width/2, wssv_go, width, label='WSSV', color='#4ECDC4', edgecolor='black', linewidth=1.2)
+    bars1 = ax.bar(x - width/2, pmstat_go, width, label='PmSTAT dsRNA+WSSV', color='blue', edgecolor='black', linewidth=1.2)
+    bars2 = ax.bar(x + width/2, wssv_go, width, label='WSSV', color='red', edgecolor='black', linewidth=1.2)
     
     ax.set_ylabel('Number of Proteins', fontsize=12, fontweight='bold')
     ax.set_title('Gene Ontology Distribution', fontsize=14, fontweight='bold')
@@ -307,8 +307,8 @@ def create_individual_panels():
         wssv_func_vals = [wssv_func_counts.get(f[0], 0) for f in pmstat_top_func]
         
         x = np.arange(len(func_names))
-        bars1 = ax.bar(x - width/2, pmstat_func_vals, width, label='PmSTAT dsRNA+WSSV', color='#FF6B6B', edgecolor='black', linewidth=1.2)
-        bars2 = ax.bar(x + width/2, wssv_func_vals, width, label='WSSV', color='#4ECDC4', edgecolor='black', linewidth=1.2)
+        bars1 = ax.bar(x - width/2, pmstat_func_vals, width, label='PmSTAT dsRNA+WSSV', color='blue', edgecolor='black', linewidth=1.2)
+        bars2 = ax.bar(x + width/2, wssv_func_vals, width, label='WSSV', color='red', edgecolor='black', linewidth=1.2)
         
         ax.set_ylabel('Number of Proteins', fontsize=12, fontweight='bold')
         ax.set_title('Top eggNOG Functions', fontsize=14, fontweight='bold')
@@ -338,8 +338,8 @@ def create_individual_panels():
     wssv_dom = [wssv_with_domains, wssv_without]
     
     x = np.arange(len(categories))
-    bars1 = ax.bar(x - width/2, pmstat_dom, width, label='PmSTAT dsRNA+WSSV', color='#FF6B6B', edgecolor='black', linewidth=1.2)
-    bars2 = ax.bar(x + width/2, wssv_dom, width, label='WSSV', color='#4ECDC4', edgecolor='black', linewidth=1.2)
+    bars1 = ax.bar(x - width/2, pmstat_dom, width, label='PmSTAT dsRNA+WSSV', color='blue', edgecolor='black', linewidth=1.2)
+    bars2 = ax.bar(x + width/2, wssv_dom, width, label='WSSV', color='red', edgecolor='black', linewidth=1.2)
     
     ax.set_ylabel('Number of Proteins', fontsize=12, fontweight='bold')
     ax.set_title('InterProScan Domain Distribution', fontsize=14, fontweight='bold')
@@ -378,7 +378,7 @@ def create_individual_panels():
         db_counts = [d[1] for d in pmstat_top_dbs]
         
         y_pos = np.arange(len(db_names))
-        ax.barh(y_pos, db_counts, color='#FF6B6B', edgecolor='black', linewidth=1.2)
+        ax.barh(y_pos, db_counts, color='blue', edgecolor='black', linewidth=1.2)
         ax.set_yticks(y_pos)
         ax.set_yticklabels(db_names, fontsize=10)
         ax.set_xlabel('Count', fontsize=12, fontweight='bold')
@@ -411,8 +411,8 @@ def create_individual_panels():
     ]
     
     x = np.arange(len(completeness_levels))
-    bars1 = ax.bar(x - width/2, pmstat_complete, width, label='PmSTAT dsRNA+WSSV', color='#FF6B6B', edgecolor='black', linewidth=1.2)
-    bars2 = ax.bar(x + width/2, wssv_complete, width, label='WSSV', color='#4ECDC4', edgecolor='black', linewidth=1.2)
+    bars1 = ax.bar(x - width/2, pmstat_complete, width, label='PmSTAT dsRNA+WSSV', color='blue', edgecolor='black', linewidth=1.2)
+    bars2 = ax.bar(x + width/2, wssv_complete, width, label='WSSV', color='red', edgecolor='black', linewidth=1.2)
     
     ax.set_ylabel('Number of Proteins', fontsize=12, fontweight='bold')
     ax.set_title('Annotation Completeness Level', fontsize=14, fontweight='bold')

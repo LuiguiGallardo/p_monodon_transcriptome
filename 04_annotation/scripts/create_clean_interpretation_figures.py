@@ -146,7 +146,7 @@ def create_clean_figures():
     pmstat_counts = [p[1] for p in top_pmstat]
     
     y_pos = np.arange(len(pmstat_names))
-    bars = ax_a.barh(y_pos, pmstat_counts, color='#FF6B6B', edgecolor='black', linewidth=1.2)
+    bars = ax_a.barh(y_pos, pmstat_counts, color='blue', edgecolor='black', linewidth=1.2)
     ax_a.set_yticks(y_pos)
     ax_a.set_yticklabels(pmstat_names, fontsize=9)
     ax_a.set_xlabel('Number of Proteins', fontsize=11, fontweight='bold')
@@ -165,7 +165,7 @@ def create_clean_figures():
     wssv_counts = [p[1] for p in top_wssv]
     
     y_pos = np.arange(len(wssv_names))
-    bars = ax_b.barh(y_pos, wssv_counts, color='#4ECDC4', edgecolor='black', linewidth=1.2)
+    bars = ax_b.barh(y_pos, wssv_counts, color='red', edgecolor='black', linewidth=1.2)
     ax_b.set_yticks(y_pos)
     ax_b.set_yticklabels(wssv_names, fontsize=9)
     ax_b.set_xlabel('Number of Proteins', fontsize=11, fontweight='bold')
@@ -213,9 +213,9 @@ def create_clean_figures():
     x = np.arange(len(categories))
     width = 0.35
     bars1 = ax_c.bar(x - width/2, pmstat_vals, width, label='PmSTAT dsRNA+WSSV', 
-                     color='#FF6B6B', edgecolor='black', linewidth=1.2)
+                     color='blue', edgecolor='black', linewidth=1.2)
     bars2 = ax_c.bar(x + width/2, wssv_vals, width, label='WSSV', 
-                     color='#4ECDC4', edgecolor='black', linewidth=1.2)
+                     color='red', edgecolor='black', linewidth=1.2)
     
     ax_c.set_ylabel('Number of Proteins', fontsize=11, fontweight='bold')
     ax_c.set_title('C) KEGG Pathway Categories', fontsize=12, fontweight='bold', loc='left')
@@ -250,7 +250,7 @@ def create_clean_figures():
     func_counts = [f[1] for f in top_funcs_pmstat]
     
     y_pos = np.arange(len(func_names))
-    bars = ax_a.barh(y_pos, func_counts, color='#FF6B6B', edgecolor='black', linewidth=1.2)
+    bars = ax_a.barh(y_pos, func_counts, color='blue', edgecolor='black', linewidth=1.2)
     ax_a.set_yticks(y_pos)
     ax_a.set_yticklabels(func_names, fontsize=9)
     ax_a.set_xlabel('Number of Proteins', fontsize=11, fontweight='bold')
@@ -276,7 +276,7 @@ def create_clean_figures():
     func_counts_wssv = [f[1] for f in top_funcs_wssv]
     
     y_pos = np.arange(len(func_names_wssv))
-    bars = ax_b.barh(y_pos, func_counts_wssv, color='#4ECDC4', edgecolor='black', linewidth=1.2)
+    bars = ax_b.barh(y_pos, func_counts_wssv, color='red', edgecolor='black', linewidth=1.2)
     ax_b.set_yticks(y_pos)
     ax_b.set_yticklabels(func_names_wssv, fontsize=9)
     ax_b.set_xlabel('Number of Proteins', fontsize=11, fontweight='bold')
@@ -299,9 +299,9 @@ def create_clean_figures():
         x = np.arange(len(common_funcs))
         width = 0.35
         bars1 = ax_c.bar(x - width/2, pmstat_common, width, label='PmSTAT', 
-                        color='#FF6B6B', edgecolor='black', linewidth=1.2)
+                        color='blue', edgecolor='black', linewidth=1.2)
         bars2 = ax_c.bar(x + width/2, wssv_common, width, label='WSSV', 
-                        color='#4ECDC4', edgecolor='black', linewidth=1.2)
+                        color='red', edgecolor='black', linewidth=1.2)
         
         ax_c.set_ylabel('Number of Proteins', fontsize=11, fontweight='bold')
         ax_c.set_title('C) Shared Functional Categories', fontsize=12, fontweight='bold', loc='left')
@@ -349,9 +349,9 @@ def create_clean_figures():
     x = np.arange(len(categories))
     width = 0.35
     bars1 = ax_a.bar(x - width/2, pmstat_vals, width, label='PmSTAT dsRNA+WSSV', 
-                     color='#FF6B6B', edgecolor='black', linewidth=1.2)
+                     color='blue', edgecolor='black', linewidth=1.2)
     bars2 = ax_a.bar(x + width/2, wssv_vals, width, label='WSSV', 
-                     color='#4ECDC4', edgecolor='black', linewidth=1.2)
+                     color='red', edgecolor='black', linewidth=1.2)
     
     ax_a.set_ylabel('Number of Proteins', fontsize=11, fontweight='bold')
     ax_a.set_title('A) Immune & Defense Pathways', fontsize=12, fontweight='bold', loc='left')
@@ -388,9 +388,9 @@ def create_clean_figures():
     
     x = np.arange(len(response_categories))
     bars1 = ax_b.bar(x - width/2, pmstat_response, width, label='PmSTAT dsRNA+WSSV', 
-                     color='#FF6B6B', edgecolor='black', linewidth=1.2)
+                     color='blue', edgecolor='black', linewidth=1.2)
     bars2 = ax_b.bar(x + width/2, wssv_response, width, label='WSSV', 
-                     color='#4ECDC4', edgecolor='black', linewidth=1.2)
+                     color='red', edgecolor='black', linewidth=1.2)
     
     ax_b.set_ylabel('Number of Proteins', fontsize=11, fontweight='bold')
     ax_b.set_title('B) Stress Response Pathways', fontsize=12, fontweight='bold', loc='left')
@@ -434,9 +434,9 @@ def create_clean_figures():
     if signal_names:
         x = np.arange(len(signal_names))
         bars1 = ax_c.bar(x - width/2, signal_pmstat, width, label='PmSTAT dsRNA+WSSV', 
-                        color='#FF6B6B', edgecolor='black', linewidth=1.2)
+                        color='blue', edgecolor='black', linewidth=1.2)
         bars2 = ax_c.bar(x + width/2, signal_wssv, width, label='WSSV', 
-                        color='#4ECDC4', edgecolor='black', linewidth=1.2)
+                        color='red', edgecolor='black', linewidth=1.2)
         
         ax_c.set_ylabel('Number of Proteins', fontsize=11, fontweight='bold')
         ax_c.set_title('C) Signaling Pathway Representation', fontsize=12, fontweight='bold', loc='left')

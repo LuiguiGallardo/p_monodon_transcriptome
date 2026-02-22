@@ -28,8 +28,8 @@ if __name__ == '__main__':
         pm_c = [pm_f.get(f, 0) for f in common]
         ws_c = [ws_f.get(f, 0) for f in common]
         x, w = np.arange(len(common)), 0.35
-        ax.bar(x - w/2, pm_c, w, label='PmSTAT', color='#FF6B6B', edgecolor='black', linewidth=1.2)
-        ax.bar(x + w/2, ws_c, w, label='WSSV',   color='#4ECDC4', edgecolor='black', linewidth=1.2)
+        ax.bar(x - w/2, pm_c, w, label='PmSTAT', color='blue', edgecolor='black', linewidth=1.2)
+        ax.bar(x + w/2, ws_c, w, label='WSSV',   color='red', edgecolor='black', linewidth=1.2)
         ax.set_xticks(x); ax.set_xticklabels([f[:20] for f in common], rotation=45, ha='right', fontsize=8)
         ax.legend(fontsize=10); ax.grid(axis='y', alpha=0.3, linestyle='--')
     ax.set_ylabel('Number of Proteins', fontsize=11, fontweight='bold')

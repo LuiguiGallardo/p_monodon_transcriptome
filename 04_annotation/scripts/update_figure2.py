@@ -142,7 +142,7 @@ def create_updated_figure2():
     pmstat_counts = [p[1] for p in top_pmstat]
     
     y_pos = np.arange(len(pmstat_names))
-    bars = ax_a.barh(y_pos, pmstat_counts, color='#FF6B6B', edgecolor='black', linewidth=1.2)
+    bars = ax_a.barh(y_pos, pmstat_counts, color='blue', edgecolor='black', linewidth=1.2)
     ax_a.set_yticks(y_pos)
     ax_a.set_yticklabels(pmstat_names, fontsize=9)
     ax_a.set_xlabel('Count', fontsize=11, fontweight='bold')
@@ -161,7 +161,7 @@ def create_updated_figure2():
     wssv_counts = [p[1] for p in top_wssv]
     
     y_pos = np.arange(len(wssv_names))
-    bars = ax_b.barh(y_pos, wssv_counts, color='#4ECDC4', edgecolor='black', linewidth=1.2)
+    bars = ax_b.barh(y_pos, wssv_counts, color='red', edgecolor='black', linewidth=1.2)
     ax_b.set_yticks(y_pos)
     ax_b.set_yticklabels(wssv_names, fontsize=9)
     ax_b.set_xlabel('Count', fontsize=11, fontweight='bold')
@@ -190,8 +190,8 @@ def create_updated_figure2():
     
     x = np.arange(len(go_types))
     width = 0.35
-    bars1 = ax_c.bar(x - width/2, pmstat_go, width, label='PmSTAT dsRNA+WSSV', color='#FF6B6B', edgecolor='black', linewidth=1.2)
-    bars2 = ax_c.bar(x + width/2, wssv_go, width, label='WSSV', color='#4ECDC4', edgecolor='black', linewidth=1.2)
+    bars1 = ax_c.bar(x - width/2, pmstat_go, width, label='PmSTAT dsRNA+WSSV', color='blue', edgecolor='black', linewidth=1.2)
+    bars2 = ax_c.bar(x + width/2, wssv_go, width, label='WSSV', color='red', edgecolor='black', linewidth=1.2)
     
     ax_c.set_ylabel('Number of Proteins', fontsize=11, fontweight='bold')
     ax_c.set_title('C) Gene Ontology Distribution', fontsize=12, fontweight='bold', loc='left')
@@ -228,8 +228,8 @@ def create_updated_figure2():
     wssv_func_vals = [wssv_func_counts.get(f[0], 0) for f in pmstat_top_func]
     
     x = np.arange(len(func_names))
-    bars1 = ax_d.bar(x - width/2, pmstat_func_vals, width, label='PmSTAT dsRNA+WSSV', color='#FF6B6B', edgecolor='black', linewidth=1.2)
-    bars2 = ax_d.bar(x + width/2, wssv_func_vals, width, label='WSSV', color='#4ECDC4', edgecolor='black', linewidth=1.2)
+    bars1 = ax_d.bar(x - width/2, pmstat_func_vals, width, label='PmSTAT dsRNA+WSSV', color='blue', edgecolor='black', linewidth=1.2)
+    bars2 = ax_d.bar(x + width/2, wssv_func_vals, width, label='WSSV', color='red', edgecolor='black', linewidth=1.2)
     
     ax_d.set_ylabel('Number of Proteins', fontsize=11, fontweight='bold')
     ax_d.set_title('D) Top eggNOG Functions', fontsize=12, fontweight='bold', loc='left')

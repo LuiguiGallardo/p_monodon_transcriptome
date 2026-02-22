@@ -26,7 +26,7 @@ if __name__ == '__main__':
 
     fig, ax = plt.subplots(figsize=(12, 8))
     y = np.arange(len(names))
-    ax.barh(y, counts, color='#FF6B6B', edgecolor='black', linewidth=1.2)
+    ax.barh(y, counts, color='blue', edgecolor='black', linewidth=1.2)
     ax.set_yticks(y); ax.set_yticklabels(names, fontsize=10)
     ax.set_xlabel('Count', fontsize=12, fontweight='bold')
     ax.set_title('Top KEGG Pathways – PmSTAT dsRNA+WSSV', fontsize=14, fontweight='bold')

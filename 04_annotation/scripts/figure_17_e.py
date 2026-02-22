@@ -1,0 +1,48 @@
+#!/usr/bin/env python3
+"""figure_17_e – Stress response pathway WSSV, reads CSV"""
+import matplotlib; matplotlib.use("Agg")
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import re
+from pathlib import Path
+
+OUT  = Path('../results/only_differential_expression_proteins')
+STEM = 'figure_17_e'
+RESPONSE = {
+    'Ribosome':      ['ko03010'],
+    'Proteasome':    ['ko03050','ko04120'],
+    'Autophagy':     ['ko04140'],
+    'Apoptosis':     ['ko04210','ko04214','ko04217'],
+    'MAPK Signaling':['ko04010','ko04015'],
+}
+
+def pathway_dict(df):
+    d = {}
+    for s in df['KEGG_Pathway'].dropna():
+        if isinstance(s, str):
+            for c in set(re.findall(r'ko\d+', s)): d[c] = d.get(c, 0) + 1
+    return d
+
+if __name__ == '__main__':
+    ws_p = pathway_dict(pd.read_csv('../docs/wssv_annot.csv'))
+    
+    cat_counts = [(cat, sum(ws_p.get(c, 0) for c in RESPONSE[cat])) for cat in RESPONSE.keys()]
+    cat_counts.sort(key=lambda x: x[1], reverse=True)
+    cat_counts = cat_counts[:10]
+    
+    cats = [x[0] for x in cat_counts]
+    ws_vals = [x[1] for x in cat_counts]
+
+    fig, ax = plt.subplots(figsize=(5, 7))
+    y = np.arange(len(cats))
+    bars = ax.barh(y, ws_vals, color='red', edgecolor='black', linewidth=1.2)
+    ax.set_yticks(y); ax.set_yticklabels(cats, fontsize=10)
+    ax.invert_yaxis()
+    ax.set_xlabel('Number of Proteins', fontsize=11, fontweight='bold')
+    ax.set_title('Stress Response Pathways – WSSV', fontsize=11, fontweight='bold')
+    ax.grid(axis='x', alpha=0.3, linestyle='--')
+    fig.tight_layout()
+    fig.savefig(OUT / f'{STEM}.png', dpi=300, bbox_inches='tight')
+    fig.savefig(OUT / f'{STEM}.svg', format='svg', bbox_inches='tight')
+    print(f'✓ {STEM}.png / .svg'); plt.close(fig)

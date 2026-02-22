@@ -24,8 +24,8 @@ if __name__ == '__main__':
 
     x, w = np.arange(len(cats)), 0.35
     fig, ax = plt.subplots(figsize=(12, 7))
-    ax.bar(x - w/2, pm_dist, w, label='PmSTAT dsRNA+WSSV', color='#FF6B6B', edgecolor='black', linewidth=1.2)
-    ax.bar(x + w/2, ws_dist, w, label='WSSV',              color='#4ECDC4', edgecolor='black', linewidth=1.2)
+    ax.bar(x - w/2, pm_dist, w, label='PmSTAT dsRNA+WSSV', color='blue', edgecolor='black', linewidth=1.2)
+    ax.bar(x + w/2, ws_dist, w, label='WSSV',              color='red', edgecolor='black', linewidth=1.2)
     ax.set_ylabel('Number of Proteins', fontsize=12, fontweight='bold')
     ax.set_xlabel('Number of Annotation Sources', fontsize=12, fontweight='bold')
     ax.set_title('Multi-Source Annotation Distribution', fontsize=14, fontweight='bold')

@@ -23,16 +23,19 @@ if __name__ == '__main__':
     pm = pd.read_excel(XLSX, sheet_name='genes_UP_PmSTAT dsRNA+WSSV')
     ws = pd.read_excel(XLSX, sheet_name='genes_UP_WSSV')
     pm_f = count_funcs(pm); ws_f = count_funcs(ws)
-    top = Counter(pm_f).most_common(6)
+    top_pm = [k for k, v in Counter(pm_f).most_common(10)]
+    top_ws = [k for k, v in Counter(ws_f).most_common(10)]
+    all_keys = set(top_pm) | set(top_ws)
+    all_keys = sorted(list(all_keys), key=lambda k: (pm_f.get(k, 0), ws_f.get(k, 0)), reverse=True)
 
-    fig, ax = plt.subplots(figsize=(12, 7))
-    if top:
-        names     = [f[0][:35] for f in top]
-        pm_vals   = [f[1] for f in top]
-        ws_vals   = [ws_f.get(f[0], 0) for f in top]
+    fig, ax = plt.subplots(figsize=(14, 8))
+    if all_keys:
+        names     = [k[:35] for k in all_keys]
+        pm_vals   = [pm_f.get(k, 0) for k in all_keys]
+        ws_vals   = [ws_f.get(k, 0) for k in all_keys]
         x, w = np.arange(len(names)), 0.35
-        ax.bar(x - w/2, pm_vals, w, label='PmSTAT dsRNA+WSSV', color='#FF6B6B', edgecolor='black', linewidth=1.2)
-        ax.bar(x + w/2, ws_vals, w, label='WSSV',              color='#4ECDC4', edgecolor='black', linewidth=1.2)
+        ax.bar(x - w/2, pm_vals, w, label='PmSTAT dsRNA+WSSV', color='blue', edgecolor='black', linewidth=1.2)
+        ax.bar(x + w/2, ws_vals, w, label='WSSV',              color='red', edgecolor='black', linewidth=1.2)
         ax.set_xticks(x); ax.set_xticklabels(names, rotation=45, ha='right', fontsize=9)
         ax.legend(fontsize=11); ax.grid(axis='y', alpha=0.3, linestyle='--')
     ax.set_ylabel('Number of Proteins', fontsize=12, fontweight='bold')

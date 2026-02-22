@@ -24,8 +24,8 @@ if __name__ == '__main__':
 
     x, w = np.arange(len(lvls)), 0.35
     fig, ax = plt.subplots(figsize=(12, 7))
-    b1 = ax.bar(x - w/2, pm_c, w, label='PmSTAT dsRNA+WSSV', color='#FF6B6B', edgecolor='black', linewidth=1.2)
-    b2 = ax.bar(x + w/2, ws_c, w, label='WSSV',              color='#4ECDC4', edgecolor='black', linewidth=1.2)
+    b1 = ax.bar(x - w/2, pm_c, w, label='PmSTAT dsRNA+WSSV', color='blue', edgecolor='black', linewidth=1.2)
+    b2 = ax.bar(x + w/2, ws_c, w, label='WSSV',              color='red', edgecolor='black', linewidth=1.2)
     for bars in [b1, b2]:
         for bar in bars:
             h = bar.get_height()

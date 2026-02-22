@@ -38,8 +38,8 @@ if __name__ == '__main__':
     fig, ax = plt.subplots(figsize=(12, 7))
     if names:
         x, w = np.arange(len(names)), 0.35
-        ax.bar(x - w/2, pm_v, w, label='PmSTAT dsRNA+WSSV', color='#FF6B6B', edgecolor='black', linewidth=1.2)
-        ax.bar(x + w/2, ws_v, w, label='WSSV',              color='#4ECDC4', edgecolor='black', linewidth=1.2)
+        ax.bar(x - w/2, pm_v, w, label='PmSTAT dsRNA+WSSV', color='blue', edgecolor='black', linewidth=1.2)
+        ax.bar(x + w/2, ws_v, w, label='WSSV',              color='red', edgecolor='black', linewidth=1.2)
         ax.set_xticks(x); ax.set_xticklabels(names, fontsize=10)
         ax.legend(fontsize=10, loc='upper right'); ax.grid(axis='y', alpha=0.3, linestyle='--')
     ax.set_ylabel('Number of Proteins', fontsize=11, fontweight='bold')
