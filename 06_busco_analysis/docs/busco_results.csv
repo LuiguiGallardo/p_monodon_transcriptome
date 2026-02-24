@@ -1,0 +1,5 @@
+Sample,Lineage,Total_BUSCOs,Complete_BUSCOs,Complete_Single,Complete_Duplicated,Fragmented,Missing
+Arthropoda,arthropoda_odb10,1013,905,343,562,53,55
+Metazoa,metazoa_odb10,954,871,354,517,52,31
+Arthropoda,arthropoda_odb10,1013,863,857,6,70,80
+Metazoa,metazoa_odb10,954,832,821,11,71,51

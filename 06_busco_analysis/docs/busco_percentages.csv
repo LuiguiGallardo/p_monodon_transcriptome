@@ -1,0 +1,5 @@
+Sample,Lineage,Complete_Percentage,Single_Percentage,Duplicated_Percentage,Fragmented_Percentage,Missing_Percentage
+Arthropoda (Full),arthropoda_odb10,89.4,33.9,55.5,5.2,5.4
+Metazoa (Full),metazoa_odb10,91.3,37.1,54.2,5.5,3.2
+Arthropoda (1-Isoform),arthropoda_odb10,85.2,84.6,0.6,6.9,7.9
+Metazoa (1-Isoform),metazoa_odb10,87.2,86.1,1.2,7.4,5.3

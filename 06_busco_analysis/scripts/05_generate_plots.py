@@ -88,8 +88,10 @@ def create_busco_plot(data_list, labels, output_file, title="BUSCO Assessment"):
         ax.barh(i, data['pct_missing'], left=left, height=0.6,
                 color=COLORS['missing'], edgecolor='white', linewidth=0)
 
-        # Create the label string: C:750 [S:715, D:35], F:9, M:241, n:1000
-        label_text = f"C:{data['complete']} [S:{data['single']}, D:{data['duplicated']}], F:{data['fragmented']}, M:{data['missing']}, n:{data['total']}"
+        # Create the label string with percentages: C:89.3% [S:86.4%, D:2.9%], F:0.9%, M:9.8%, n:1013
+        pct_complete = data['pct_single'] + data['pct_duplicated']
+        label_text = (f"C:{pct_complete:.1f}% [S:{data['pct_single']:.1f}%, D:{data['pct_duplicated']:.1f}%], "
+                      f"F:{data['pct_fragmented']:.1f}%, M:{data['pct_missing']:.1f}%, n:{data['total']}")
         
         # Add text label centered in the bar area
         # We place it at x=50% (middle of plot)
