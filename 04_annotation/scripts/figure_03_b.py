@@ -20,7 +20,7 @@ STEM = 'figure_03_b'
 XLSX = '../results/comprehensive_protein_annotations.xlsx'
 
 if __name__ == '__main__':
-    df = pd.read_excel(XLSX, sheet_name='Protein Annotations')
+    df = pd.read_excel(XLSX, sheet_name='01_protein_annotations')
 
     # Collect only 'ko' pathway codes (omitting 'map' codes)
     ko_codes = []
@@ -42,8 +42,8 @@ if __name__ == '__main__':
                 color=sns.color_palette('viridis', len(top)),
                 edgecolor='black', linewidth=1.5)
         ax.set_yticks(range(len(top)))
-        ax.set_yticklabels(names, fontsize=10)
-        ax.set_xlabel('Count', fontsize=12, fontweight='bold')
+        ax.set_yticklabels(names, fontsize=12)
+        ax.set_xlabel('Count', fontsize=14, fontweight='bold')
         ax.grid(axis='x', alpha=0.3)
         
         # total_proteins = len(df)
@@ -53,7 +53,7 @@ if __name__ == '__main__':
         #     # Adding count and percentage, dynamic spacing based on max value
         #     ax.text(v + (max_v * 0.01), i, f'{int(v)} ({pct:.2f}%)', va='center', fontsize=10)
 
-    ax.set_title('Top 20 KEGG Pathways', fontsize=13, fontweight='bold')
+    ax.set_title('Top 20 KEGG Pathways', fontsize=14, fontweight='bold')
     fig.tight_layout()
     fig.savefig(OUT / f'{STEM}.png', dpi=300, bbox_inches='tight')
     fig.savefig(OUT / f'{STEM}.svg', format='svg', bbox_inches='tight')

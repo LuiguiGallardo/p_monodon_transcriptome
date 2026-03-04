@@ -21,9 +21,11 @@ if __name__ == '__main__':
     for bar, pct in zip(bars, PERCENTAGES):
         w = bar.get_width()
         ax.text(w + 300, bar.get_y() + bar.get_height() / 2,
-                f'{pct}%', ha='left', va='center', fontsize=10)
-    ax.set_xlabel('Number of proteins', fontsize=12, fontweight='bold')
-    ax.set_title('Annotation Coverage by Database', fontsize=13, fontweight='bold')
+                f'{pct}%', ha='left', va='center', fontsize=16)
+    ax.tick_params(axis='y', labelsize=16)
+    ax.set_xlabel('Number of proteins', fontsize=16, fontweight='bold')
+    ax.set_title('Annotation Coverage by Database', fontsize=18, fontweight='bold')
+    ax.set_xlim(0, max(COUNTS) + 3500)
     ax.grid(axis='x', alpha=0.3)
     fig.tight_layout()
     fig.savefig(OUT / f'{STEM}.png', dpi=300, bbox_inches='tight')

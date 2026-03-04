@@ -52,16 +52,16 @@ if __name__ == '__main__':
         terms = CAT_DATA[cat]
         start = y_pos
         for term, count, pct in reversed(terms):
-            ax.barh(y_pos, count, color=COLORS[cat], edgecolor='black', linewidth=0.5, height=0.7)
-            ax.text(count + 100, y_pos, f'{pct:.2f}%', va='center', fontsize=10)
+            ax.barh(y_pos, count, color=COLORS[cat], edgecolor='black', linewidth=0.1, height=0.7)
+            ax.text(count + 100, y_pos, f'{pct:.2f}%', va='center', fontsize=14)
             y_ticks.append(y_pos)
             y_labels.append(term)
             y_pos += 1
         bounds.append((cat, start, y_pos - 1))
 
     ax.set_yticks(y_ticks)
-    ax.set_yticklabels(y_labels, fontsize=10)
-    ax.set_xlabel('Number of proteins', fontsize=12, fontweight='bold')
+    ax.set_yticklabels(y_labels, fontsize=14)
+    ax.set_xlabel('Number of proteins', fontsize=16, fontweight='bold')
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
     ax.xaxis.grid(True, linestyle='-', color='#E0E0E0', alpha=0.7)
@@ -69,11 +69,12 @@ if __name__ == '__main__':
     ax.axvline(x=0, color='black', linewidth=1.2)
     for name, start, end in bounds:
         mid = (start + end) / 2
-        ax.text(-0.35, mid, name, transform=ax.get_yaxis_transform(),
-                rotation=90, va='center', ha='center', fontweight='bold', fontsize=12)
+        ax.text(-0.45, mid, name, transform=ax.get_yaxis_transform(),
+                rotation=90, va='center', ha='center', fontweight='bold', fontsize=16)
     ax.set_ylim(-0.5, y_pos - 0.5)
-    ax.set_title('GO Term Classification', fontsize=14, fontweight='bold', pad=15)
+    ax.set_title('GO Term Classification', fontsize=18, fontweight='bold', pad=15)
     fig.tight_layout()
+    fig.subplots_adjust(left=0.32)  # extra left margin for group labels
     fig.savefig(OUT / f'{STEM}.png', dpi=300, bbox_inches='tight')
     fig.savefig(OUT / f'{STEM}.svg', format='svg', bbox_inches='tight')
     print(f'✓ {STEM}.png / .svg')
